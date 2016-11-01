@@ -1,0 +1,172 @@
+#header {
+    color: #e1e1e1;
+    background: #262626;
+    border-style: none;
+}
+
+input {
+    background-color: #161616;
+    color: #CCCCCC;
+    border: 1px solid #000000;
+}
+
+select {
+    background-color: #161616;
+    color: #CCCCCC;
+    border: 1px solid #000000;
+}
+
+button {
+    background: #202020;
+    border: 4px solid #202020;
+    margin: 2px;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.82);
+}
+button:hover {
+    background: #161616;
+    border: 4px solid #161616;
+    color: #fff;
+    border-radius: 5px;
+}
+body {
+    color: #e1e1e1;
+    background: #1c1c1c;
+}
+
+a, a:visited {
+    color: #e1e1e1;
+}
+
+select {
+    width: 100px;
+}
+#installed::after {
+
+  background-color: gray;
+}
+.CodeMirror {
+    -moz-box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.35) !important;
+    -webkit-box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.35) !important;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.35) !important;
+    background: #272727 !important;
+    color: #8F938F !important;
+    line-height: 1.4em !important;
+    font-size: 13px !important;
+    height: 70%;
+    outline: transparent !important;
+    border: 1px solid #505050 !important;
+}
+#save-button:after {
+content:'d';
+}
+
+body.dirty #save-button:after {
+content:'?';
+}
+.CodeMirror .cm-keyword {
+    color: #cda869
+}
+.CodeMirror .cm-atom {
+    color: #cf7ea9
+}
+.CodeMirror .cm-number {
+    color: #78cf8a
+}
+.CodeMirror .cm-def {
+    color: #aac6e3
+}
+.CodeMirror .cm-variable {
+    color: #ffb795
+}
+.CodeMirror .cm-property,
+.CodeMirror .cm-variable-2 {
+    color: #eed1b3
+}
+.CodeMirror .cm-variable-3 {
+    color: #faded3
+}
+.CodeMirror .cm-operator {
+    color: #fa8d6a
+}
+.CodeMirror .cm-comment {
+    color: #555;
+    font-style: italic
+}
+.CodeMirror .cm-string {
+    color: #8f9d6a
+}
+.CodeMirror .cm-string-2 {
+    color: #9d937c
+}
+.CodeMirror .cm-meta {
+    color: #d2a8a1
+}
+.CodeMirror .cm-qualifier {
+    color: #ff0
+}
+.CodeMirror .cm-builtin {
+    color: #99c
+}
+.CodeMirror .cm-bracket,
+.CodeMirror .cm-quote {
+    color: #24c2c7
+}
+.CodeMirror .cm-tag {
+    color: #fee4ff
+}
+.CodeMirror .cm-attribute {
+    color: #9b859d
+}
+.CodeMirror .cm-header {
+    color: blue
+}
+.CodeMirror .cm-hr {
+    color: pink
+}
+.CodeMirror .cm-link {
+    color: #f4c20b
+}
+.CodeMirror .cm-special {
+    color: #ff9d00
+}
+.CodeMirror .cm-error {
+    color: #af2018
+}
+.CodeMirror .CodeMirror-matchingbracket {
+    color: #0f0
+}
+.CodeMirror .CodeMirror-nonmatchingbracket {
+    color: #f22
+}
+.CodeMirror .CodeMirror-selected {
+    background: rgba(255, 255, 255, .15)
+}
+.CodeMirror-focused .CodeMirror-selected,
+.CodeMirror::-moz-selection,
+.CodeMirror::selection {
+    background: rgba(255, 255, 255, .10)
+}
+.CodeMirror .CodeMirror-gutters {
+    background-color: #202020;
+    border-right: 1px solid #333;
+    box-shadow: none;
+}
+.CodeMirror .CodeMirror-linenumber {
+    color: #666;
+    padding: 0 0 0 5px;
+    text-shadow: none;
+}
+.CodeMirror .CodeMirror-guttermarker {
+    color: #aaa;
+}
+.CodeMirror .CodeMirror-guttermarker-subtle {
+    color: #666;
+}
+.CodeMirror .CodeMirror-lines .CodeMirror-cursor {
+    border-left: 1px solid #7991e8
+}
+.CodeMirror .CodeMirror-activeline-background {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, .031)
+}
