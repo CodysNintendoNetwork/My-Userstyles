@@ -167,6 +167,68 @@ footer, footer a {
     border-bottom: 1px solid #000;
 }
 
+#player.container .dropbutton:hover, #player.container .dropbutton.selected {
+    background-color: #1A2126;
+}
+
+.dropdown-menu-container .actions-menu {
+    background-color: #171d21;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.79);
+}
+
+.dropdown-menu-container .actions-menu .action-menu-separator {
+    background-color: #000;
+}
+
+button {
+    background: linear-gradient(180deg,#171d21,hsl(204, 18%, 11%)) 0 no-repeat,50% no-repeat #171d21;
+}
+
+button:hover {
+    background: linear-gradient(180deg,hsl(205, 19%, 13%),hsl(220, 10%, 12%)) 0 no-repeat,50% no-repeat #1a2126;
+}
+
+.rc-checkbox-inner {
+    background: linear-gradient(180deg,#171d21,hsl(204, 18%, 11%)) 0 no-repeat,50% no-repeat #171d21;
+}
+
+.albums-list .albums-list-header {
+    border-bottom: 1px solid #000;
+}
+
+.albums-list .album-item {
+    border-bottom: 1px solid #000;
+}
+
+.videos-list .album-header {
+    border-bottom: 1px solid #000;
+}
+
+.videos-list .album-header .album-metadata .album-name {
+    color: #385966;
+}
+
+.album {
+    background-color: #1c1e22;
+}
+
+h3 {
+    color: #1e5f8a;
+}
+
+.card-title {
+    color: #1d5a83;
+}
+
+.card-text {
+    color: #1c5174;
+}
+
+.card-title-small {
+    color: #1b5183;
+}
+
 #player.container #title {
     color: #678EAF;
 }
