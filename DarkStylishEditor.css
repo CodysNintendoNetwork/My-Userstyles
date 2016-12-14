@@ -35,6 +35,30 @@ body {
     background: #1c1c1c;
 }
 
+#sitename {
+    color: #4890a5;
+    border-bottom: 1px solid #000000;
+}
+
+#installed {
+    background-color: #1c1c1c;
+}
+
+#find-styles {
+    background-color: #1c1c1c;
+    box-shadow: 0 -4px 10px 0 rgba(0, 0, 0, 0.18), 0 -1px 0 0 #000000;
+}
+
+.style-name {
+    color: #4890a5;
+}
+
+.entry {
+    background: #0e0e0e;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.33);
+    border-radius: 4px;
+}
+
 a, a:visited {
     color: #e1e1e1;
 }
