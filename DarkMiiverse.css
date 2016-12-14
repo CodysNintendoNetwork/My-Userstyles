@@ -5,6 +5,27 @@
     color: #CCCCCC;
     box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0);
 }
+.follow-done-button:after {
+    content: 'ing';
+}
+button.unfollow-button.button.symbol:after {
+    content: 'ing';
+}
+.filtering-label {
+    background: #202020;
+}
+.filtering-label .button {
+    border-left: 1px solid #000000;
+}
+.filtering-label .tag-name {
+    color: #ff5225;
+}
+.filtering-label .tag-name:before {
+    color: #ff5225;
+}
+.mask {
+    background: rgba(0, 0, 0, 0.6);
+}
 .post-list-heading-button:hover {
     background: rgb(35, 35, 35);
     box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0);
@@ -671,6 +692,9 @@ h2.reply-label {
 #reply-content .list > li.my:hover {
     background-color: #161616;
 }
+#reply-content .info-reply-list + button.more-button, #reply-content .more-button + .more-button {
+    border-top: 1px solid #000000;
+}
 .feeling-selector .feeling-button.checked {
     color: #FF6842;
 }
@@ -855,6 +879,6 @@ h2.reply-label {
 /*--------Custom Footer--------*/
 #footer:after {
     color:     #CCCCCC;
-    content:   "Dark Miiverse - v4.4 by CodyMKW"; /* Please do not remove! */
+    content:   "Dark Miiverse - v4.7 by CodyMKW"; /* Please do not remove! */
     font-weight: bold;
 }
