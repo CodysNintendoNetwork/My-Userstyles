@@ -70,6 +70,25 @@ select {
 
   background-color: gray;
 }
+#disable-all-container {
+    background-color: #1c1c1c;
+    box-shadow: 0 1px 0 0 #000000;
+}
+.tabs-container header label {
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.13), -1px 0 0 0 #000000;
+}
+.tabs-container header .tab-header.active {
+    background-color: #161616;
+}
+.tabs-container header .tab-header {
+    background-color: #202020;
+}
+#disable-all-container .disable-all-lable {
+    color: #4890a5;
+}
+#recommended, #installed {
+    background-color: #1c1c1c;
+}
 .CodeMirror {
     -moz-box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.35) !important;
     -webkit-box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.35) !important;
