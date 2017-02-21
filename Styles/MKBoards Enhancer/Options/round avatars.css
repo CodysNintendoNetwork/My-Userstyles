@@ -1,0 +1,13 @@
+a.avatar img,.avatar .img.s,.avatarScaler img {
+    border-radius: 15px !important;
+}
+
+.avatar .img.m {
+    width: 97px;
+    height: 90px;
+    border-radius: 15px !important;
+}
+
+.Menu .menuHeader h3 {
+    text-align: center;
+}
