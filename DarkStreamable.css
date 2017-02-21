@@ -171,13 +171,13 @@ footer, footer a {
     background-color: #1A2126;
 }
 
-.dropdown-menu-container .actions-menu {
+.dropdown-menu-container .actions-menu, .drop-content .actions-menu {
     background-color: #171d21;
     border: 1px solid rgb(0, 0, 0);
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.79);
 }
 
-.dropdown-menu-container .actions-menu .action-menu-separator {
+.dropdown-menu-container .actions-menu .action-menu-separator, .drop-content .actions-menu .action-menu-separator {
     background-color: #000;
 }
 
@@ -525,12 +525,12 @@ thead {
 }
 
 .outercont .innercont h3 {
-    border-bottom: 1px solid #000000 !important;
-    color: #628eaa !important
+    border-bottom: 1px solid #000000;
+    color: #628eaa !important;
 }
 
 .outercont .innercont strong {
-    color: #0e8ff9 !important;
+    color: #5e7d9c !important;
 }
 
 .outercont .innercont .slideCont .slideBody p {
@@ -544,6 +544,15 @@ thead {
 .landing .card {
     color: #628eaa !important;
     background: #1A2126 !important;
+}
+
+.landing .footer {
+    background-color: #1c1e22;
+    border-top: 1px solid #000;
+}
+
+.landing {
+    background-color: #1a2126;
 }
 
 .nav-pills .nav-link {
@@ -565,6 +574,15 @@ thead {
 
 .video-item.grid .card .card-footer {
     background-color: #171d21 !important;
+}
+
+.video-page .card-footer {
+    background-color: #1a2126;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+.video-page .tags-input input {
+    background: #1c1e22;
 }
 
 .nav-pills .nav-link.active, .nav-pills .nav-link.active:focus, .nav-pills .nav-link.active:hover {
@@ -614,4 +632,14 @@ button {
 
 .video-item.list {
     border-top: 1px solid #000 !important;
+}
+
+.landing .nav-colored {
+    background-color: #1a2126;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.78);
+}
+
+.outercont .innercont .seeMore {
+    background: #192025;
+    border-top: 1px solid #000000;
 }
