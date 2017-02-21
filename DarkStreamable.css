@@ -1,3 +1,4 @@
+@-moz-document url("https://headwayapp.co/widgets/5JVKAy"), domain("streamable.com") {
 html, body {
     background-color: #1C1E22;
 }
@@ -642,4 +643,5 @@ button {
 .outercont .innercont .seeMore {
     background: #192025;
     border-top: 1px solid #000000;
+}
 }
