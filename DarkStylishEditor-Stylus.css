@@ -1,3 +1,4 @@
+@-moz-document regexp("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/manage.html*"), regexp("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/popup.html.*"), regexp("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/edit.html.*") {
 #header {
     color: #e1e1e1 !important;
     background: #262626 !important;
@@ -74,4 +75,5 @@ a.delete {
 }
 a.style-edit-link {
     font-weight: bold !important;
+}
 }
