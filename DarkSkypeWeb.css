@@ -1,3 +1,4 @@
+@-moz-document domain("web.skype.com") {
 #loader h2 {
     color: #000 !important;
 }
@@ -992,4 +993,5 @@ span.tileAvatar.circle.presence:before {
 }
 *::-webkit-input-placeholder {
     color: #00AFF0 !important;
+}
 }
