@@ -1,3 +1,4 @@
+@-moz-document url-prefix("https://www.reddit.com/r/splatoon/"), url-prefix("https://beta.reddit.com/r/splatoon/")  {
 body.listing-page>.content, body.other-discussions-page>.content, .comments-page .link, .commentarea>.sitetable>.comment, #images, .combined-search-page>.content, .sponsorshipbox, .stylesheet-customize-container .pretty-form, .side .sidecontentbox, .account-activity-box, .side .titlebox, #previoussearch #moresearchinfo, #ad-frame, #ad_main, .wiki-page .wiki-page-content, .linefield, .submit-page .roundfield, .login-form-side {
     background-color: #1a2126;
     border: 1px solid #000;
@@ -136,7 +137,7 @@ body .content .text:focus, body .content textarea:focus, body .content input[typ
 }
 
 .commentarea>.usertext textarea:not(:focus) {
-    background: url("http://i.imgur.com/JlvuuD6.png") no-repeat 50% 50%;
+    background: url("/*[[comment-box-bg]]*/") no-repeat 50% 50%;
 }
 
 .usertext .markhelp tr, .usertext .markhelp td {
@@ -240,34 +241,22 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
     border: 1px solid #000;
 }
 
-    #header {
-    background-image: url("http://i.imgur.com/e3ilV1x.jpg");
-}
+    /*[[banner]]*/
 
 /*--------Inkling or Octoling--------*/
 div.titlebox span.number:after {
-    content: " Inklings staying fresh." !important;
+    content: " /*[[inklingocto]]*/ staying fresh." !important;
 }
 .titlebox .users-online .number:after {
-    content: " Inklings splatting." !important;
+    content: " /*[[inklingocto]]*/ splatting." !important;
 }
 
 /*--------Snoo--------*/
-    #header-img.default-header, #header-img {
-    background: url(http://i.imgur.com/rBAjifu.png) no-repeat 0px 0px;
-    height: 58px;
-    margin-bottom: -16px;
-    margin-left: -6px;
-}
-
-#header-img.default-header:hover, #header-img:hover {
-    background: url(http://i.imgur.com/uRy1zsq.png) no-repeat 0px 0px;
-    background-position: 0px 0px;
-}
+    /*[[snoo]]*/
 
 /*--------Remove Footer Banner--------*/
 .footer-parent {
-    background-image: url("http://i.imgur.com/SudAtQp.png");
+    background-image: url("/*[[footerbanner]]*/");
 }
 
 /*--------Custom Color--------*/
@@ -536,7 +525,7 @@ a[href$="/spoiler"], a[href$="#spoiler"], a[href$="/s"], a[href$="#s"] {
     background-color: #1a2126;
     border: 1px solid #000;
 }
-#header .pagename a {
-    background: url(http://i.imgur.com/26q5CBt.png);
+/*[[logo]]*/
 }
-}
+/*[[reddit-vote-remover]]*/
+/*[[subreddit-ad-remover]]*/
