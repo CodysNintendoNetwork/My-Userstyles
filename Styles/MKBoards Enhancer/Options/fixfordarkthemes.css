@@ -1,0 +1,30 @@
+.profilePage .mast,.profilePage .mainProfileColumn,.tabs,.profilePage .mast .section.infoBlock,.profilePage .mast .followBlocks .primaryContent.avatarHeap,.sectionMain,.node .nodeLastPost,.sidebar,.messageUserBlock,.thread_view .messageList .messageUserInfo a.avatar img, .thread_view .quickReply .messageUserInfo a.avatar img, .conversation_view .messageList .messageUserInfo a.avatar img, .conversation_view .quickReply .messageUserInfo a.avatar img,.avatar img, .avatar .img, .avatarCropper {
+    border: 1px solid rgb(74, 74, 74) !important;
+}
+
+.profilePage .tabs.mainTabs {
+    border-left: 1px solid rgb(74, 74, 74) !important;
+}
+
+.messageUserBlock .arrow {
+    border-left-color: rgb(74, 74, 74);
+}
+
+.profilePage .primaryUserBlock .lastActivity,.messageList .message,.message .signature,.quickReply {
+    border-top: 1px solid rgb(74,74,74) !important;
+}
+
+.primaryContent, .nodeList .categoryForumNodeInfo, .nodeList .forumNodeInfo, .nodeList .pageNodeInfo, .nodeList .linkNodeInfo,.subForumsGrid .blockLinksGrid,.sidebar .section .primaryContent   h3, .sidebar .section .secondaryContent h3, .profilePage .mast .section.infoBlock h3,.textHeading, .xenForm .sectionHeader {
+    border-bottom: 1px solid rgb(74, 74, 74) !important;
+}
+
+.textCtrl,.textCtrl:focus, .textCtrl.Focus {
+    border-top-color: rgb(74, 74, 74) !important;
+    border-right-color: rgb(74, 74, 74) !important;
+    border-bottom-color: rgb(74, 74, 74) !important;
+    border-left-color: rgb(74, 74, 74) !important;
+}
+
+.bbCodeQuote {
+    border-color: rgb(136, 136, 136);
+}
