@@ -1,0 +1,52 @@
+@-moz-document domain("www.strawpoll.me") {
+/*[[font]]*/
+
+/*[[ad-remover]]*/
+  
+/*[[round-icons]]*/
+
+/*[[feature-poll-hider]]*/
+
+/*[[pie-chart-hider]]*/
+
+/*[[color]]*/
+
+.poll {
+    background: /*[[poll-bg-color]]*/;
+}
+
+.poll, .poll-footer-info {
+    margin: 20px auto !important;
+}
+
+.poll-comments {
+    margin: 10px auto !important;
+    width: 68% !important;
+}
+
+.site-aside {
+    top: 20px;
+    left: 850px;
+}
+
+.profile-header .avatar::after {
+    background: none;
+}
+
+.poll-footer-info .asked-container .avatar {
+    width: 49px;
+    height: 49px;
+}
+
+.poll-comments .p-comment-avatar img {
+    background: url(http://i.imgur.com/IAMWLM7.jpg) top center/contain no-repeat;
+}
+
+.featured-poll-active:not(.body-home) #reply {
+    top: inherit;
+}
+
+.poll-footer-info .asked-container::before {
+    display: none;
+}
+}
