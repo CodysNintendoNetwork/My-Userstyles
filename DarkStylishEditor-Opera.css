@@ -1,0 +1,182 @@
+#header {
+    color: #e1e1e1 !important;
+    background: #262626 !important;
+    border-style: none !important;
+}
+
+input {
+    background-color: #161616 !important;
+    color: #CCCCCC !important;
+    border: 1px solid #000000 !important;
+}
+
+select {
+    background-color: #161616 !important;
+    color: #CCCCCC !important;
+    border: 1px solid #000000 !important;
+}
+
+#installed::after {
+  background-color: #1c1c1c !important;
+}
+
+button {
+    background: #202020 !important;
+    border: 4px solid #202020 !important;
+    margin: 2px !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.82) !important;
+}
+button:hover {
+    background: #161616 !important;
+    border: 4px solid #161616 !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+}
+body {
+    color: #e1e1e1 !important;
+    background: #1c1c1c !important;
+}
+
+a, a:visited {
+    color: #e1e1e1 !important;
+}
+
+select {
+    width: 100px !important;
+}
+.CodeMirror {
+    -moz-box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.35) !important;
+    -webkit-box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.35) !important;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.35) !important;
+    background: #272727 !important;
+    color: #8F938F !important;
+    line-height: 1.4em !important;
+    font-size: 13px !important;
+    height: 70%;
+    outline: transparent !important;
+    border: 1px solid #505050 !important;
+}
+#save-button:after {
+content:'d' !important;
+}
+
+body.dirty #save-button:after {
+content:'?' !important;
+}
+#help-popup {
+    background-color: #1c1c1c !important;
+}
+a.delete {
+    color: red !important;
+    font-weight: bold !important;
+}
+a.style-edit-link {
+    font-weight: bold !important;
+}
+.CodeMirror .cm-keyword {
+    color: #cda869 !important;
+}
+.CodeMirror .cm-atom {
+    color: #cf7ea9 !important;
+}
+.CodeMirror .cm-number {
+    color: #78cf8a !important;
+}
+.CodeMirror .cm-def {
+    color: #aac6e3 !important;
+}
+.CodeMirror .cm-variable {
+    color: #ffb795 !important;
+}
+.CodeMirror .cm-property,
+.CodeMirror .cm-variable-2 {
+    color: #eed1b3 !important;
+}
+.CodeMirror .cm-variable-3 {
+    color: #faded3 !important
+}
+.CodeMirror .cm-operator {
+    color: #fa8d6a !important
+}
+.CodeMirror .cm-comment {
+    color: #555 !important;
+    font-style: italic !important;
+}
+.CodeMirror .cm-string {
+    color: #8f9d6a !important;
+}
+.CodeMirror .cm-string-2 {
+    color: #9d937c !important;
+}
+.CodeMirror .cm-meta {
+    color: #d2a8a1 !important;
+}
+.CodeMirror .cm-qualifier {
+    color: #ff0 !important;
+}
+.CodeMirror .cm-builtin {
+    color: #99c !important;
+}
+.CodeMirror .cm-bracket,
+.CodeMirror .cm-quote {
+    color: #24c2c7 !important;
+}
+.CodeMirror .cm-tag {
+    color: #fee4ff !important;
+}
+.CodeMirror .cm-attribute {
+    color: #9b859d !important;
+}
+.CodeMirror .cm-header {
+    color: blue !important;
+}
+.CodeMirror .cm-hr {
+    color: pink !important;
+}
+.CodeMirror .cm-link {
+    color: #f4c20b !important
+}
+.CodeMirror .cm-special {
+    color: #ff9d00 !important;
+}
+.CodeMirror .cm-error {
+    color: #af2018 !important;
+}
+.CodeMirror .CodeMirror-matchingbracket {
+    color: #0f0 !important;
+}
+.CodeMirror .CodeMirror-nonmatchingbracket {
+    color: #f22 !important;
+}
+.CodeMirror .CodeMirror-selected {
+    background: rgba(255, 255, 255, .15) !important;
+}
+.CodeMirror-focused .CodeMirror-selected,
+.CodeMirror::-moz-selection,
+.CodeMirror::selection {
+    background: rgba(255, 255, 255, .10) !important;
+}
+.CodeMirror .CodeMirror-gutters {
+    background-color: #202020 !important;
+    border-right: 1px solid #333 !important;
+    box-shadow: none !important;
+}
+.CodeMirror .CodeMirror-linenumber {
+    color: #666 !important;
+    padding: 0 0 0 5px !important;
+    text-shadow: none !important;
+}
+.CodeMirror .CodeMirror-guttermarker {
+    color: #aaa !important;
+}
+.CodeMirror .CodeMirror-guttermarker-subtle {
+    color: #666 !important;
+}
+.CodeMirror .CodeMirror-lines .CodeMirror-cursor {
+    border-left: 1px solid #7991e8 !important;
+}
+.CodeMirror .CodeMirror-activeline-background {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, .031) !important;
+}
