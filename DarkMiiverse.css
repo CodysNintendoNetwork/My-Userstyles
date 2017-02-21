@@ -1,3 +1,4 @@
+@-moz-document url-prefix("https://miiverse.nintendo.net/") {
 .post-list-heading-button {
     border: 1px solid #000000;
     border-bottom-color: #000000;
@@ -404,7 +405,7 @@ form.search input[type="text"] {
     color: #ACE33E;
 }
 .accepting > span:before {
-    content: "â€¢ ";
+    content: "• ";
     color: #00F903;
 }
 .not-accepting > span {
@@ -412,7 +413,7 @@ form.search input[type="text"] {
     color: #969696;
 }
 .not-accepting > span:before {
-    content: "â€¢ ";
+    content: "• ";
     color: #FF0000;
 }
 .community-list .title {
@@ -768,9 +769,7 @@ h2.reply-label {
 }
 
 /*--------Lock/Unlock Navigation bar--------*/
-#sub-body {
-    position: fixed;
-}
+/*[[navbarlock]]*/
 
 /*--------Other Stuff with Images---------*/
 .content-loading-window.activity-feed {
@@ -811,13 +810,13 @@ h2.reply-label {
 
 /*--------Show/Hide Social Buttons--------*/
 .sidebar-social-container {
-    display: block;
+    display: /*[[socialbuttons]]*/;
 }
 .social-buttons-heading {
-    display: block;
+    display: /*[[socialbuttons]]*/;
 }
 .buttons-content .post-social-buttons-wrapper {
-    display: block;
+    display: /*[[socialbuttons]]*/;
 }
 
 /*--------Official User stuff--------*/
@@ -834,47 +833,47 @@ h2.reply-label {
 
 /*--------Show/Hide Ads--------*/
 .adx {
-    display: block;
+    display: /*[[hideads]]*/;
 }
 .wide-adx {
-    display: block;
+    display: /*[[hideads]]*/;
     background-color: #202020;
 }
 
 /*--------Custom Background--------*/
 #wrapper {
-    background-image: url('http://i.imgur.com/OsdQHpc.png');
+    background-image: url('/*[[backgroundimage]]*/');
 }
 
 /*--------Larger Favorite Post--------*/
 #sidebar-cover {
-    min-height: 120px;
+    min-height: /*[[size]]*/px;
     border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
 /*--------Custom Name Color and Glow--------*/
 #sidebar-profile-body .nick-name {
-    color: #FF6600;
-    text-shadow: 0px 0 4px #FF9900;
+    color: /*[[namecolor]]*/;
+    text-shadow: 0px 0 4px /*[[nameglow]]*/;
 }
 #sidebar-profile-body.with-profile-post-image .nick-name {
-    color: #FF6600;
-    text-shadow: 0px 0 4px #FF9900;
+    color: /*[[namecolor]]*/;
+    text-shadow: 0px 0 4px /*[[nameglow]]*/;
 }
 .news-list .nick-name {
-    color: #FF6600;
-    text-shadow: 0px 0 4px #FF9900;
+    color: /*[[namecolor]]*/;
+    text-shadow: 0px 0 4px /*[[nameglow]]*/;
 }
 .post .user-name a {
-    color: #FF6600;
-    text-shadow: 0px 0 4px #FF9900;
+    color: /*[[namecolor]]*/;
+    text-shadow: 0px 0 4px /*[[nameglow]]*/;
 }
 .list-content-with-icon-and-text .nick-name a {
-    color: #FF6600;
-    text-shadow: 0px 0 4px #FF9900;
+    color: /*[[namecolor]]*/;
+    text-shadow: 0px 0 4px /*[[nameglow]]*/;
 }
 .multi-timeline-post-list .post-subtype-topic .user-name a {
-    color: #FF6600;
+    color: /*[[namecolor]]*/;
 }
 
 /*--------Custom Footer--------*/
@@ -882,4 +881,5 @@ h2.reply-label {
     color:     #CCCCCC;
     content:   "Dark Miiverse - v4.7 by CodyMKW"; /* Please do not remove! */
     font-weight: bold;
+}
 }
