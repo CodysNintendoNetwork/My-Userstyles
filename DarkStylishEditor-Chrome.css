@@ -1,3 +1,4 @@
+@-moz-document regexp("chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe/edit.html.*"), regexp("chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe/manage.html*"), regexp("chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe/popup.html.*") {
 #header {
     color: #e1e1e1 !important;
     background: #262626 !important;
@@ -109,4 +110,5 @@ content:'?' !important;
     height: 70%;
     outline: transparent !important;
     border: 1px solid #505050 !important;
+}
 }
