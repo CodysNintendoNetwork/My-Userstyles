@@ -404,7 +404,7 @@ form.search input[type="text"] {
     color: #ACE33E;
 }
 .accepting > span:before {
-    content: "• ";
+    content: "â€¢ ";
     color: #00F903;
 }
 .not-accepting > span {
@@ -412,7 +412,7 @@ form.search input[type="text"] {
     color: #969696;
 }
 .not-accepting > span:before {
-    content: "• ";
+    content: "â€¢ ";
     color: #FF0000;
 }
 .community-list .title {
