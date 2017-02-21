@@ -1,3 +1,4 @@
+@-moz-document domain("putlocker.is") {
 body {
     background-color: #161716;  
 }
@@ -104,4 +105,5 @@ A:active, A:link, A:visited {
     font-size: 10px;
     text-align: left;
     padding: 5px;
+}
 }
