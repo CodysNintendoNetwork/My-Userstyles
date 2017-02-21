@@ -1,3 +1,4 @@
+@-moz-document regexp("chrome-extension://bofnhkejmonldphklejelehlhhoecceg/manage.html*"), regexp("chrome-extension://bofnhkejmonldphklejelehlhhoecceg/popup.html.*"), regexp("chrome-extension://bofnhkejmonldphklejelehlhhoecceg/edit.html.*") {
 #header {
     color: #e1e1e1 !important;
     background: #262626 !important;
@@ -179,4 +180,5 @@ a.style-edit-link {
 }
 .CodeMirror .CodeMirror-activeline-background {
     background: none repeat scroll 0 0 rgba(255, 255, 255, .031) !important;
+}
 }
