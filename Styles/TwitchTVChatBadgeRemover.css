@@ -1,0 +1,37 @@
+@-moz-document url-prefix("http://www.twitch.tv/"), url-prefix("https://secure.twitch.tv/"), url-prefix("https://www.twitch.tv/") {
+.subscriber {
+display:/*[[subbadge]]*/!important;
+}
+
+.administrator {
+display:/*[[adminbadge]]*/!important;
+}
+
+.moderator {
+display:/*[[modbadge]]*/!important;
+}
+
+.turbo {
+display:/*[[turbobadge]]*/!important;
+}
+
+.broadcaster {
+display:/*[[broadcasterbadge]]*/!important;
+}
+
+.premium {
+display:/*[[twitchprimebadge]]*/!important;
+}
+
+.ffz-badge-1, .ffz-badge-2, .ffz-badge-3, .ffz-developer, .ffz-bot, .ffz-supporter {
+display:/*[[ffzbadge]]*/!important;
+}
+
+.badge.bits.version-1, .badge.bits.version-100, .badge.bits.version-1000, .badge.bits.version-5000, .badge.bits.version-10000, .badge.bits.version-100000 {
+display:/*[[cheerbadge]]*/!important;
+}
+
+.cn-bar, .cn-cover, button.button.button--dropmenu.js-sub-button.action.primary.subscribe-button-pr {
+display:/*[[bannerandchannelbar]]*/!important;
+}
+}
