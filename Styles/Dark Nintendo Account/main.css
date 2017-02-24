@@ -3,11 +3,14 @@ body {
     color: #CCCCCC !important;
     background-color: #161616 !important;
 }
-.Setting, .HeaderAccountMenu {
+.CheckBlockList_itemInner, .CheckBlockList_checkbox::before {
+    border: 2px solid #000000 !important;
+}
+.Setting, .HeaderAccountMenu, .BoxBlock_body, .BoxBlock {
     border: 1px solid #000000 !important;
     background-color: #202020 !important;
 }
-.SettingTitle, .SiteHeader, .SiteFooter, .HeaderAccountMenu_item a, .Term {
+.SettingTitle, .SiteHeader, .SiteFooter, .HeaderAccountMenu_item a, .Term, .Modal {
     background-color: #202020 !important;
 }
 .SettingDetails_item, .HeaderAccountMenu_item {
@@ -46,6 +49,6 @@ body {
     border: 1px solid #000000 !important;
 }
 .SiteFooter_copyright small:after {
-    content: ' | Dark Nintendo Account v1.0 by CodyMKW' !important;
+    content: ' | Dark Nintendo Account v1.1 by CodyMKW' !important;
 }
 }
