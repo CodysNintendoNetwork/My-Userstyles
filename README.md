@@ -6,6 +6,7 @@
 
 # My Userstyles
 * [Dark Miiverse](https://userstyles.org/styles/106650/dark-miiverse)
+* [Dark Nintendo Account](https://userstyles.org/styles/139346/dark-nintendo-account)
 * [Dark Putlocker.is](https://userstyles.org/styles/125616/dark-putlocker-is)
 * [Dark Skype Web](https://userstyles.org/styles/117912/dark-skype-web)
 * [Dark Streamable](https://userstyles.org/styles/121561/dark-streamable)
