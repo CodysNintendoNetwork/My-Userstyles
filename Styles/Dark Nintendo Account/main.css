@@ -6,11 +6,11 @@ body {
 .CheckBlockList_itemInner, .CheckBlockList_checkbox::before {
     border: 2px solid #000000 !important;
 }
-.Setting, .HeaderAccountMenu, .BoxBlock_body, .BoxBlock {
+.Setting, .HeaderAccountMenu, .BoxBlock_body, .BoxBlock, .ProfileEdit {
     border: 1px solid #000000 !important;
     background-color: #202020 !important;
 }
-.SettingTitle, .SiteHeader, .SiteFooter, .HeaderAccountMenu_item a, .Term, .Modal {
+.SettingTitle, .SiteHeader, .SiteFooter, .HeaderAccountMenu_item a, .Term, .Modal, .Mii_item_inner, .Reauth_block, .PasswordEdit_block {
     background-color: #202020 !important;
 }
 .SettingDetails_item, .HeaderAccountMenu_item {
@@ -47,6 +47,9 @@ body {
 .SettingTitle_action {
     color: #7d7c7c !important;
     border: 1px solid #000000 !important;
+}
+.ProfileEdit_item.nickname {
+    border-bottom: 1px solid #000000 !important;
 }
 .SiteFooter_copyright small:after {
     content: ' | Dark Nintendo Account v1.1 by CodyMKW' !important;
