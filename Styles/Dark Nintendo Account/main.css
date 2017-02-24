@@ -1,0 +1,51 @@
+@-moz-document domain("accounts.nintendo.com") {
+body {
+    color: #CCCCCC !important;
+    background-color: #161616 !important;
+}
+.Setting, .HeaderAccountMenu {
+    border: 1px solid #000000 !important;
+    background-color: #202020 !important;
+}
+.SettingTitle, .SiteHeader, .SiteFooter, .HeaderAccountMenu_item a, .Term {
+    background-color: #202020 !important;
+}
+.SettingDetails_item, .HeaderAccountMenu_item {
+    border-top: 1px solid #000000 !important;
+}
+.HeaderAccountMenu_item a:hover, .formSelectLanguage select, .SettingTitle_action:hover, .SecondaryAction_btn:hover {
+    background-color: #161616 !important;
+}
+[type="text"], [type="password"], [type="date"], [type="datetime"], [type="datetime-local"], [type="month"], [type="week"], [type="email"], [type="number"], [type="search"], [type="tel"], [type="time"], [type="url"], [type="color"], select, textarea {
+    background-color: #161616 !important;
+    border: 1px solid #000000 !important;
+}
+[type="text"].is-error, [type="password"].is-error, [type="date"].is-error, [type="datetime"].is-error, [type="datetime-local"].is-error, [type="month"].is-error, [type="week"].is-error, [type="email"].is-error, [type="number"].is-error, [type="search"].is-error, [type="tel"].is-error, [type="time"].is-error, [type="url"].is-error, [type="color"].is-error, select.is-error, textarea.is-error {
+    border-color: #ff4646 !important;
+}
+.btn-childInverse {
+    color: #fff  !important;
+    background-color: #ff8267 !important;
+}
+.SignupForm {
+    border: 1px solid #000 !important;
+}
+.SecondaryAction_btn {
+    border: 1px solid #000000 !important;
+    background-color: #202020 !important;
+    color: #7d7c7c !important;
+}
+.GlobalNav_listItem.is-active a, .GlobalNav_listItem a:hover {
+    color: #00c6b3 !important;
+}
+.GlobalNav_listItem a, .SiteFooter_linksItem>a, .HeaderAccountMenu_item a {
+    color: #7d7c7c !important;
+}
+.SettingTitle_action {
+    color: #7d7c7c !important;
+    border: 1px solid #000000 !important;
+}
+.SiteFooter_copyright small:after {
+    content: ' | Dark Nintendo Account v1.0 by CodyMKW' !important;
+}
+}
