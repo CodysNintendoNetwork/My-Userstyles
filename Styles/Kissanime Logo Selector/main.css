@@ -1,5 +1,0 @@
-@-moz-document regexp("^https?://(www\\.)?kissanime\\.[a-z]{2,3}.*$") {
-#head h1 {
-    background: transparent url(/*[[logo]]*/) no-repeat !important;
-}
-}
