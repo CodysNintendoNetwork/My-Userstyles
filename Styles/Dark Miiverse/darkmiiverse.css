@@ -464,9 +464,6 @@ form.search {
 #reply-content .info-reply-list + button.more-button, #reply-content .more-button + .more-button {
     border-top: 1px solid #000000;
 }
-.feeling-selector .feeling-button.checked {
-    color: #FF6842;
-}
 .dialog .window-body {
   background: #202020;
   border: 1px solid #050207;
