@@ -2,13 +2,13 @@
 #sidebar-profile-body .nick-name, .news-list .nick-name, .list-content-with-icon-and-text .nick-name a, .user-name a {
     color: #5ac800 !important;
 }
-.post-permalink-button:hover, .favorite-community-link.symbol, .trigger:active, #wrapper, #reply-content button.more-button:hover, .spoiler-button:hover, #sidebar-profile-status, #guide-menu:hover, .community-eyecatch-info:hover, #community-favorite:hover, #reply-content .list > li.my:hover, .big-button:hover, .sidebar-setting a:hover, .multi-timeline-post-list .post.hidden .screenshot-container, .multi-timeline-post-list .post .screenshot-container, .trigger:hover, .textarea-container .community-container, .post-form-album-content, .admin-messages .post.my, #identified-user-banner:hover, .sidebar-setting a.selected, .sidebar-container h4 a:hover {
+.post-permalink-button:hover, .favorite-community-link.symbol, .trigger:active, #wrapper, #reply-content button.more-button:hover, .spoiler-button:hover, #sidebar-profile-status, #guide-menu:hover, .community-eyecatch-info:hover, #community-favorite:hover, #reply-content .list > li.my:hover, .big-button:hover, .sidebar-setting a:hover, .multi-timeline-post-list .post.hidden .screenshot-container, .multi-timeline-post-list .post .screenshot-container, .trigger:hover, .textarea-container .community-container, .post-form-album-content, .admin-messages .post.my, #identified-user-banner:hover, .sidebar-setting a.selected, .sidebar-container h4 a:hover, #empathy-content, .sidebar-profile .profile-comment, .post-list .recent-reply-content {
     background-color: #161616 !important;
 }
-.favorite-community-link.symbol:hover, .post.hidden:hover, .filtering-label, .post-list .recent-reply-content .recent-reply:hover, .post-list .recent-reply-content .recent-reply-read-more-container:hover, .arrow-button:hover, #post-diary-window, .spoiler-button {
+.favorite-community-link.symbol:hover, .post.hidden:hover, .filtering-label, .post-list .recent-reply-content .recent-reply:hover, .post-list .recent-reply-content .recent-reply-read-more-container:hover, .arrow-button:hover, #post-diary-window, .spoiler-button, .dialog .window-body, .digest .post .icon-container, .icon-container .icon, #sidebar-profile-body .icon, .sidebar-container, .post .community-container, #global-menu #global-my-menu, .guest#post-permlink .guest-message p, form.search input[type="text"], form.search input[type="submit"], .warning-content, .community-card-list > li {
     background-color: #202020 !important;
 }
-body, .community-title, #footer-selector li button, #footer-inner p a, .post-list.empty, .album-list.empty, .list > .no-content, .no-content, .community-game-title, .arrow-button, .post .hidden-content button, .post .deleted-message button, .post .hidden_as_violation button, .post .hidden-content a, .post .deleted-message a, .post .hidden_as_violation a, .post .community-container-heading a, .list-content-with-icon-and-text .text, .list-content-with-icon-and-text .id-name, #sidebar-profile-body .id-name, #post-diary-window p, .sidebar-container h4 a, .post-list .empathized-user-name, .post-list .acted-user-name, .post-list .recommend-user-title, .headline h2, #post-content .post-content-text, #global-menu li a, #global-menu li button, #sidebar-profile-status .number, .community-name, .community-name a, .community-list .title, .sidebar-setting .sidebar-menu-relation:before {
+body, .community-title, #footer-selector li button, #footer-inner p a, .post-list.empty, .album-list.empty, .list > .no-content, .no-content, .community-game-title, .arrow-button, .post .hidden-content button, .post .deleted-message button, .post .hidden_as_violation button, .post .hidden-content a, .post .deleted-message a, .post .hidden_as_violation a, .post .community-container-heading a, .list-content-with-icon-and-text .text, .list-content-with-icon-and-text .id-name, #sidebar-profile-body .id-name, #post-diary-window p, .sidebar-container h4 a, .post-list .empathized-user-name, .post-list .acted-user-name, .post-list .recommend-user-title, .headline h2, #post-content .post-content-text, #global-menu li a, #global-menu li button, #sidebar-profile-status .number, .community-name, .community-name a, .community-list .title, .sidebar-setting .sidebar-menu-relation:before, #reply-content button.more-button, .sidebar-profile .profile-comment, .guest#post-permlink .guest-message p, form.search input[type="text"] {
     color: #CCCCCC !important;
 }
 .spoiler-button {
@@ -88,12 +88,7 @@ button.unfollow-button.button.symbol:after {
     border-bottom: 1px solid #000000;
 }
 form.search input[type="submit"] {
-    background: #202020;
     color: #646464;
-}
-form.search input[type="text"] {
-    background: #202020;
-    color: #CCCCCC;
 }
 .sidebar-setting .sidebar-menu-relation:before {
     color: #000000;
@@ -108,7 +103,6 @@ form.search input[type="text"] {
     border: 1px solid rgba(21, 20, 20, 0) !important;
 }
 .warning-content {
-    background: #202020;
     border: 1px solid rgb(0, 0, 0);
 }
 .community-eyecatch-balloon {
@@ -219,10 +213,6 @@ form.search input[type="text"] {
 .community-list .icon-container .icon {
     border: 1px solid #000000;
 }
-.sidebar-profile .profile-comment {
-    color: #CCCCCC;
-    background-color: #161616;
-}
 #sidebar-profile-status li a > span {
     display: block;
     border-right: 1px solid #202020;
@@ -233,7 +223,6 @@ form.search input[type="text"] {
     height: 36px;
 }
 #global-menu #global-my-menu {
-    background-color: #202020;
     border: 2px solid #000000;
 }
 #global-menu #global-my-menu:before {
@@ -305,15 +294,10 @@ form.search input[type="text"] {
     content: "• ";
     color: #FF0000;
 }
-.guest#post-permlink .guest-message p {
-    color: #CCCCCC;
-    background: #202020;
-}
 .guest#post-permlink .guest-message .arrow-button {
     border-top: 1px solid #000000;
 }
 .community-card-list > li {
-    background: #202020;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-color: #000000;
 }
@@ -354,7 +338,6 @@ form.search input[type="text"] {
     background-color: rgb(32, 32, 32);
 }
 .post-list .recent-reply-content {
-    background-color: #161616;
     border-top: 1px solid #000000;
 }
 .post-list .recent-reply-content .recent-reply-read-more-container {
@@ -382,7 +365,6 @@ h2.label-topic_post, h2.label-topic {
     box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2);
 }
 .post .community-container {
-    background-color: #202020;
     border-bottom: 1px solid #000000;
 }
 .list > li, .list > div, .list > a, .list > span {
@@ -399,7 +381,6 @@ h2.label-topic_post, h2.label-topic {
     border-top: 1px solid #000000;
 }
 .sidebar-container {
-    background: #202020;
     border: 1px solid rgb(0, 0, 0);
     -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2);
@@ -436,14 +417,11 @@ form.search {
 }
 #sidebar-profile-body .icon {
     border: 1px solid #000000;
-    background-color: #202020;
 }
 .icon-container .icon {
-    background: #202020;
     border: 1px solid #000000;
 }
 .digest .post .icon-container {
-    background: #202020;
     border: 1px solid rgb(0, 0, 0);
 }
 #empathy-content .post-permalink-feeling-icon img {
@@ -452,11 +430,9 @@ form.search {
 }
 #empathy-content {
     border: 1px solid #000000;
-    background: #161616;
 }
 #reply-content button.more-button {
     border: #000000;
-    color: #CCCCCC;
 }
 #reply-content .list .my {
     background-color: #191818;
@@ -465,7 +441,6 @@ form.search {
     border-top: 1px solid #000000;
 }
 .dialog .window-body {
-  background: #202020;
   border: 1px solid #050207;
 }
 #post-form + #community-post-list .list > div:first-child {
@@ -477,6 +452,9 @@ form.search {
 }
 #wrapper {
     background-image: url(http://i.imgur.com/m5GdGXO.png) !important;
+}
+#empathy-content:before {
+    background: url(http://i.imgur.com/QIrWWFS.png) no-repeat 0 0 !important;
 }
 #identified-user-banner a:before {
     background: url(http://i.imgur.com/Le5ozLs.png) !important;
@@ -493,7 +471,7 @@ form.search {
 /*--------Custom Footer--------*/
 #footer:after {
     color:     #CCCCCC;
-    content:   "Dark Miiverse - v1.1 by CodyMKW"; /* Please do not remove! */
+    content:   "Dark Miiverse - v1.2 by CodyMKW"; /* Please do not remove! */
     font-weight: bold;
 }
 }
