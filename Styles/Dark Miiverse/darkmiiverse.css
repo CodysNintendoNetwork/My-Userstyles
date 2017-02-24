@@ -2,7 +2,7 @@
 #sidebar-profile-body .nick-name, .news-list .nick-name, .list-content-with-icon-and-text .nick-name a, .user-name a {
     color: #5ac800 !important;
 }
-.post-permalink-button:hover, .favorite-community-link.symbol, .trigger:active, #wrapper, #reply-content button.more-button:hover, .spoiler-button:hover, #sidebar-profile-status, #guide-menu:hover, .community-eyecatch-info:hover, #community-favorite:hover, #reply-content .list > li.my:hover, .big-button:hover, .sidebar-setting a:hover, .multi-timeline-post-list .post.hidden .screenshot-container, .multi-timeline-post-list .post .screenshot-container, .trigger:hover, .textarea-container .community-container, .post-form-album-content, .admin-messages .post.my, #identified-user-banner:hover {
+.post-permalink-button:hover, .favorite-community-link.symbol, .trigger:active, #wrapper, #reply-content button.more-button:hover, .spoiler-button:hover, #sidebar-profile-status, #guide-menu:hover, .community-eyecatch-info:hover, #community-favorite:hover, #reply-content .list > li.my:hover, .big-button:hover, .sidebar-setting a:hover, .multi-timeline-post-list .post.hidden .screenshot-container, .multi-timeline-post-list .post .screenshot-container, .trigger:hover, .textarea-container .community-container, .post-form-album-content, .admin-messages .post.my, #identified-user-banner:hover, .sidebar-setting a.selected, .sidebar-container h4 a:hover {
     background-color: #161616 !important;
 }
 .favorite-community-link.symbol:hover, .post.hidden:hover, .filtering-label, .post-list .recent-reply-content .recent-reply:hover, .post-list .recent-reply-content .recent-reply-read-more-container:hover, .arrow-button:hover, #post-diary-window, .spoiler-button {
@@ -29,6 +29,9 @@ body, .community-title, #footer-selector li button, #footer-inner p a, .post-lis
     border-bottom-color: #000000;
     background: #161616;
     color: #CCCCCC;
+}
+#global-menu li.selected a {
+    color: #3caa00 !important;
 }
 .follow-done-button:after {
     content: 'ing';
@@ -212,12 +215,6 @@ form.search input[type="text"] {
 }
 .sidebar-setting li {
     border-top: 1px solid #000000;
-}
-.sidebar-setting a.selected {
-    background-color: #161616;
-}
-.sidebar-container h4 a:hover {
-    background-color: #161616;
 }
 .community-list .icon-container .icon {
     border: 1px solid #000000;
@@ -499,7 +496,7 @@ form.search {
 /*--------Custom Footer--------*/
 #footer:after {
     color:     #CCCCCC;
-    content:   "Dark Miiverse - v1.0 by CodyMKW"; /* Please do not remove! */
+    content:   "Dark Miiverse - v1.1 by CodyMKW"; /* Please do not remove! */
     font-weight: bold;
 }
 }
