@@ -16,7 +16,7 @@ body {
 .SettingDetails_item, .HeaderAccountMenu_item {
     border-top: 1px solid #000000 !important;
 }
-.HeaderAccountMenu_item a:hover, .formSelectLanguage select, .SettingTitle_action:hover, .SecondaryAction_btn:hover {
+.HeaderAccountMenu_item a:hover, .formSelectLanguage select, .SettingTitle_action:hover, .SecondaryAction_btn:hover, .CheckBlockList_checkbox {
     background-color: #161616 !important;
 }
 [type="text"], [type="password"], [type="date"], [type="datetime"], [type="datetime-local"], [type="month"], [type="week"], [type="email"], [type="number"], [type="search"], [type="tel"], [type="time"], [type="url"], [type="color"], select, textarea {
@@ -32,6 +32,9 @@ body {
 }
 .SignupForm {
     border: 1px solid #000 !important;
+}
+.CheckBlockList_checkbox {
+    border: 2px solid #000000 !important;
 }
 .SecondaryAction_btn {
     border: 1px solid #000000 !important;
@@ -52,6 +55,6 @@ body {
     border-bottom: 1px solid #000000 !important;
 }
 .SiteFooter_copyright small:after {
-    content: ' | Dark Nintendo Account v1.1 by CodyMKW' !important;
+    content: ' | Dark Nintendo Account v1.2 by CodyMKW' !important;
 }
 }
