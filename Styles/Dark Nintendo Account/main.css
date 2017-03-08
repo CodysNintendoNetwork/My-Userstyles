@@ -10,7 +10,7 @@ body {
     border: 1px solid #000000 !important;
     background-color: #202020 !important;
 }
-.SettingTitle, .SiteHeader, .SiteFooter, .HeaderAccountMenu_item a, .Term, .Modal, .Mii_item_inner, .Reauth_block, .PasswordEdit_block, .RegisterArea_lead span {
+.SettingTitle, .SiteHeader, .SiteFooter, .HeaderAccountMenu_item a, .Term, .Modal, .Mii_item_inner, .Reauth_block, .PasswordEdit_block, .RegisterArea_lead span, .Account_userId, .NavList_item a {
     background-color: #202020 !important;
 }
 .SettingDetails_item, .HeaderAccountMenu_item {
@@ -57,6 +57,16 @@ body {
 }
 .ProfileEdit_item.nickname {
     border-bottom: 1px solid #000000 !important;
+}
+.NavList_item a {
+    color: #cccccc !important;
+    box-shadow: 0 2px 0 0 #101010 !important;
+}
+.NavList_item a .icon {
+    fill: #cccccc !important;
+}
+.Account_userId {
+    color: #cccccc !important;
 }
 .SiteFooter_copyright small:after {
     content: ' | Dark Nintendo Account v1.3 by CodyMKW' !important;
