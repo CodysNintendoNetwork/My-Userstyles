@@ -6,17 +6,17 @@ body {
 .CheckBlockList_itemInner, .CheckBlockList_checkbox::before {
     border: 2px solid #000000 !important;
 }
-.Setting, .HeaderAccountMenu, .BoxBlock_body, .BoxBlock, .ProfileEdit {
+.Setting, .HeaderAccountMenu, .BoxBlock_body, .BoxBlock, .ProfileEdit, .LoginForm {
     border: 1px solid #000000 !important;
     background-color: #202020 !important;
 }
-.SettingTitle, .SiteHeader, .SiteFooter, .HeaderAccountMenu_item a, .Term, .Modal, .Mii_item_inner, .Reauth_block, .PasswordEdit_block {
+.SettingTitle, .SiteHeader, .SiteFooter, .HeaderAccountMenu_item a, .Term, .Modal, .Mii_item_inner, .Reauth_block, .PasswordEdit_block, .RegisterArea_lead span {
     background-color: #202020 !important;
 }
 .SettingDetails_item, .HeaderAccountMenu_item {
     border-top: 1px solid #000000 !important;
 }
-.HeaderAccountMenu_item a:hover, .formSelectLanguage select, .SettingTitle_action:hover, .SecondaryAction_btn:hover, .CheckBlockList_checkbox {
+.HeaderAccountMenu_item a:hover, .formSelectLanguage select, .SettingTitle_action:hover, .SecondaryAction_btn:hover, .CheckBlockList_checkbox, .SnsLogin {
     background-color: #161616 !important;
 }
 [type="text"], [type="password"], [type="date"], [type="datetime"], [type="datetime-local"], [type="month"], [type="week"], [type="email"], [type="number"], [type="search"], [type="tel"], [type="time"], [type="url"], [type="color"], select, textarea {
@@ -25,6 +25,10 @@ body {
 }
 [type="text"].is-error, [type="password"].is-error, [type="date"].is-error, [type="datetime"].is-error, [type="datetime-local"].is-error, [type="month"].is-error, [type="week"].is-error, [type="email"].is-error, [type="number"].is-error, [type="search"].is-error, [type="tel"].is-error, [type="time"].is-error, [type="url"].is-error, [type="color"].is-error, select.is-error, textarea.is-error {
     border-color: #ff4646 !important;
+}
+.btn-primaryInverse {
+    color: #fff !important;
+    background-color: #00c6b3 !important;
 }
 .btn-childInverse {
     color: #fff  !important;
@@ -55,6 +59,6 @@ body {
     border-bottom: 1px solid #000000 !important;
 }
 .SiteFooter_copyright small:after {
-    content: ' | Dark Nintendo Account v1.2 by CodyMKW' !important;
+    content: ' | Dark Nintendo Account v1.3 by CodyMKW' !important;
 }
 }
