@@ -69,13 +69,6 @@ content:'?' !important;
     outline: transparent !important;
     border: 1px solid #505050 !important;
 }
-a.delete {
-    color: red !important;
-    font-weight: bold !important;
-}
-a.style-edit-link {
-    font-weight: bold !important;
-}
 #confirm>div {
     background-color: #202020;
     border: solid 2px rgba(0, 0, 0, 0.52);
