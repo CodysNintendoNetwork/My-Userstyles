@@ -76,4 +76,8 @@ a.delete {
 a.style-edit-link {
     font-weight: bold !important;
 }
+#confirm>div {
+    background-color: #202020;
+    border: solid 2px rgba(0, 0, 0, 0.52);
+}
 }
