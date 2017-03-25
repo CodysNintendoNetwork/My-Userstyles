@@ -12,5 +12,5 @@
 * [Dark Skype Web](https://userstyles.org/styles/117912/dark-skype-web)
 * [Dark Streamable](https://userstyles.org/styles/121561/dark-streamable)
 * [Dark Stylish/Stylus Editor [Opera & Chrome]](https://userstyles.org/styles/127038/dark-stylish-stylus-editor-opera-chrome)
-* [Splatoon Reddit Dark Theme v4.7](https://userstyles.org/styles/121812/splatoon-reddit-dark-theme-v4-7)
+* [Splatoon Reddit Dark Theme](https://userstyles.org/styles/121812/splatoon-reddit-dark-theme)
 * [3dsthem.es - Dark Theme pages](https://userstyles.org/styles/111022/3dsthem-es-dark-theme-pages)
