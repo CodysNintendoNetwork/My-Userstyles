@@ -54,6 +54,15 @@ content:'d' !important;
 body.dirty #save-button:after {
 content:'?' !important;
 }
+#message-box > div, #message-box-buttons, #message-box-title {
+   background-color: #1d1d1d !important;
+}
+.newUI .entry:nth-child(2n) {
+    background-color: rgb(28, 28, 28) !important;
+}
+.svg-icon:hover {
+    fill: #fff;
+}
 #help-popup {
     background-color: #1c1c1c !important;
 }
