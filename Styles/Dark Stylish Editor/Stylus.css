@@ -1,4 +1,4 @@
-@-moz-document regexp("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/manage.html*"), regexp("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/popup.html.*"), regexp("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/edit.html.*"), regexp("chrome-extension://kdinfjomkigjcjcbigolloleeiianaif/manage.html*"), regexp("chrome-extension://kdinfjomkigjcjcbigolloleeiianaif/popup.html.*"), regexp("chrome-extension://kdinfjomkigjcjcbigolloleeiianaif/edit.html.*") {
+@-moz-document regexp("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/manage.html*"), regexp("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/popup.html.*"), regexp("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/edit.html.*"), regexp("chrome-extension://kdinfjomkigjcjcbigolloleeiianaif/manage.html*"), regexp("chrome-extension://kdinfjomkigjcjcbigolloleeiianaif/popup.html.*"), regexp("chrome-extension://kdinfjomkigjcjcbigolloleeiianaif/edit.html.*"), regexp("moz-extension://d6ec61c1-6ae0-4cf4-b551-98a59bed0669/manage.html*"), regexp("moz-extension://d6ec61c1-6ae0-4cf4-b551-98a59bed0669/popup.html.*"), regexp("moz-extension://d6ec61c1-6ae0-4cf4-b551-98a59bed0669/edit.html.*") {
 #header {
     color: #e1e1e1 !important;
     background: #262626 !important;
@@ -58,10 +58,21 @@ content:'?' !important;
     background-color: #1d1d1d !important;
 }
 .newUI .entry:nth-child(2n) {
-    background-color: rgb(28, 28, 28) !important;
+    background-color: rgb(31, 31, 31) !important;
 }
-.svg-icon:hover {
-    fill: #fff;
+.svg-icon:hover, .newUI .entry:hover .svg-icon:hover {
+    fill: #fff !important;
+}
+#message-box.danger #message-box-title {
+    background-color: firebrick !important;
+}
+div#message-box-contents:before {
+    content: 'The style is: ' !important;
+    font-weight: bolder !important;
+    color: firebrick !important;
+}
+.newUI .no-update:not(.update-problem):not(.update-done) .up-to-date, .newUI .can-update .update {
+    color: black;
 }
 #help-popup {
     background-color: #1c1c1c !important;
