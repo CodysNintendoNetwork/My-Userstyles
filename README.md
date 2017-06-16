@@ -13,3 +13,4 @@
 * [Dark Streamable](https://userstyles.org/styles/121561/dark-streamable)
 * [Dark Stylish/Stylus Editor [Opera & Chrome]](https://userstyles.org/styles/127038/dark-stylish-stylus-editor-opera-chrome)
 * [Dark Userstyles Website](https://userstyles.org/styles/141871/dark-userstyles-website)
+* [Dark Stylus](https://userstyles.org/styles/142272/dark-stylus)
