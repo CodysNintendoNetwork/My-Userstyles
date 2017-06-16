@@ -55,7 +55,7 @@ body.dirty #save-button:after {
 content:'?' !important;
 }
 #message-box > div, #message-box-buttons, #message-box-title {
-   background-color: #1d1d1d !important;
+    background-color: #1d1d1d !important;
 }
 .newUI .entry:nth-child(2n) {
     background-color: rgb(28, 28, 28) !important;
