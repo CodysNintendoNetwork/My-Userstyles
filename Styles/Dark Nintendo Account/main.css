@@ -72,28 +72,3 @@ body {
     content: ' | Dark Nintendo Account v1.4 by CodyMKW' !important;
 }
 }
-}
-.GlobalNav_listItem a, .SiteFooter_linksItem>a, .HeaderAccountMenu_item a {
-    color: #7d7c7c !important;
-}
-.SettingTitle_action {
-    color: #7d7c7c !important;
-    border: 1px solid #000000 !important;
-}
-.ProfileEdit_item.nickname {
-    border-bottom: 1px solid #000000 !important;
-}
-.NavList_item a {
-    color: #cccccc !important;
-    box-shadow: 0 2px 0 0 #101010 !important;
-}
-.NavList_item a .icon {
-    fill: #cccccc !important;
-}
-.Account_userId {
-    color: #cccccc !important;
-}
-.SiteFooter_copyright small:after {
-    content: ' | Dark Nintendo Account v1.3 by CodyMKW' !important;
-}
-}
