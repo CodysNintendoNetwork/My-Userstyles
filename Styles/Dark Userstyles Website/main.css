@@ -18,7 +18,7 @@ body, #nav-view, #footer, #navigation, .edit-setting, .option-user-url, .text_se
 .screenshot_wrapper {
     border-bottom: 1px solid #000 !important;
 }
-.style_title, #notes_textarea, .text_style_page, #copyrights, #headline, #information_key_left, #infomation_value_left, #information_value, #information_key, #share_div, #stylish-code, .navigation_title, .pageNumber, input#style_short_description, input#example-url, textarea#style_long_description, textarea#style_additional_info, textarea#css, h4 a, h1, li, label, .white_button no-select, .white_button, #edit-style-settings textarea, #edit-style-settings input:not([type]), .edit-option-value-url, dl, h2, tr, p, .option-user-url, .text_setting_input, .linking-note, div.form-controls, .title_setting, #applies_link {
+.style_title, #notes_textarea, .text_style_page, #copyrights, #headline, #information_key_left, #infomation_value_left, #information_value, #information_key, #share_div, #stylish-code, .navigation_title, .pageNumber, input#style_short_description, input#example-url, textarea#style_long_description, textarea#style_additional_info, textarea#css, h4 a, h1, li, label, .white_button no-select, .white_button, #edit-style-settings textarea, #edit-style-settings input:not([type]), .edit-option-value-url, dl, h2, tr, p, .option-user-url, .text_setting_input, .linking-note, div.form-controls, .title_setting, #applies_link, #archived {
     color: #CCC !important;
 }
 #update_style_button {
@@ -35,7 +35,7 @@ body, #nav-view, #footer, #navigation, .edit-setting, .option-user-url, .text_se
     color: #000 !important;
 }
 #copyrights:after {
-    content: " Dark Userstyles v1.6";
+    content: " Dark Userstyles v1.7";
 }
 }
 
