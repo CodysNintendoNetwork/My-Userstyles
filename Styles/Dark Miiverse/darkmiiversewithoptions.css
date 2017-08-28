@@ -758,6 +758,7 @@ h2.reply-label {
     color:#fff; 
 }
 
+/*--------Dark Miiverse logo--------*/
 #global-menu #global-menu-logo {
     background: url('http://i.imgur.com/jPYQYq9.png') center no-repeat;
 }
@@ -767,6 +768,10 @@ h2.reply-label {
     height: 30px;
 }
 
+/*--------Lock/Unlock Navigation bar--------*/
+/*[[navbarlock]]*/
+
+/*--------Other Stuff with Images---------*/
 .content-loading-window.activity-feed {
   background: url('http://i.imgur.com/EOVj38f.gif') center no-repeat;
 }
@@ -792,6 +797,7 @@ h2.reply-label {
     background: url(http://i.imgur.com/QIrWWFS.png) no-repeat 0 0;
 }
 
+/*--------User Skill level icons--------*/
 .user-data .game-skill span.beginner:before {
   background-image: url('http://i.imgur.com/tVDWsyx.png');
 }
@@ -802,6 +808,18 @@ h2.reply-label {
   background-image: url('http://i.imgur.com/iyD3fuj.png');
 }
 
+/*--------Show/Hide Social Buttons--------*/
+.sidebar-social-container {
+    display: /*[[socialbuttons]]*/;
+}
+.social-buttons-heading {
+    display: /*[[socialbuttons]]*/;
+}
+.buttons-content .post-social-buttons-wrapper {
+    display: /*[[socialbuttons]]*/;
+}
+
+/*--------Official User stuff--------*/
 #identified-user-banner a:before {
     background: url('http://i.imgur.com/U3gLQgX.png');
 }
@@ -813,14 +831,52 @@ h2.reply-label {
     content: url("http://i.imgur.com/4VfvCxw.png");
 }
 
+/*--------Show/Hide Ads--------*/
+.adx {
+    display: /*[[hideads]]*/;
+}
 .wide-adx {
+    display: /*[[hideads]]*/;
     background-color: #202020;
 }
 
+/*--------Custom Background--------*/
+#wrapper {
+    background-image: url('/*[[backgroundimage]]*/');
+}
+
+/*--------Larger Favorite Post--------*/
 #sidebar-cover {
+    min-height: /*[[size]]*/px;
     border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
+/*--------Custom Name Color and Glow--------*/
+#sidebar-profile-body .nick-name {
+    color: /*[[namecolor]]*/;
+    text-shadow: 0px 0 4px /*[[nameglow]]*/;
+}
+#sidebar-profile-body.with-profile-post-image .nick-name {
+    color: /*[[namecolor]]*/;
+    text-shadow: 0px 0 4px /*[[nameglow]]*/;
+}
+.news-list .nick-name {
+    color: /*[[namecolor]]*/;
+    text-shadow: 0px 0 4px /*[[nameglow]]*/;
+}
+.post .user-name a {
+    color: /*[[namecolor]]*/;
+    text-shadow: 0px 0 4px /*[[nameglow]]*/;
+}
+.list-content-with-icon-and-text .nick-name a {
+    color: /*[[namecolor]]*/;
+    text-shadow: 0px 0 4px /*[[nameglow]]*/;
+}
+.multi-timeline-post-list .post-subtype-topic .user-name a {
+    color: /*[[namecolor]]*/;
+}
+
+/*--------Custom Footer--------*/
 #footer:after {
     color:     #CCCCCC;
     content:   "Dark Miiverse with Options - v4.8 by CodyMKW"; /* Please do not remove! */
