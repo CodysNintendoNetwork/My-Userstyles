@@ -1,4 +1,4 @@
-@-moz-document regexp("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/manage.html*"), regexp("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/popup.html.*"), regexp("chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/edit.html.*"), regexp("chrome-extension://kdinfjomkigjcjcbigolloleeiianaif/manage.html*"), regexp("chrome-extension://kdinfjomkigjcjcbigolloleeiianaif/popup.html.*"), regexp("chrome-extension://kdinfjomkigjcjcbigolloleeiianaif/edit.html.*"), regexp("moz-extension://d6ec61c1-6ae0-4cf4-b551-98a59bed0669/manage.html*"), regexp("moz-extension://d6ec61c1-6ae0-4cf4-b551-98a59bed0669/popup.html.*"), regexp("moz-extension://d6ec61c1-6ae0-4cf4-b551-98a59bed0669/edit.html.*") {
+@-moz-document regexp("chrome-extension://.*"), regexp("moz-extension://.*") {
 #header {
     color: #e1e1e1 !important;
     background: #262626 !important;
