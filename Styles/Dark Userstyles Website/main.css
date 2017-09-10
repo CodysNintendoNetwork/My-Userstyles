@@ -43,7 +43,10 @@ h4 a:visited, #title_long a:visited {
 .style_author_long {
     color: #466584 !important;
 }
+.linksBox:nth-of-type(1) > a > div > img, .linksBox:nth-of-type(5) > a > div > img {
+    filter: grayscale(100%) brightness(4);
+}
 #copyrights:after {
-    content: " Dark Userstyles v1.8";
+    content: " Dark Userstyles v1.9";
 }
 }
