@@ -1,4 +1,8 @@
 @-moz-document url-prefix("https://miiverse.nintendo.net/") {
+.closed-container {
+    background: #202020 !important;
+    border: 1px solid #000000 !important;
+}
 .post-list-heading-button {
     border: 1px solid #000000;
     border-bottom-color: #000000;
@@ -879,7 +883,7 @@ h2.reply-label {
 /*--------Custom Footer--------*/
 #footer:after {
     color:     #CCCCCC;
-    content:   "Dark Miiverse with Options - v4.8 by CodyMKW"; /* Please do not remove! */
+    content:   "Dark Miiverse with Options - v4.9 by CodyMKW"; /* Please do not remove! */
     font-weight: bold;
 }
 }

@@ -1,4 +1,8 @@
 @-moz-document domain("miiverse.nintendo.net") {
+.closed-container {
+    background: #202020 !important;
+    border: 1px solid #000000 !important;
+}
 #sidebar-profile-body .nick-name, .news-list .nick-name, .list-content-with-icon-and-text .nick-name a, .user-name a {
     color: #5ac800 !important;
 }
@@ -451,7 +455,7 @@ form.search {
 /*--------Custom Footer--------*/
 #footer:after {
     color:     #CCCCCC;
-    content:   "Dark Miiverse - v1.4 by CodyMKW"; /* Please do not remove! */
+    content:   "Dark Miiverse - v1.5 by CodyMKW"; /* Please do not remove! */
     font-weight: bold;
 }
 }
