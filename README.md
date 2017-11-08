@@ -5,8 +5,8 @@
 4. Thats it nothing else needs to be done you can return to those pages to update them or check for updates from within the extension if the creator updated them.
 
 # My Dark Userstyles
-* [Dark Miiverse](https://userstyles.org/styles/110066/dark-miiverse)
-* [Dark Miiverse with Options](https://userstyles.org/styles/106650/dark-miiverse-with-options)
+* ~~[Dark Miiverse](https://userstyles.org/styles/110066/dark-miiverse)~~ **Discontinued**
+* ~~[Dark Miiverse with Options](https://userstyles.org/styles/106650/dark-miiverse-with-options)~~ **Discontinued**
 * [Dark Nintendo Account](https://userstyles.org/styles/139346/dark-nintendo-account)
 * ~~[Dark Putlocker.is](https://userstyles.org/styles/125616/dark-putlocker-is)~~ **Discontinued**
 * ~~[Dark Skype Web](https://userstyles.org/styles/117912/dark-skype-web)~~ **Discontinued**
