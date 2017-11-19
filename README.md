@@ -1,8 +1,14 @@
-# How to use these Userstyles
-1. Install Stylus for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne),[Firefox](https://addons.mozilla.org/firefox/addon/styl-us/),[Opera](https://addons.opera.com/en/extensions/details/stylus/) or Stylish for [Chrome](https://chrome.google.com/webstore/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe),[Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish),[Safari](http://sobolev.us/stylish/),[Opera](https://addons.opera.com/extensions/details/stylish/). (I recommend using Stylus)
-2. Go to one of the userstyles.org pages below.
-3. Click the "Install Style" button.
-4. Thats it nothing else needs to be done you can return to those pages to update them or check for updates from within the extension if the creator updated them.
+# How to use these Userstyles with Stylish
+1. Install Stylish for [Chrome](https://chrome.google.com/webstore/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe),[Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish),[Safari](http://sobolev.us/stylish/), or [Opera](https://addons.opera.com/extensions/details/stylish/).
+2. Go to one of the userstyles.org pages below in the [Install my styles on Userstyles.org](https://github.com/CodyMKW/My-Userstyles#install-my-styles-on-userstylesorg) section.
+3. Click the "Install" button.
+4. Thats it nothing else needs to be done you can return to those pages to update them or check for updates from within the extension.
+
+# How to use these Userstyles with Stylus
+1. Install Stylus for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne),[Firefox](https://addons.mozilla.org/firefox/addon/styl-us/),[Opera](https://addons.opera.com/en/extensions/details/stylus/). 
+2. Go to one of the userstyles.org pages below in the [Install my styles on Userstyles.org](https://github.com/CodyMKW/My-Userstyles#install-my-styles-on-userstylesorg) section or click one of the styles in the [Install my styles right from Github with Stylus](https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github-with-stylus) section.
+3. Click the "Install" button .
+4. Thats it nothing else needs to be done you can return to those pages to update them or check for updates from within the extension.
 
 # Install my styles on Userstyles.org
 * ~~[Dark Miiverse](https://userstyles.org/styles/110066/dark-miiverse)~~ **Discontinued**
