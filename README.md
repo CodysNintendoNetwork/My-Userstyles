@@ -6,7 +6,7 @@
 
 # How to use these Userstyles with Stylus
 1. Install Stylus for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne),[Firefox](https://addons.mozilla.org/firefox/addon/styl-us/), or [Opera](https://addons.opera.com/en/extensions/details/stylus/). 
-2. Go to one of the userstyles.org pages below in the [Install my styles on Userstyles.org](https://github.com/CodyMKW/My-Userstyles#install-my-styles-on-userstylesorg) section or click one of the styles in the [Install my styles right from Github with Stylus](https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github-with-stylus) section.
+2. Go to one of the userstyles.org pages below in the [Install my styles on Userstyles.org](https://github.com/CodyMKW/My-Userstyles#install-my-styles-on-userstylesorg) section or click one of the styles in the [Install my styles right from Github](https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github-with-stylus) section.
 3. Click the "Install" button .
 4. Thats it nothing else needs to be done you can return to those pages to update them or check for updates from within the extension.
 
@@ -23,7 +23,7 @@
 * [Dark Stylus](https://userstyles.org/styles/142272/dark-stylus)
 * [Dark My Nintendo](https://userstyles.org/styles/147381/dark-my-nintendo)
 
-# Install my styles right from Github with Stylus
+# Install my styles right from Github
 * [Dark Nintendo Account](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Styles/Dark%20Nintendo%20Account/nintendo-account.user.css)
 * [Dark My Nintendo](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Styles/Dark%20My%20Nintendo/my-nintendo.user.css)
 * [Twitch Font Changer](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Styles/Twitch%20Font%20Changer/twitch-font-changer.user.css)
