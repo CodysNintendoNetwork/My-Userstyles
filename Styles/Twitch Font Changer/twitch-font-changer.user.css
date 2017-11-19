@@ -8,8 +8,12 @@
 @author CodyMKW (https://codymkw.github.io)
 @license CC-BY-SA-4.0
 @preprocessor uso
-@var text font 'Font Name' ["FinkHeavy"]
-@var text fontsize 'Font Size' ["13"]
+@var text font 'Font Name' {
+	"FinkHeavy"
+}
+@var text fontsize 'Font Size' {
+	"13"
+}
 ==/UserStyle== */
 
 @-moz-document url-prefix("http://www.twitch.tv/"), url-prefix("https://secure.twitch.tv/"), url-prefix("https://www.twitch.tv/") {
