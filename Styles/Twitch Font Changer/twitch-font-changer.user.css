@@ -8,13 +8,13 @@
 @author CodyMKW (https://codymkw.github.io)
 @license CC-BY-SA-4.0
 @preprocessor stylus
-@advanced text font-name 'Font Name' FinkHeavy
+@advanced text font-name 'Font Name' 'FinkHeavy'
 @advanced text font-size 'Font Size' 13px
 ==/UserStyle== */
 
 @-moz-document url-prefix("http://www.twitch.tv/"), url-prefix("https://secure.twitch.tv/"), url-prefix("https://www.twitch.tv/") {
 body,.player {
-    font-family: 'font-name', sans-serif !important;
+    font-family: font-name , sans-serif !important;
 }
 body,.player, .cn-card__title, .cn-card__info {
     font-size: font-size !important;
