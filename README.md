@@ -7,6 +7,7 @@
 # Install my styles on Userstyles.org
 * ~~[Dark Miiverse](https://userstyles.org/styles/110066/dark-miiverse)~~ **Discontinued**
 * ~~[Dark Miiverse with Options](https://userstyles.org/styles/106650/dark-miiverse-with-options)~~ **Discontinued**
+* [Twitch Font Changer](https://userstyles.org/styles/108060/twitch-font-changer)
 * [Dark Nintendo Account](https://userstyles.org/styles/139346/dark-nintendo-account)
 * ~~[Dark Putlocker.is](https://userstyles.org/styles/125616/dark-putlocker-is)~~ **Discontinued**
 * ~~[Dark Skype Web](https://userstyles.org/styles/117912/dark-skype-web)~~ **Discontinued**
@@ -17,5 +18,6 @@
 * [Dark My Nintendo](https://userstyles.org/styles/147381/dark-my-nintendo)
 
 # Install my styles right from Github with Stylus
-* [Dark Nintendo Account](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Dark%20Styles/Dark%20Nintendo%20Account/nintendo-account.user.css)
-* [Dark My Nintendo](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Dark%20Styles/Dark%20My%20Nintendo/my-nintendo.user.css)
+* [Dark Nintendo Account](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Styles/Dark%20Nintendo%20Account/nintendo-account.user.css)
+* [Dark My Nintendo](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Styles/Dark%20My%20Nintendo/my-nintendo.user.css)
+* [Twitch Font Changer](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Styles/Twitch%20Font%20Changer/twitch-font-changer.user.css)

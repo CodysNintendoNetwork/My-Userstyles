@@ -1,3 +1,14 @@
+/* ==UserStyle==
+@name Dark Nintendo Account
+@namespace github.com/CodyMKW/My-Userstyles
+@version 0.1.6
+@description A dark theme for the Nintendo Account website!
+@homepageURL https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Styles/Dark%20Nintendo%20Account/nintendo-account.user.css
+@supportURL https://github.com/CodyMKW/My-Userstyles/issues
+@author CodyMKW (https://codymkw.github.io)
+@license CC-BY-SA-4.0
+==/UserStyle== */
+
 @-moz-document domain("accounts.nintendo.com") {
 body {
     color: #CCCCCC !important;

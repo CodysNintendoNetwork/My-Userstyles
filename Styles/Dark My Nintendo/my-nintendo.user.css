@@ -1,3 +1,14 @@
+/* ==UserStyle==
+@name Dark My Nintendo
+@namespace github.com/CodyMKW/My-Userstyles
+@version 0.1.2
+@description A dark theme for the My Nintendo website!
+@homepageURL https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Styles/Dark%20My%20Nintendo/my-nintendo.user.css
+@supportURL https://github.com/CodyMKW/My-Userstyles/issues
+@author CodyMKW (https://codymkw.github.io)
+@license CC-BY-SA-4.0
+==/UserStyle== */
+
 @-moz-document domain("my.nintendo.com") {
 .NHeader, .NFooter, .NewsItem_content, .MainNav_button, .NotificationItem-readed, .SiteNavPanelMenu-main .SiteNavPanelMenu_item, .SiteNavPanelMenu-sub, .SiteNavPanel_contentScroller, .AboutPoint_expiration .callout, .Pager_item-first:after, .Pager_item-next:after, .Pager_item-previous:after, .Pager_item>a:hover, .SecondaryNav_item.current, .PointCategory_label .valueCell:before, .PointCategory_child, .PointExpiration_expirePoints:before, .PointHistoryGroup_points:before, .form-select .select:hover, .PointDetailChild, .RewardSwipe_info, .MissionItem_points, .btn-inverse:hover, .MissionItem_progressBar, .RewardPoint_wallet, .RewardItem_info, .MoreRewards_end .target:hover, .RewardCategoryList_heading, .RewardDetail_officialButton:hover, .AnonymousIndex_header .signInButton:hover, .AnonymousIndex_header .signUpButton:hover, .GiftItem_points {
     background-color: #202020 !important;

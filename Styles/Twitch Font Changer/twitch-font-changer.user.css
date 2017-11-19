@@ -1,0 +1,22 @@
+/* ==UserStyle==
+@name Twitch Font Changer
+@namespace github.com/CodyMKW/My-Userstyles
+@version 0.1.0
+@description Changes the font on Twitch TV with any font on your computer!
+@homepageURL https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Styles/Twitch%20Font%20Changer/twitch-font-changer.user.css
+@supportURL https://github.com/CodyMKW/My-Userstyles/issues
+@author CodyMKW (https://codymkw.github.io)
+@license CC-BY-SA-4.0
+@preprocessor uso
+@var text font 'Font Name' ["FinkHeavy"]
+@var text fontsize 'Font Size' ["13"]
+==/UserStyle== */
+
+@-moz-document url-prefix("http://www.twitch.tv/"), url-prefix("https://secure.twitch.tv/"), url-prefix("https://www.twitch.tv/") {
+body,.player {
+    font-family: '/*[[font]]*/', sans-serif !important;
+}
+body,.player, .cn-card__title, .cn-card__info {
+    font-size: /*[[fontsize]]*/px !important;
+}
+}
