@@ -4,10 +4,6 @@
 3. Click the "Install Style" button.
 4. Thats it nothing else needs to be done you can return to those pages to update them or check for updates from within the extension if the creator updated them.
 
-# Install my styles via .user.css files with Stylus
-* [Dark Nintendo Account](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Dark%20Styles/Dark%20Nintendo%20Account/nintendo-account.user.css)
-* [Dark My Nintendo](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Dark%20Styles/Dark%20My%20Nintendo/my-nintendo.user.css)
-
 # My Dark Userstyles
 * ~~[Dark Miiverse](https://userstyles.org/styles/110066/dark-miiverse)~~ **Discontinued**
 * ~~[Dark Miiverse with Options](https://userstyles.org/styles/106650/dark-miiverse-with-options)~~ **Discontinued**
@@ -19,3 +15,7 @@
 * [Dark Userstyles Website](https://userstyles.org/styles/141871/dark-userstyles-website)
 * [Dark Stylus](https://userstyles.org/styles/142272/dark-stylus)
 * [Dark My Nintendo](https://userstyles.org/styles/147381/dark-my-nintendo)
+
+# Install my styles right from Github with Stylus
+* [Dark Nintendo Account](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Dark%20Styles/Dark%20Nintendo%20Account/nintendo-account.user.css)
+* [Dark My Nintendo](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Dark%20Styles/Dark%20My%20Nintendo/my-nintendo.user.css)
