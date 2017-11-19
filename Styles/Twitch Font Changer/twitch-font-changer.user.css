@@ -7,20 +7,16 @@
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
 @author CodyMKW (https://codymkw.github.io)
 @license CC-BY-SA-4.0
-@preprocessor uso
-@var text font 'Font Name' {
-	"FinkHeavy"
-}
-@var text fontsize 'Font Size' {
-	"13"
-}
+@preprocessor stylus
+@advanced text font-name 'Font Name' FinkHeavy
+@advanced text font-size 'Font Size' 13px
 ==/UserStyle== */
 
 @-moz-document url-prefix("http://www.twitch.tv/"), url-prefix("https://secure.twitch.tv/"), url-prefix("https://www.twitch.tv/") {
 body,.player {
-    font-family: '/*[[font]]*/', sans-serif !important;
+    font-family: 'font-name', sans-serif !important;
 }
 body,.player, .cn-card__title, .cn-card__info {
-    font-size: /*[[fontsize]]*/px !important;
+    font-size: font-size !important;
 }
 }
