@@ -4,7 +4,7 @@
 3. Click the "Install Style" button.
 4. Thats it nothing else needs to be done you can return to those pages to update them or check for updates from within the extension if the creator updated them.
 
-# Install via .user.css files with Stylus
+# Install my styles via .user.css files with Stylus
 * [Dark Nintendo Account](https://raw.githubusercontent.com/CodyMKW/Dark-Userstyles/master/Styles/Dark%20Nintendo%20Account/nintendo-account.user.css)
 * [Dark My Nintendo](https://raw.githubusercontent.com/CodyMKW/Dark-Userstyles/master/Styles/Dark%20My%20Nintendo/my-nintendo.user.css)
 
