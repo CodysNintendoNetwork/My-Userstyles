@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark Streamable
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.0.0
+@version 1.0.1
 @description A dark version of Streamable! :)
 @homepageURL https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -10,7 +10,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("streamable.com") {
-body, html, .card, .video-item.grid .card .card-footer, .dropdown .actions-menu, .settings .card .card-footer, .modal-content, .landing , .landing .pane-title, .signin .separator span, #page_content{
+body, html, .card, .video-item.grid .card .card-footer, .dropdown .actions-menu, .settings .card .card-footer, .modal-content, .landing , .landing .pane-title, .signin .separator span, #page_content, #player.container .actions-section{
     background-color: #161616 !important;
 }
 .app-nav .navbar, .app-container .video-creator .url-input, .form-control, .button, button, .landing .navbar-default, .nav-tabs .nav-link.active, .page-content {
