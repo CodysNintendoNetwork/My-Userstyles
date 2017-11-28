@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark Nintendo Account
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.6.0
+@version 1.6.1
 @description A dark theme for the Nintendo Account website!
 @homepageURL https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -17,7 +17,7 @@ body {
 .CheckBlockList_itemInner, .CheckBlockList_checkbox::before {
     border: 2px solid #000000 !important;
 }
-.Setting, .HeaderAccountMenu, .BoxBlock_body, .BoxBlock, .ProfileEdit, .LoginForm {
+.Setting, .HeaderAccountMenu, .BoxBlock_body, .BoxBlock, .ProfileEdit, .LoginForm, .UnreceivedMailHelp {
     border: 1px solid #000000 !important;
     background-color: #202020 !important;
 }
@@ -80,6 +80,6 @@ body {
     color: #cccccc !important;
 }
 .SiteFooter_copyright:after {
-    content: ' | Dark Nintendo Account v1.6 by CodyMKW' !important;
+    content: ' | Dark Nintendo Account v1.6.1 by CodyMKW' !important;
 }
 }
