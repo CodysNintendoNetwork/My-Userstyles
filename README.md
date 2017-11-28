@@ -14,6 +14,7 @@
 * ~~[Dark Miiverse](https://userstyles.org/styles/110066/dark-miiverse)~~ **Discontinued**
 * ~~[Dark Miiverse with Options](https://userstyles.org/styles/106650/dark-miiverse-with-options)~~ **Discontinued**
 * [Twitch Font Changer](https://userstyles.org/styles/108060/twitch-font-changer)
+* [Kissanime Logo Selector](https://userstyles.org/styles/125456/kissanime-logo-selector)
 * [Dark Nintendo Account](https://userstyles.org/styles/139346/dark-nintendo-account)
 * ~~[Dark Putlocker.is](https://userstyles.org/styles/125616/dark-putlocker-is)~~ **Discontinued**
 * ~~[Dark Skype Web](https://userstyles.org/styles/117912/dark-skype-web)~~ **Discontinued**
@@ -29,3 +30,4 @@
 * [Dark Stylus](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Styles/Dark%20Stylus/dark-stylus.user.css)
 * [Dark Streamable](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Styles/Dark%20Streamable/dark-streamable.user.css)
 * [Twitch Font Changer](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Styles/Twitch%20Font%20Changer/twitch-font-changer.user.css)
+* [Kissanime Logo Selector](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Styles/Kissanime%20Logo%20Selector/kissanime-logo-selector.user.css)
