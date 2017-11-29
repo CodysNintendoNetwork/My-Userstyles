@@ -7,6 +7,11 @@
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
 @author CodyMKW (https://codymkw.github.io)
 @license CC-BY-SA-4.0
+@preprocessor uso
+@var select   character   'Choose a character'    {
+  "Mario": "https://cdn.my.nintendo.com/static/dist/images/pc/common/sprite/parts.8313da4e3b9a1725.png",
+  "Kanna": "https://i.imgur.com/1QpHTqY.png",
+}
 ==/UserStyle== */
 
 @-moz-document domain("my.nintendo.com") {
@@ -75,7 +80,10 @@
 .MissionItem_progressBar .division {
     background-color: #3e3e3e !important;
 }
+.MFooter_character .mario {
+    background-image: url(/*[[character]]*/) !important;
+}
 small.copyright:after {
-    content: ' - Dark My Nintendo v1.2 by CodyMKW' !important;
+    content: ' - Dark My Nintendo v1.2.1 by CodyMKW' !important;
 }
 }
