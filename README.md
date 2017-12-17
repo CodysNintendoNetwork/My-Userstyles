@@ -11,7 +11,7 @@
 4. Thats it nothing else needs to be done you can return to those pages to update them or check for updates from within the extension.
 
 # Install my styles on Userstyles.org
-* ~~[Dark Miiverse](https://userstyles.org/styles/110066/dark-miiverse)~~ **Discontinued**
+* [Dark Miiverse/Cedar/Openverse](https://userstyles.org/styles/110066/dark-miiverse)
 * ~~[Dark Miiverse with Options](https://userstyles.org/styles/106650/dark-miiverse-with-options)~~ **Discontinued**
 * [Twitch Font Changer](https://userstyles.org/styles/108060/twitch-font-changer)
 * [Kissanime Logo Selector](https://userstyles.org/styles/125456/kissanime-logo-selector)
