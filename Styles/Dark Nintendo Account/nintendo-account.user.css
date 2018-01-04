@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark Nintendo Account
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.6.2
+@version 1.6.3
 @description A dark theme for the Nintendo Account website!
 @homepageURL https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -21,7 +21,7 @@ body {
     border: 1px solid #000000 !important;
     background-color: #202020 !important;
 }
-.SettingTitle, .SiteHeader, .SiteFooter, .HeaderAccountMenu_item a, .Term, .Modal, .Mii_item_inner, .Reauth_block, .PasswordEdit_block, .RegisterArea_lead span, .Account_userId, .NavList_item a, .ClientsSetting_title, .SignupForm, .SignupForm_inner, .AccordionList_item {
+.SettingTitle, .SiteHeader, .SiteFooter, .HeaderAccountMenu_item a, .Term, .Modal, .Mii_item_inner, .Reauth_block, .PasswordEdit_block, .RegisterArea_lead span, .Account_userId, .NavList_item a, .ClientsSetting_title, .SignupForm, .SignupForm_inner, .AccordionList_item, .AuthorizeRedirect_pincode, .BoxBlock_head {
     background-color: #202020 !important;
 }
 .SettingDetails_item, .HeaderAccountMenu_item {
@@ -80,6 +80,6 @@ body {
     color: #cccccc !important;
 }
 .SiteFooter_copyright:after {
-    content: ' | Dark Nintendo Account v1.6.2 by CodyMKW' !important;
+    content: ' | Dark Nintendo Account v1.6.3 by CodyMKW' !important;
 }
 }
