@@ -27,6 +27,7 @@
 # Install my styles right from Github
 * [Dark Nintendo Account](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Styles/Dark%20Nintendo%20Account/nintendo-account.user.css)
 * [Dark My Nintendo](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Styles/Dark%20My%20Nintendo/my-nintendo.user.css)
+* [Dark Nintendo [All in One version]](https://github.com/CodyMKW/My-Userstyles/raw/master/Styles/Dark%20Nintendo%20%5BAll%20in%20One%20version%5D/dark-nintendo-aio.user.css)
 * [Dark Stylus](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Styles/Dark%20Stylus/dark-stylus.user.css)
 * [Dark Streamable](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Styles/Dark%20Streamable/dark-streamable.user.css)
 * [Twitch Font Changer](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Styles/Twitch%20Font%20Changer/twitch-font-changer.user.css)
