@@ -23,6 +23,7 @@
 * [Dark Userstyles Website](https://userstyles.org/styles/141871/dark-userstyles-website)
 * [Dark Stylus](https://userstyles.org/styles/142272/dark-stylus)
 * [Dark My Nintendo](https://userstyles.org/styles/147381/dark-my-nintendo)
+* [Dark Nintendo [All in One version]](https://userstyles.org/styles/156340/dark-nintendo-all-in-one-version)
 
 # Install my styles right from Github
 * [Dark Nintendo Account](https://raw.githubusercontent.com/CodyMKW/My-Userstyles/master/Styles/Dark%20Nintendo%20Account/nintendo-account.user.css)

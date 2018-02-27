@@ -18,7 +18,52 @@
 
 
 @-moz-document domain("nintendo.com") {
-    /* My Nintendo userstyle */
+    body, div#page-container, .ratings-and-reviews .tags span, #global-header .search-suggestions, .review-form .tags .tag, #container, nclood-nav#nclood-nav nav, .secondaryNav li ul, .language_select {
+    background: #161616 !important;
+}
+    #global-header .top-nav, #reviews-paginated > header, .ratings-and-reviews .tags, select, .review-form .tags, .review-form input, .review-form textarea, .review-form .archetype .check-mark, .review-form .spoiler-option .check-mark, #overview .button-row a, nclood-nav#nclood-nav .top-nav, .product_page_content {
+    background-color: #202020 !important;
+}
+    .review-form .tags .tag:hover {
+    background-color: #32A2FF !important;
+}
+    .review-form .tags .tag.selected, .review-form .archetype.selected .check-mark, .review-form .spoiler-option.selected .check-mark {
+    background-color: #2576BC !important;
+}
+    #global-header nav {
+    background: linear-gradient(#161616, #161616)  !important;
+}
+    nav.global-footer-top {
+    background: linear-gradient(to top, #202020 0%,#202020 75%) !important;
+}
+    #overview .drawer.truncated::after {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 2%, rgb(37, 37, 37) 100%) !important;
+}
+    #amiibo, #footer, div.carousel.hero.hero ul.carousel-pagination li:first-child:before, div.carousel.hero ul.carousel-pagination li:last-child:after {
+    background: url('https://i.imgur.com/L1wvZer.png') top center no-repeat !important;
+}
+    h1, .h1, h2, .h2, h3, .h3, li, p, a, span, ul.games-search-autosuggest li.see-all-game-results a, option, optgroup, label, .review-form input, .review-form textarea {
+    color: #ccc !important;
+}
+    #faq .faq-drawer, section.new-releases>ul li:nth-child(3), section.new-releases>ul li:nth-child(4) {
+    border-top: 1px solid #000 !important;
+}
+    .ratings-and-reviews .review, article section, section.games, section.platforms, section.new-amiibo, section.news-games {
+    border-bottom: 1px solid #000000 !important;
+}
+    
+.ratings-and-reviews .bar-graph .bar {
+    box-shadow: 0 0 0 1px #000000 !important;
+}
+    .ratings-and-reviews .sort-reviews, .review-form input, .review-form textarea, #overview .button-row a {
+    border: 1px solid #000000 !important;
+}
+section.new-releases>ul li:nth-child(2), section.new-releases>ul li:nth-child(4) {
+    border-left: 1px solid #000  !important;
+}
+}
+
+@-moz-document domain("my.nintendo.com") {
 .NHeader, .NFooter, .NewsItem_content, .MainNav_button, .NotificationItem-readed, .SiteNavPanelMenu-main .SiteNavPanelMenu_item, .SiteNavPanelMenu-sub, .SiteNavPanel_contentScroller, .AboutPoint_expiration .callout, .Pager_item-first:after, .Pager_item-next:after, .Pager_item-previous:after, .Pager_item>a:hover, .SecondaryNav_item.current, .PointCategory_label .valueCell:before, .PointCategory_child, .PointExpiration_expirePoints:before, .PointHistoryGroup_points:before, .form-select .select:hover, .PointDetailChild, .RewardSwipe_info, .MissionItem_points, .btn-inverse:hover, .MissionItem_progressBar, .RewardPoint_wallet, .RewardItem_info, .MoreRewards_end .target:hover, .RewardCategoryList_heading, .RewardDetail_officialButton:hover, .AnonymousIndex_header .signInButton:hover, .AnonymousIndex_header .signUpButton:hover, .GiftItem_points, .OthersItem .OthersItem_visual-step .step {
     background-color: #202020 !important;
 }
@@ -90,8 +135,9 @@ body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMe
 small.copyright:after {
     content: ' - Dark My Nintendo v1.2.4 by CodyMKW' !important;
 }
+}
 
-/* Nintendo Account userstyle */
+@-moz-document domain("accounts.nintendo.com") {
 body {
     color: #CCCCCC !important;
     background-color: #161616 !important;
@@ -165,3 +211,180 @@ body {
     content: ' | Dark Nintendo Account v1.6.3 by CodyMKW' !important;
 }
 }
+
+@-moz-document url-prefix("https://supermariomakerbookmark.nintendo.net/") {
+body.courses,
+body.profile,
+body.pickup,
+body.search,
+body.ranking,
+body.settings,
+body.help,
+body.playlist {
+	background: rgb(36, 36, 36);
+}
+
+#wrapper .description a {
+	color: #FFF;
+}
+  
+.bg-white,
+#wrapper.profile .profile-info .user-wrapper .mii,
+#loading-overlay #loading-overlay-pedestal {
+	background: rgb(56, 56, 56);
+}
+  
+.bg-yellow,
+.help-category-wrapper .help-category-header,
+.help-category-wrapper .help-entry-wrapper .help-entry-body,
+.help-category-wrapper .help-sub-entry-wrapper {
+	background-color: rgb(25, 25, 25);
+}
+  
+.bg-orange,
+.help-category-wrapper .help-entry-wrapper .help-entry-header {
+	background: rgb(16, 16, 16);
+}
+
+/* Super Expert */
+.bg-red,
+.help-category-wrapper .difficulty-super-expert {
+	background: #801A1A;
+}
+/* Expert */
+
+.bg-pink,
+.help-category-wrapper .difficulty-expert {
+	background: #801A4C;
+}
+
+/* Normal */
+.bg-blue,
+.help-category-wrapper .difficulty-normal {
+	background: #1A4C80;
+}
+
+/* Easy */
+.bg-green,
+.help-category-wrapper .difficulty-easy,
+.help-category-wrapper .clear-rate-flag {
+	background: #1A801A;
+}
+
+/* Ranking */
+.bg-purple {
+	background: #4C1A80;
+}
+
+/* Text Color */
+.course-info .course-title-wrapper .course-title,
+.help-category-wrapper .help-category-header .help-category-title,
+.course-info .course-image-wrapper .gameskin-wrapper .created_at,
+.course-info .tried-count .label,
+.course-info .course-detail-wrapper .creator-info .name,
+#wrapper.profile .profile-info .user-info .name,
+#wrapper.ranking .creator-detail-wrapper .creator-info .name,
+.help-category-wrapper .help-entry-wrapper .help-entry-header,
+.help-category-wrapper .help-entry-wrapper .help-entry-body .help-message,
+.help-category-wrapper .help-sub-entry-wrapper .help-sub-entry-header,
+.help-category-wrapper .help-category-header .help-category-description,
+.help-category-wrapper .created-at-wrapper .created-at,
+.help-category-wrapper .help-entry-wrapper .help-entry-body,
+.help-category-wrapper .creator-info .creator-name,
+#wrapper.courses .body.current-tag .current-tag-wrapper .current-tag-label,
+#wrapper.courses .header.bg-orange,
+#wrapper.courses .course-card .course-detail-wrapper .miiverse,
+#wrapper .description {
+	color: #BBBBBB;
+}
+
+/* Cleared Flag */
+.course-info .course-clear-flag-wrapper {
+    border: 30px solid rgb(25,25,25);
+    border-top: 30px solid rgb(45,45,45);
+    border-right: 30px solid rgb(45,45,45);
+}
+
+/* Stats */
+#wrapper.courses .course-card .course-stats-wrapper .liked-count,
+#wrapper.courses .course-card .course-stats-wrapper .played-count,
+#wrapper.courses .course-card .course-stats-wrapper .shared-count,
+.course-info .course-stats-wrapper .liked-count,
+.course-info .course-stats-wrapper .played-count,
+.course-info .course-stats-wrapper .shared-count {
+	background: rgb(56, 56, 56);
+}
+
+.course-info svg path,
+#wrapper.courses .clear-time svg path,
+#wrapper.playlist .trash svg,
+#wrapper.playlist .unlocked svg {
+	fill: #FFF;	
+}
+
+.course-info .tried-count {
+	background: none;
+}
+
+.course-info .course-image-wrapper .course-image,
+#wrapper.courses .course-card .course-image-full-wrapper,
+.course-info .course-image-full-wrapper {
+	background: rgb(16, 16, 16);
+}
+
+/* More Info Button */
+.course-info .course-detail-wrapper .course-detail,
+.course-info .course-image-wrapper .course-tag,
+.help-category-wrapper .course-tag,
+#wrapper.courses .body.current-tag .current-tag-wrapper .course-tag {
+	color: #BBB;
+	background: rgb(56, 56, 56);
+}
+
+/* Bookmark Button */
+#wrapper.special .button-wrapper .button.playlist.off,
+#wrapper.pickup .button-wrapper .button.playlist.off,
+#wrapper.ranking .button-wrapper .button.playlist.off,
+#wrapper.profile .button-wrapper .button.playlist.off,
+#wrapper.playlist .button-wrapper .button.playlist.off,
+#wrapper.courses .button-wrapper .button.playlist.off,
+#wrapper.search .button-wrapper .button.playlist.off,
+#wrapper.special .button-wrapper .button,
+#wrapper.pickup .button-wrapper .button,
+#wrapper.ranking .button-wrapper .button,
+#wrapper.profile .button-wrapper .button,
+#wrapper.playlist .button-wrapper .button,
+#wrapper.courses .button-wrapper .button,
+#wrapper.search .button-wrapper .button,
+#wrapper.courses .course-card .course-detail-wrapper .miiverse,
+#wrapper.courses .body.current-tag .update-tag-form .button,
+#wrapper.playlist .trash,
+#wrapper.playlist .locked,
+#wrapper.playlist .unlocked {
+	color: #BBB;
+	background: rgb(56, 56, 56);
+}
+#wrapper.special .button-wrapper .button.playlist.on,
+#wrapper.pickup .button-wrapper .button.playlist.on,
+#wrapper.ranking .button-wrapper .button.playlist.on,
+#wrapper.profile .button-wrapper .button.playlist.on,
+#wrapper.playlist .button-wrapper .button.playlist.on,
+#wrapper.courses .button-wrapper .button.playlist.on,
+#wrapper.search .button-wrapper .button.playlist.on {
+    background-color: rgb(76,76,76);
+}
+}
+
+@-moz-document url-prefix("https://id.nintendo.net/oauth/") {
+body {
+	color: #BBB;
+	background: rgb(36, 36, 36);
+}
+.hb-header,
+.no-js .hb-header-wrapper,
+.hb-footer,
+.no-js .hb-footer-wrapper {
+	background: rgb(16, 16, 16);
+}
+}
+
