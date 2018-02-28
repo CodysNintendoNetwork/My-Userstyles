@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Nintendo [All in One version]
 @namespace      github.com/CodyMKW/My-Userstyles
-@version        1.0.2
+@version        1.0.3
 @description    An All in One dark theme for every Nintendo website!
 @homepageURL https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -33,7 +33,7 @@
     #global-header nav, #alpha ul.menu li, #rn_MainColumn p.appliesTo {
     background: linear-gradient(#161616, #161616)  !important;
 }
-    nav.global-footer-top {
+    nav.global-footer-top, section.global-footer-bottom {
     background: linear-gradient(to top, #202020 0%,#202020 75%) !important;
 }
     #overview .drawer.truncated::after, #rn_DetailTools {
@@ -60,6 +60,9 @@
 }
 section.new-releases>ul li:nth-child(2), section.new-releases>ul li:nth-child(4) {
     border-left: 1px solid #000  !important;
+}
+    ul.footer-copyright:after {
+    content: ' - Dark Nintendo [AIO version] v1.0.3 by CodyMKW' !important;
 }
 }
 
@@ -133,7 +136,7 @@ body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMe
     background-image: url(/*[[character]]*/) !important;
 }
 small.copyright:after {
-    content: ' - Dark My Nintendo v1.2.4 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO version] v1.0.3 by CodyMKW' !important;
 }
 }
 
@@ -208,7 +211,7 @@ body {
     color: #cccccc !important;
 }
 .SiteFooter_copyright:after {
-    content: ' | Dark Nintendo Account v1.6.3 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO version] v1.0.3 by CodyMKW' !important;
 }
 }
 
@@ -373,6 +376,9 @@ body.playlist {
 #wrapper.search .button-wrapper .button.playlist.on {
     background-color: rgb(76,76,76);
 }
+    div#copyright:after {
+    content: ' - Dark Nintendo [AIO version] v1.0.3 by CodyMKW' !important;
+}
 }
 
 @-moz-document url-prefix("https://id.nintendo.net/oauth/") {
@@ -387,5 +393,3 @@ body {
 	background: rgb(16, 16, 16);
 }
 }
-
-
