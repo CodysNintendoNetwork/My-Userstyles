@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Nintendo [All in One version]
 @namespace      github.com/CodyMKW/My-Userstyles
-@version        1.0.3
+@version        1.0.4
 @description    An All in One dark theme for every Nintendo website!
 @homepageURL https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -14,6 +14,12 @@
   "Uraraka":"https://i.imgur.com/s8YvSL2.png",
   "Akko":"https://i.imgur.com/Ko8466B.png",
 }
+@var color text-color "Text (For supermariomakerbookmark.nintendo.net)" #BBBBBB
+@var color easy-color "Easy (For supermariomakerbookmark.nintendo.net)" #1A801A
+@var color normal-color "Normal (For supermariomakerbookmark.nintendo.net)" #1A4C80
+@var color expert-color "Expert (For supermariomakerbookmark.nintendo.net)" #801A4C
+@var color super-expert-color "Super Expert (For supermariomakerbookmark.nintendo.net)" #801A1A
+@var color ranking-color "Ranking (For supermariomakerbookmark.nintendo.net)" #4C1A80
 ==/UserStyle== */
 
 
@@ -62,7 +68,7 @@ section.new-releases>ul li:nth-child(2), section.new-releases>ul li:nth-child(4)
     border-left: 1px solid #000  !important;
 }
     ul.footer-copyright:after {
-    content: ' - Dark Nintendo [AIO version] v1.0.3 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO version] v1.0.4 by CodyMKW' !important;
 }
 }
 
@@ -211,7 +217,7 @@ body {
     color: #cccccc !important;
 }
 .SiteFooter_copyright:after {
-    content: ' - Dark Nintendo [AIO version] v1.0.3 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO version] v1.0.4 by CodyMKW' !important;
 }
 }
 
@@ -252,31 +258,31 @@ body.playlist {
 /* Super Expert */
 .bg-red,
 .help-category-wrapper .difficulty-super-expert {
-	background: #801A1A;
+	background: /*[[super-expert-color]]*/;
 }
 /* Expert */
 
 .bg-pink,
 .help-category-wrapper .difficulty-expert {
-	background: #801A4C;
+	background: /*[[expert-color]]*/;
 }
 
 /* Normal */
 .bg-blue,
 .help-category-wrapper .difficulty-normal {
-	background: #1A4C80;
+	background: /*[[normal-color]]*/;
 }
 
 /* Easy */
 .bg-green,
 .help-category-wrapper .difficulty-easy,
 .help-category-wrapper .clear-rate-flag {
-	background: #1A801A;
+	background: /*[[easy-color]]*/;
 }
 
 /* Ranking */
 .bg-purple {
-	background: #4C1A80;
+	background: /*[[ranking-color]]*/;
 }
 
 /* Text Color */
@@ -298,7 +304,7 @@ body.playlist {
 #wrapper.courses .header.bg-orange,
 #wrapper.courses .course-card .course-detail-wrapper .miiverse,
 #wrapper .description {
-	color: #BBBBBB;
+	color: /*[[text-color]]*/;
 }
 
 /* Cleared Flag */
@@ -377,7 +383,7 @@ body.playlist {
     background-color: rgb(76,76,76);
 }
     div#copyright:after {
-    content: ' - Dark Nintendo [AIO version] v1.0.3 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO version] v1.0.4 by CodyMKW' !important;
 }
 }
 
@@ -393,3 +399,4 @@ body {
 	background: rgb(16, 16, 16);
 }
 }
+
