@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Nintendo [All in One version]
 @namespace      github.com/CodyMKW/My-Userstyles
-@version        1.0.4
+@version        1.0.5
 @description    An All in One dark theme for every Nintendo website!
 @homepageURL https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -24,11 +24,14 @@
 
 
 @-moz-document domain("nintendo.com") {
-    body, div#page-container, .ratings-and-reviews .tags span, #global-header .search-suggestions, .review-form .tags .tag, #container, nclood-nav#nclood-nav nav, .secondaryNav li ul, .language_select, .rn_AnswerFeedback button:hover, .rn_AnswerFeedbackDialog button:hover, #rn_MainColumn table th, #rn_SearchControls .rn_SearchInput input {
+    body, div#page-container, .ratings-and-reviews .tags span, #global-header .search-suggestions, .review-form .tags .tag, #container, nclood-nav#nclood-nav nav, .secondaryNav li ul, .language_select, .rn_AnswerFeedback button:hover, .rn_AnswerFeedbackDialog button:hover, #rn_MainColumn table th, #rn_SearchControls .rn_SearchInput input, main {
     background: #161616 !important;
 }
-    #global-header .top-nav, #reviews-paginated > header, .ratings-and-reviews .tags, select, .review-form .tags, .review-form input, .review-form textarea, .review-form .archetype .check-mark, .review-form .spoiler-option .check-mark, #overview .button-row a, nclood-nav#nclood-nav .top-nav, .product_page_content, #rn_MainColumn, .rn_AnswerFeedback button, .rn_AnswerFeedbackDialog button, #rn_SearchControls {
+    #global-header .top-nav, #reviews-paginated > header, .ratings-and-reviews .tags, select, .review-form .tags, .review-form input, .review-form textarea, .review-form .archetype .check-mark, .review-form .spoiler-option .check-mark, #overview .button-row a, nclood-nav#nclood-nav .top-nav, .product_page_content, #rn_MainColumn, .rn_AnswerFeedback button, .rn_AnswerFeedbackDialog button, #rn_SearchControls, header#section-header, span.tout.white, section.online-service-features tr:nth-child(even) {
     background-color: #202020 !important;
+}
+body.pin-nav header#section-header div.pin {
+    background: rgba(82, 82, 82, 0.9) !important;
 }
     .review-form .tags .tag:hover {
     background-color: #32A2FF !important;
@@ -39,7 +42,7 @@
     #global-header nav, #alpha ul.menu li, #rn_MainColumn p.appliesTo {
     background: linear-gradient(#161616, #161616)  !important;
 }
-    nav.global-footer-top, section.global-footer-bottom {
+    nav.global-footer-top, section.global-footer-bottom, footer#nintendo-footer nav, footer#nintendo-footer .social-and-copyrights {
     background: linear-gradient(to top, #202020 0%,#202020 75%) !important;
 }
     #overview .drawer.truncated::after, #rn_DetailTools {
@@ -48,13 +51,13 @@
     #amiibo, #footer, div.carousel.hero.hero ul.carousel-pagination li:first-child:before, div.carousel.hero ul.carousel-pagination li:last-child:after {
     background: url('https://i.imgur.com/L1wvZer.png') top center no-repeat !important;
 }
-    h1, .h1, h2, .h2, h3, .h3, li, p, a, span, ul.games-search-autosuggest li.see-all-game-results a, option, optgroup, label, .review-form input, .review-form textarea, #rn_SearchControls .rn_SearchInput input {
+    h1, .h1, h2, .h2, h3, .h3, li, p, a, span, ul.games-search-autosuggest li.see-all-game-results a, option, optgroup, label, .review-form input, .review-form textarea, #rn_SearchControls .rn_SearchInput input, section.online-service-hero {
     color: #ccc !important;
 }
     #faq .faq-drawer, section.new-releases>ul li:nth-child(3), section.new-releases>ul li:nth-child(4), #alpha ul.menu li, #rn_MainColumn {
     border-top: 1px solid #000 !important;
 }
-    .ratings-and-reviews .review, article section, section.games, section.platforms, section.new-amiibo, section.news-games {
+    .ratings-and-reviews .review, article section, section.games, section.platforms, section.new-amiibo, section.news-games, section.online-service-features tr, section.online-service-pricing .pricing-info {
     border-bottom: 1px solid #000000 !important;
 }
     
@@ -67,8 +70,8 @@
 section.new-releases>ul li:nth-child(2), section.new-releases>ul li:nth-child(4) {
     border-left: 1px solid #000  !important;
 }
-    ul.footer-copyright:after {
-    content: ' - Dark Nintendo [AIO version] v1.0.4 by CodyMKW' !important;
+    ul.footer-copyright:after, footer#nintendo-footer .social-and-copyrights p.footer-copyright:after {
+    content: ' - Dark Nintendo [AIO version] v1.0.5 by CodyMKW' !important;
 }
 }
 
@@ -142,7 +145,7 @@ body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMe
     background-image: url(/*[[character]]*/) !important;
 }
 small.copyright:after {
-    content: ' - Dark Nintendo [AIO version] v1.0.3 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO version] v1.0.5 by CodyMKW' !important;
 }
 }
 
@@ -217,7 +220,7 @@ body {
     color: #cccccc !important;
 }
 .SiteFooter_copyright:after {
-    content: ' - Dark Nintendo [AIO version] v1.0.4 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO version] v1.0.5 by CodyMKW' !important;
 }
 }
 
@@ -383,7 +386,7 @@ body.playlist {
     background-color: rgb(76,76,76);
 }
     div#copyright:after {
-    content: ' - Dark Nintendo [AIO version] v1.0.4 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO version] v1.0.5 by CodyMKW' !important;
 }
 }
 
