@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Nintendo [All in One version]
 @namespace      github.com/CodyMKW/My-Userstyles
-@version        1.0.5
+@version        1.0.6
 @description    An All in One dark theme for every Nintendo website!
 @homepageURL https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -71,7 +71,7 @@ section.new-releases>ul li:nth-child(2), section.new-releases>ul li:nth-child(4)
     border-left: 1px solid #000  !important;
 }
     ul.footer-copyright:after, footer#nintendo-footer .social-and-copyrights p.footer-copyright:after {
-    content: ' - Dark Nintendo [AIO version] v1.0.5 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO version] v1.0.6 by CodyMKW' !important;
 }
 }
 
@@ -79,16 +79,16 @@ section.new-releases>ul li:nth-child(2), section.new-releases>ul li:nth-child(4)
 .NHeader, .NFooter, .NewsItem_content, .MainNav_button, .NotificationItem-readed, .SiteNavPanelMenu-main .SiteNavPanelMenu_item, .SiteNavPanelMenu-sub, .SiteNavPanel_contentScroller, .AboutPoint_expiration .callout, .Pager_item-first:after, .Pager_item-next:after, .Pager_item-previous:after, .Pager_item>a:hover, .SecondaryNav_item.current, .PointCategory_label .valueCell:before, .PointCategory_child, .PointExpiration_expirePoints:before, .PointHistoryGroup_points:before, .form-select .select:hover, .PointDetailChild, .RewardSwipe_info, .MissionItem_points, .btn-inverse:hover, .MissionItem_progressBar, .RewardPoint_wallet, .RewardItem_info, .MoreRewards_end .target:hover, .RewardCategoryList_heading, .RewardDetail_officialButton:hover, .AnonymousIndex_header .signInButton:hover, .AnonymousIndex_header .signUpButton:hover, .GiftItem_points, .OthersItem .OthersItem_visual-step .step {
     background-color: #202020 !important;
 }
-.Layout-main, .MiiStage, .PrimaryContent, .SecondaryContent, .MiiStage_bg, .MFooter, .Apps_inner, .AboutPoint_section, .AboutPoint_caution, .Layout-app, .GettingStartedPoint_reward, .SerialNumber_footer, .SerialNumber_enclose, .SerialNumber_actionInput, .SerialNumber_preview span.disabled, .Pager, .SecondaryNav, .PointCategory, .PointExpiration_item, .PointHistoryGroup_summary, .form-select, .PointHistoryGroup_footer, .PointHistoryGroup_border-expand, .PointDetail_body, .RewardSwipe, .RewardSwipe_title .text:before, .RewardFilter, .SiteNavPanelMenu-main .SiteNavPanelMenu_item:hover, .DirectNav a, .MissionItem_container, .btn-inverse, .Modal_contentInner, .RewardDetail_container, .RewardPoint, .MoreRewards, .RewardItem_title:before, .AvailablePoint_container, .RewardList_inner, .NewsDetail_body, .NewsDetail_footer, .AnonymousIndex_header, .AnonymousIndex_header .signInButton, .AnonymousIndex_header .signUpButton, .GiftList, .RewardResult {
+.Layout-main, .MiiStage, .PrimaryContent, .SecondaryContent, .MiiStage_bg, .MFooter, .Apps_inner, .AboutPoint_section, .AboutPoint_caution, .Layout-app, .GettingStartedPoint_reward, .SerialNumber_footer, .SerialNumber_enclose, .SerialNumber_actionInput, .SerialNumber_preview span.disabled, .Pager, .SecondaryNav, .PointCategory, .PointExpiration_item, .PointHistoryGroup_summary, .form-select, .PointHistoryGroup_footer, .PointHistoryGroup_border-expand, .PointDetail_body, .RewardSwipe, .RewardSwipe_title .text:before, .RewardFilter, .SiteNavPanelMenu-main .SiteNavPanelMenu_item:hover, .DirectNav a, .MissionItem_container, .btn-inverse, .Modal_contentInner, .RewardDetail_container, .RewardPoint, .MoreRewards, .RewardItem_title:before, .AvailablePoint_container, .RewardList_inner, .NewsDetail_body, .NewsDetail_footer, .AnonymousIndex_header, .AnonymousIndex_header .signInButton, .AnonymousIndex_header .signUpButton, .GiftList, .RewardResult, .GPRate, .GPGetType_body, .GPCaution, .GPFooter, .RewardGold {
     background-color: #161616 !important;
 }
 .Layout-app, .Modal_contentInner, .AnonymousIndex_header .signUpButton {
     background-image: none  !important;
 }
-.Apps_inner, .AboutPoint_section, .AboutPoint_caution, .GettingStartedPoint_reward, .SerialNumber_enclose, .SerialNumber_actionInput, .Pager, .SecondaryNav, .PointCategory, .PointExpiration_item, .PointHistoryGroup_summary:only-child, .form-select, .form-select:before, .RewardFilter, .DirectNav a, .MissionItem_container, .RewardDetail_enclose, .AvailablePoint_container, .AnonymousIndex_header .signInButton, .AnonymousIndex_header .signUpButton {
+.Apps_inner, .AboutPoint_section, .AboutPoint_caution, .GettingStartedPoint_reward, .SerialNumber_enclose, .SerialNumber_actionInput, .Pager, .SecondaryNav, .PointCategory, .PointExpiration_item, .PointHistoryGroup_summary:only-child, .form-select, .form-select:before, .RewardFilter, .DirectNav a, .MissionItem_container, .RewardDetail_enclose, .AvailablePoint_container, .AnonymousIndex_header .signInButton, .AnonymousIndex_header .signUpButton, .GPCaution {
     border: 4px solid #202020 !important;
 }
-.RewardPoint, .RewardPoint_wallet, .GiftList, .RewardResult {
+.RewardPoint, .RewardPoint_wallet, .GiftList, .RewardResult, .GPRate, .RewardGold {
     border: 8px solid #202020 !important;
 }
 .NotificationItem:last-child {
@@ -145,7 +145,7 @@ body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMe
     background-image: url(/*[[character]]*/) !important;
 }
 small.copyright:after {
-    content: ' - Dark Nintendo [AIO version] v1.0.5 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO version] v1.0.6 by CodyMKW' !important;
 }
 }
 
@@ -220,7 +220,7 @@ body {
     color: #cccccc !important;
 }
 .SiteFooter_copyright:after {
-    content: ' - Dark Nintendo [AIO version] v1.0.5 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO version] v1.0.6 by CodyMKW' !important;
 }
 }
 
@@ -386,7 +386,7 @@ body.playlist {
     background-color: rgb(76,76,76);
 }
     div#copyright:after {
-    content: ' - Dark Nintendo [AIO version] v1.0.5 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO version] v1.0.6 by CodyMKW' !important;
 }
 }
 
