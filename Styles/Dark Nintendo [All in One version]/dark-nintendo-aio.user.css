@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Nintendo [All in One version]
 @namespace      github.com/CodyMKW/My-Userstyles
-@version        1.0.6
+@version        1.0.7
 @description    An All in One dark theme for every Nintendo website!
 @homepageURL https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -71,7 +71,7 @@ section.new-releases>ul li:nth-child(2), section.new-releases>ul li:nth-child(4)
     border-left: 1px solid #000  !important;
 }
     ul.footer-copyright:after, footer#nintendo-footer .social-and-copyrights p.footer-copyright:after {
-    content: ' - Dark Nintendo [AIO version] v1.0.6 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO version] v1.0.7 by CodyMKW' !important;
 }
 }
 
@@ -145,7 +145,7 @@ body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMe
     background-image: url(/*[[character]]*/) !important;
 }
 small.copyright:after {
-    content: ' - Dark Nintendo [AIO version] v1.0.6 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO version] v1.0.7 by CodyMKW' !important;
 }
 }
 
@@ -220,7 +220,7 @@ body {
     color: #cccccc !important;
 }
 .SiteFooter_copyright:after {
-    content: ' - Dark Nintendo [AIO version] v1.0.6 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO version] v1.0.7 by CodyMKW' !important;
 }
 }
 
@@ -306,7 +306,7 @@ body.playlist {
 #wrapper.courses .body.current-tag .current-tag-wrapper .current-tag-label,
 #wrapper.courses .header.bg-orange,
 #wrapper.courses .course-card .course-detail-wrapper .miiverse,
-#wrapper .description {
+#wrapper .description, body.pickup #wrapper.pickup .special-courses-banner .title, body.special_courses #wrapper.special .special-list .course-card .title {
 	color: /*[[text-color]]*/;
 }
 
@@ -386,7 +386,7 @@ body.playlist {
     background-color: rgb(76,76,76);
 }
     div#copyright:after {
-    content: ' - Dark Nintendo [AIO version] v1.0.6 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO version] v1.0.7 by CodyMKW' !important;
 }
 }
 
