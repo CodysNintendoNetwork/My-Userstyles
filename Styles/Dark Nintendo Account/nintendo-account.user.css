@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark Nintendo Account
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.6.3
+@version 1.6.4
 @description A dark theme for the Nintendo Account website!
 @homepageURL https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -14,14 +14,17 @@ body {
     color: #CCCCCC !important;
     background-color: #161616 !important;
 }
+.FamilyBtnAdd::before {
+    background-color: #000000 !important;
+}
 .CheckBlockList_itemInner, .CheckBlockList_checkbox::before {
     border: 2px solid #000000 !important;
 }
-.Setting, .HeaderAccountMenu, .BoxBlock_body, .BoxBlock, .ProfileEdit, .LoginForm, .UnreceivedMailHelp {
+.Setting, .HeaderAccountMenu, .BoxBlock_body, .BoxBlock, .ProfileEdit, .LoginForm, .UnreceivedMailHelp, .c-blockBase {
     border: 1px solid #000000 !important;
     background-color: #202020 !important;
 }
-.SettingTitle, .SiteHeader, .SiteFooter, .HeaderAccountMenu_item a, .Term, .Modal, .Mii_item_inner, .Reauth_block, .PasswordEdit_block, .RegisterArea_lead span, .Account_userId, .NavList_item a, .ClientsSetting_title, .SignupForm, .SignupForm_inner, .AccordionList_item, .AuthorizeRedirect_pincode, .BoxBlock_head {
+.SettingTitle, .SiteHeader, .SiteFooter, .HeaderAccountMenu_item a, .Term, .Modal, .Mii_item_inner, .Reauth_block, .PasswordEdit_block, .RegisterArea_lead span, .Account_userId, .NavList_item a, .ClientsSetting_title, .SignupForm, .SignupForm_inner, .AccordionList_item, .AuthorizeRedirect_pincode, .BoxBlock_head, .FamilyBtnAdd_icon, .c-blockBase_inner-bgGray {
     background-color: #202020 !important;
 }
 .SettingDetails_item, .HeaderAccountMenu_item {
@@ -76,10 +79,10 @@ body {
 .NavList_item a .icon {
     fill: #cccccc !important;
 }
-.Account_userId, .AccordionList_item {
+.Account_userId, .AccordionList_item, .FamilyBtnAdd_text {
     color: #cccccc !important;
 }
 .SiteFooter_copyright:after {
-    content: ' | Dark Nintendo Account v1.6.3 by CodyMKW' !important;
+    content: ' | Dark Nintendo Account v1.6.4 by CodyMKW' !important;
 }
 }
