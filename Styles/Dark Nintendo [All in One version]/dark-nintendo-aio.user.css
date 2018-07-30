@@ -170,7 +170,7 @@ body {
 a.c-userList_item_inner:hover {
     background: #161616 !important;
 }
-.SettingDetails_item, .HeaderAccountMenu_item {
+.SettingDetails_item, .HeaderAccountMenu_item, .AccordionList_item+.AccordionList_item {
     border-top: 1px solid #000000 !important;
 }
 .HeaderAccountMenu_item a:hover, .formSelectLanguage select, .SettingTitle_action:hover, .SecondaryAction_btn:hover, .CheckBlockList_checkbox, .SnsLogin, .Expand_title {
@@ -222,7 +222,7 @@ a.c-userList_item_inner:hover {
 .NavList_item a .icon {
     fill: #cccccc !important;
 }
-.Account_userId, .AccordionList_item, .FamilyBtnAdd_text, .User_nickname {
+.Account_userId, .AccordionList_item, .FamilyBtnAdd_text, .User_nickname, .AccordionList_subInfo {
     color: #cccccc !important;
 }
 .SiteFooter_copyright:after {
