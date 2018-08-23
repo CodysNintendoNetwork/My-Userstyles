@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark Nintendo Account
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.6.6
+@version 1.6.7
 @description A dark theme for the Nintendo Account website!
 @homepageURL https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -24,13 +24,13 @@ body {
     border: 1px solid #000000 !important;
     background-color: #202020 !important;
 }
-.SettingTitle, .SiteHeader, .SiteFooter, .HeaderAccountMenu_item a, .Term, .Modal, .Mii_item_inner, .Reauth_block, .PasswordEdit_block, .RegisterArea_lead span, .Account_userId, .NavList_item a, .ClientsSetting_title, .SignupForm, .SignupForm_inner, .AccordionList_item, .AuthorizeRedirect_pincode, .BoxBlock_head, .FamilyBtnAdd_icon, .c-blockBase_inner-bgGray, .c-userList_item::after {
+.SettingTitle, .SiteHeader, .SiteFooter, .HeaderAccountMenu_item a, .Term, .Modal, .Mii_item_inner, .Reauth_block, .PasswordEdit_block, .RegisterArea_lead span, .Account_userId, .NavList_item a, .ClientsSetting_title, .SignupForm, .SignupForm_inner, .AccordionList_item, .AuthorizeRedirect_pincode, .BoxBlock_head, .FamilyBtnAdd_icon, .c-blockBase_inner-bgGray, .c-userList_item::after, .c-header, .c-footer, .c-header_accountMenu, .c-header_accountMenu_logout a {
     background-color: #202020 !important;
 }
-a.c-userList_item_inner:hover {
+a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover {
     background: #161616 !important;
 }
-.SettingDetails_item, .HeaderAccountMenu_item, .AccordionList_item+.AccordionList_item {
+.SettingDetails_item, .HeaderAccountMenu_item, .AccordionList_item+.AccordionList_item, .c-header_accountMenu_logout {
     border-top: 1px solid #000000 !important;
 }
 .HeaderAccountMenu_item a:hover, .formSelectLanguage select, .SettingTitle_action:hover, .SecondaryAction_btn:hover, .CheckBlockList_checkbox, .SnsLogin, .Expand_title {
@@ -51,7 +51,7 @@ a.c-userList_item_inner:hover {
     color: #fff  !important;
     background-color: #ff8267 !important;
 }
-.SignupForm, .AccordionList {
+.SignupForm, .AccordionList, .c-header_accountMenu {
     border: 1px solid #000 !important;
 }
 .CheckBlockList_checkbox {
@@ -82,10 +82,10 @@ a.c-userList_item_inner:hover {
 .NavList_item a .icon {
     fill: #cccccc !important;
 }
-.Account_userId, .AccordionList_item, .FamilyBtnAdd_text, .User_nickname, .AccordionList_subInfo {
+.Account_userId, .AccordionList_item, .FamilyBtnAdd_text, .User_nickname, .AccordionList_subInfo, .c-footer_links_item>a, .c-header_accountMenu_logout a {
     color: #cccccc !important;
 }
-.SiteFooter_copyright:after {
-    content: ' | Dark Nintendo Account v1.6.6 by CodyMKW' !important;
+.c-footer_copyright:after {
+    content: ' | Dark Nintendo Account v1.6.7 by CodyMKW' !important;
 }
 }
