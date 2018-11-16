@@ -1,0 +1,39 @@
+/* ==UserStyle==
+@name           Dark Wiimmfi.de
+@namespace      github.com/CodyMKW/My-Userstyles
+@version        1.0.0
+@description    A dark userstyle for the WiimmFi website
+@author         CodyMKW
+==/UserStyle== */
+
+@-moz-document domain("wiimmfi.de") {
+body {
+    background-color: #161616;
+}
+.text, .text-wd, .text2, .text-info, .contents {
+    background-color: #202020;
+    color: #cccccc;
+    border: solid 1px #000000;
+    box-shadow: 5px 5px 10px #0f0f10;
+    -moz-box-shadow: 5px 5px 10px #0f0f10;
+    -webkit-box-shadow: 5px 5px 10px #0f0f10;
+    -khtml-box-shadow: 5px 5px 10px #0f0f10;
+}
+small, div.subhead {
+    color: #cccccc;
+}
+.text-warn {
+    color: #000000;
+    border: solid 1px #a00000;
+    box-shadow: 5px 5px 10px #0f0f10;
+    -moz-box-shadow: 5px 5px 10px #0f0f10;
+    -webkit-box-shadow: 5px 5px 10px #0f0f10;
+    -khtml-box-shadow: 5px 5px 10px #0f0f10;
+}
+h1, h2, h3, h4, h5, h6, a {
+    color: #00c044;
+}
+td:focus, span:focus, a:focus {
+    background-color: #161616;
+}
+}
