@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Wiimmfi.de
 @namespace      github.com/CodyMKW/My-Userstyles
-@version        1.0.1
+@version        1.0.2
 @description    A dark userstyle for the WiimmFi website
 @author         CodyMKW
 ==/UserStyle== */
@@ -35,5 +35,8 @@ h1, h2, h3, h4, h5, h6, a, dt.changelog, .opt-checked {
 }
 td:focus, span:focus, a:focus {
     background-color: #161616;
+}
+td {
+    color: #000000;
 }
 }
