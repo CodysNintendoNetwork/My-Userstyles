@@ -10,7 +10,7 @@
 body {
     background-color: #161616;
 }
-.text, .text-wd, .text2, .text-info, .contents {
+.text, .text-wd, .text2, .text-info, .contents, table.ask {
     background-color: #202020;
     color: #cccccc;
     border: solid 1px #000000;
@@ -19,7 +19,7 @@ body {
     -webkit-box-shadow: 5px 5px 10px #0f0f10;
     -khtml-box-shadow: 5px 5px 10px #0f0f10;
 }
-small, div.subhead, label, b {
+small, div.subhead, label, b, table.ask caption {
     color: #cccccc;
 }
 .text-warn {
