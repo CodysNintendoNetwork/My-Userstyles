@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Wiimmfi.de
 @namespace      github.com/CodyMKW/My-Userstyles
-@version        1.0.2
+@version        1.0.3
 @description    A dark userstyle for the WiimmFi website
 @author         CodyMKW
 ==/UserStyle== */
@@ -22,9 +22,19 @@ body {
 small, div.subhead, label, b, table.ask caption {
     color: #cccccc;
 }
+.important {
+    color: #bd0707;
+}
 .text-warn {
     color: #000000;
     border: solid 1px #a00000;
+    box-shadow: 5px 5px 10px #0f0f10;
+    -moz-box-shadow: 5px 5px 10px #0f0f10;
+    -webkit-box-shadow: 5px 5px 10px #0f0f10;
+    -khtml-box-shadow: 5px 5px 10px #0f0f10;
+}
+.text.orange {
+    color: #000000;
     box-shadow: 5px 5px 10px #0f0f10;
     -moz-box-shadow: 5px 5px 10px #0f0f10;
     -webkit-box-shadow: 5px 5px 10px #0f0f10;
@@ -38,5 +48,9 @@ td:focus, span:focus, a:focus {
 }
 td {
     color: #000000;
+}
+span.nb-frame.nb-classic:after {
+    content: ' | Dark Wiimmfi.de v1.0.3 by CodyMKW' !important;
+    color: cyan;
 }
 }
