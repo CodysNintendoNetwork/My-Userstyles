@@ -30,7 +30,7 @@ body {
 a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingTitle_action:hover, .c-modal_content, .c-secondaryAction_btn:hover, .c-expand_title {
     background: #161616 !important;
 }
-.SettingDetails_item, .HeaderAccountMenu_item, .AccordionList_item+.AccordionList_item, .c-header_accountMenu_logout, .c-settingDetails_item {
+.SettingDetails_item, .HeaderAccountMenu_item, .AccordionList_item+.AccordionList_item, .c-header_accountMenu_logout, .c-settingDetails_item, .c-accordionList_item+.c-accordionList_item {
     border-top: 1px solid #000000 !important;
 }
 .HeaderAccountMenu_item a:hover, .formSelectLanguage select, .SettingTitle_action:hover, .SecondaryAction_btn:hover, .CheckBlockList_checkbox, .SnsLogin, .Expand_title, .c-checkBlockList .c-checkBlockList_checkbox {
@@ -87,7 +87,7 @@ a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingT
 .NavList_item a .icon, .c-globalNav_listItem .icon {
     fill: #cccccc !important;
 }
-.Account_userId, .AccordionList_item, .FamilyBtnAdd_text, .User_nickname, .AccordionList_subInfo, .c-footer_links_item>a, .c-header_accountMenu_logout a,.c-settingTitle_action, .c-globalNav_listItem a, .c-secondaryAction_btn, .c-accordionList_subInfo {
+.Account_userId, .AccordionList_item, .FamilyBtnAdd_text, .User_nickname, .AccordionList_subInfo, .c-footer_links_item>a, .c-header_accountMenu_logout a,.c-settingTitle_action, .c-globalNav_listItem a, .c-secondaryAction_btn, .c-accordionList_subInfo, .c-accordionList_item {
     color: #cccccc !important;
 }
 .c-footer_copyright:after {
