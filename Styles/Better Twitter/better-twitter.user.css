@@ -1,0 +1,133 @@
+/* ==UserStyle==
+@name           Better Twitter
+@namespace      github.com/CodyMKW/My-Userstyles
+@version        1.0.0
+@description    Makes twitter a lot better!
+@author         CodyMKW
+==/UserStyle== */
+
+@-moz-document domain("twitter.com") {
+/*Center the photos.*/
+.AdaptiveMedia-video,
+.AdaptiveMedia-singlePhoto,
+.AdaptiveMedia-doublePhoto,
+.AdaptiveMedia-triplePhoto,
+.AdaptiveMedia-quadPhoto,
+.AdaptiveMedia-halfWidthPhoto,
+.AdaptiveMedia-twoThirdsWidthPhoto,
+.AdaptiveMedia-threeQuartersWidthPhoto,
+.AdaptiveMedia-halfHeightPhoto,
+.AdaptiveMedia-halfHeightPhotoContainer,
+.AdaptiveMedia-thirdHeightPhoto,
+.AdaptiveMedia-thirdHeightPhotoContainer,
+.AdaptiveMedia-photoContainer img
+  {
+    display: block !important;
+    position: static !important;
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 4px !important;
+  }
+/*Video window*/
+.AdaptiveMedia,
+.AdaptiveMedia-video
+.PlayableMedia-container
+  {
+    max-height: none !important;
+    max-width: 100% !important;
+    min-height: 100% !important;
+    border-radius: 4px !important;
+  }
+/*Remove bullshit*/
+.moments,
+li[data-suggestion-json*="ActivityTweet"],
+li.promoted-trend,
+li.promoted-account,
+div.promoted-tweet,
+div.promoted-tweet-heading,
+div.DashUserDropdown li>a[data-nav="all_moments"],
+div.DashUserDropdown li>a[data-nav="promote-mode"],
+div.DashUserDropdown li>a[data-nav="ads"],
+div.flex-module.trends-container,
+div.flexmodule.trends,
+div.module.trends,
+div.module.roaming-module.wtf-module.js-wtf-module.has-content,
+div.Footer.module.roaming-module,
+div.ProfileWTFAndTrends,
+div.trends-inner,
+div.flex-module.import-prompt
+  {
+    display: none !important;
+  }
+/*Not Logged In*/
+div.module.Trends.trends,
+div.RelatedUsers.module
+  {
+    display: none !important;
+  }
+/*Profile Card Fixes*/
+.DashboardProfileCard
+  {
+    margin-bottom: -8px !important;
+    border-radius: 4px !important;
+  }
+.ProfileCardStats
+  {
+    text-align: center !important;
+    height: 30px !important;
+  }
+.wrapper-home
+  {
+    width: 590px !important;
+  }
+/*Width of main column*/
+.content-main
+  {
+    position: relative !important;
+    margin: 0 !important;
+  }
+/*Profile Width*/
+ .dashboard-left
+  {
+    width: 100% !important;
+    height: 100% !important;
+    border-bottom: solid transparent 8px;
+  }
+/*Fix for suggestions after following someone*/
+.ProfileClusterFollow
+  {
+    padding: 14px 0 1px!important;
+    border-bottom: none !important;
+  }
+div.AdaptiveSearchPage-moduleHeader
+  {
+    padding: 8px !important;
+  }
+.AdaptiveSearchTimeline-separationModule
+  {
+    margin-bottom: 10px !important;
+  }
+div.ProfileCard.js-actionable-user.with-SocialContext
+  {
+    width: 315px !important;
+    height: 282px !important;
+  }
+p.social-proof
+  {
+    margin-top: 0 !important;
+  }
+/*In case you missed*/
+.stream-item.separated-module
+  {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    border-radius: 4px !important;
+  }
+/*Rounding things*/
+div.home-tweet-box.tweet-box.component.tweet-user
+.DashboardProfileCard-content
+  {
+    border-radius: 4px !important;
+    margin-bottom: 5px;
+  }
+}
