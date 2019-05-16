@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Better Twitter
 @namespace      github.com/CodyMKW/My-Userstyles
-@version        1.0.0
+@version        1.0.1
 @description    Makes twitter a lot better!
 @author         CodyMKW
 ==/UserStyle== */
@@ -76,7 +76,7 @@ div.RelatedUsers.module
     text-align: center !important;
     height: 30px !important;
   }
-.wrapper-home
+.wrapper-home, .wrapper
   {
     width: 590px !important;
   }
