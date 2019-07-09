@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark Stylus
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.0.0
+@version 1.0.1
 @description Dark version of manage pages in the Stylus!
 @homepageURL https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -10,13 +10,13 @@
 ==/UserStyle== */
 
 @-moz-document regexp("chrome-extension://.*"), regexp("moz-extension://.*") {
-#header {
+#header, #backup-buttons .dropdown-content a:hover {
     color: #e1e1e1 !important;
     background: #262626 !important;
     border-style: none !important;
 }
 
-input {
+input, #backup-buttons .dropdown-content {
     background-color: #161616 !important;
     color: #CCCCCC !important;
     border: 1px solid #000000 !important;
@@ -71,7 +71,7 @@ content:'?' !important;
 .newUI .entry:nth-child(2n) {
     background-color: rgb(31, 31, 31) !important;
 }
-.svg-icon:hover, .newUI .entry:hover .svg-icon:hover {
+.svg-icon:hover, .newUI .entry:hover .svg-icon:hover, input[type="checkbox"]:not(.slider):checked + .svg-icon.checked, .svg-icon.select-arrow {
     fill: #fff !important;
 }
 #message-box.danger #message-box-title {
@@ -95,7 +95,11 @@ content:'?' !important;
     outline: transparent !important;
     border: 1px solid #505050 !important;
 }
-#confirm>div {
+#hotkey-info div:first-child, #hotkey-info div, #hotkey-info[data-active] {
+    background-color: #202020;
+    border: solid 2px #202020;
+}
+#confirm>div, .menu-items-wrapper {
     background-color: #202020;
     border: solid 2px rgba(0, 0, 0, 0.52);
 }
