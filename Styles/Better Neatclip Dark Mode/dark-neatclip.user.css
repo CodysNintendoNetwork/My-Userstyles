@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Better Neatclip Dark Mode
 @namespace      github.com/CodyMKW/My-Userstyles
-@version        1.0.0
+@version        1.0.1
 @description    A better dark mode for Neatclip.com
 @homepageURL https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -10,15 +10,15 @@
 ==/UserStyle== */
 
 @-moz-document domain("neatclip.com") {
-body, .bg-white, .clip-card .input-title {
+body, html, .bg-white, .clip-card .input-title {
     background-color:#202020 !important;
     
 }
-.navbar, .index-input-container, .card-body, .container.limit-width-800.clearfix.border.bg-white.mt-4.p-3.rounded {
+.navbar, .index-input-container, .card-body, .container.limit-width-800.clearfix.border.bg-white.mt-4.p-3.rounded, .clip-info-col {
     background-color:#161616 !important;
     border-bottom-color:black !important;
 }
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link, .clip-card .input-title, td {
     color: #ffffff !important;
 }
 span.h4.float-left.mr-2, h3, h4 {
@@ -26,5 +26,8 @@ span.h4.float-left.mr-2, h3, h4 {
 }
 label, .text-muted, p {
     color: #959595 !important;
+}
+.border {
+    border: 1px solid #000000 !important;
 }
 }
