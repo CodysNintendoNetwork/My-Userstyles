@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark Nintendo Account
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.7.0
+@version 1.7.1
 @description A dark theme for the Nintendo Account website!
 @homepageURL https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -20,14 +20,14 @@ body {
 .CheckBlockList_itemInner, .CheckBlockList_checkbox::before {
     border: 2px solid #000000 !important;
 }
-.Setting, .HeaderAccountMenu, .BoxBlock_body, .BoxBlock, .ProfileEdit, .LoginForm, .UnreceivedMailHelp, .c-blockBase {
+.Setting, .HeaderAccountMenu, .BoxBlock_body, .BoxBlock, .ProfileEdit, .LoginForm, .UnreceivedMailHelp, .c-blockBase, .AuthorizeAgeGateUsForm {
     border: 1px solid #000000 !important;
     background-color: #202020 !important;
 }
-.SettingTitle, .SiteHeader, .SiteFooter, .HeaderAccountMenu_item a, .Term, .Modal, .Mii_item_inner, .Reauth_block, .PasswordEdit_block, .RegisterArea_lead span, .Account_userId, .NavList_item a, .ClientsSetting_title, .SignupForm, .SignupForm_inner, .AccordionList_item, .AuthorizeRedirect_pincode, .BoxBlock_head, .FamilyBtnAdd_icon, .c-blockBase_inner-bgGray, .c-userList_item::after, .c-header, .c-footer, .c-header_accountMenu, .c-header_accountMenu_logout a, .c-settingTitle, .c-setting, .c-secondaryAction_btn, .c-accordionList_item {
+.SettingTitle, .SiteHeader, .SiteFooter, .HeaderAccountMenu_item a, .Term, .Modal, .Mii_item_inner, .Reauth_block, .PasswordEdit_block, .RegisterArea_lead span, .Account_userId, .NavList_item a, .ClientsSetting_title, .SignupForm, .SignupForm_inner, .AccordionList_item, .AuthorizeRedirect_pincode, .BoxBlock_head, .FamilyBtnAdd_icon, .c-blockBase_inner-bgGray, .c-userList_item::after, .c-header, .c-footer, .c-header_accountMenu, .c-header_accountMenu_logout a, .c-settingTitle, .c-setting, .c-secondaryAction_btn, .c-accordionList_item, .LoginForm_sns, .LoginForm input, .AuthorizeAgeGateUsForm_inner {
     background-color: #202020 !important;
 }
-a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingTitle_action:hover, .c-modal_content, .c-secondaryAction_btn:hover, .c-expand_title {
+a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingTitle_action:hover, .c-modal_content, .c-secondaryAction_btn:hover, .c-expand_title, .c-btn-secondary:hover {
     background: #161616 !important;
 }
 .SettingDetails_item, .HeaderAccountMenu_item, .AccordionList_item+.AccordionList_item, .c-header_accountMenu_logout, .c-settingDetails_item, .c-accordionList_item+.c-accordionList_item {
@@ -36,7 +36,7 @@ a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingT
 .HeaderAccountMenu_item a:hover, .formSelectLanguage select, .SettingTitle_action:hover, .SecondaryAction_btn:hover, .CheckBlockList_checkbox, .SnsLogin, .Expand_title, .c-checkBlockList .c-checkBlockList_checkbox {
     background-color: #161616 !important;
 }
-[type="text"], [type="password"], [type="date"], [type="datetime"], [type="datetime-local"], [type="month"], [type="week"], [type="email"], [type="number"], [type="search"], [type="tel"], [type="time"], [type="url"], [type="color"], select, textarea, .AllCheckList_checkbox {
+[type="text"], [type="password"], [type="date"], [type="datetime"], [type="datetime-local"], [type="month"], [type="week"], [type="email"], [type="number"], [type="search"], [type="tel"], [type="time"], [type="url"], [type="color"], select, textarea, .AllCheckList_checkbox, .LoginForm_body {
     background-color: #161616 !important;
     border: 1px solid #000000 !important;
 }
@@ -51,7 +51,7 @@ a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingT
     color: #fff  !important;
     background-color: #ff8267 !important;
 }
-.SignupForm, .AccordionList, .c-header_accountMenu, .c-setting,.c-settingTitle_action, .c-loginHistoryListSummary_item+.c-loginHistoryListSummary_item .c-loginHistoryListSummary_itemInner, .c-secondaryAction_btn, .c-accordionList {
+.SignupForm, .AccordionList, .c-header_accountMenu, .c-setting,.c-settingTitle_action, .c-loginHistoryListSummary_item+.c-loginHistoryListSummary_item .c-loginHistoryListSummary_itemInner, .c-secondaryAction_btn, .c-accordionList, .c-btn-secondary {
     border: 1px solid #000 !important;
 }
 .CheckBlockList_checkbox, .c-checkBlockList_itemInner, .c-checkBlockList_checkbox {
@@ -87,10 +87,10 @@ a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingT
 .NavList_item a .icon, .c-globalNav_listItem .icon {
     fill: #cccccc !important;
 }
-.Account_userId, .AccordionList_item, .FamilyBtnAdd_text, .User_nickname, .AccordionList_subInfo, .c-footer_links_item>a, .c-header_accountMenu_logout a,.c-settingTitle_action, .c-globalNav_listItem a, .c-secondaryAction_btn, .c-accordionList_subInfo, .c-accordionList_item {
+.Account_userId, .AccordionList_item, .FamilyBtnAdd_text, .User_nickname, .AccordionList_subInfo, .c-footer_links_item>a, .c-header_accountMenu_logout a,.c-settingTitle_action, .c-globalNav_listItem a, .c-secondaryAction_btn, .c-accordionList_subInfo, .c-accordionList_item, .c-formSelectLanguage select, .c-btn-medium {
     color: #cccccc !important;
 }
 .c-footer_copyright:after {
-    content: ' | Dark Nintendo Account v1.7.0 by CodyMKW' !important;
+    content: ' | Dark Nintendo Account v1.7.1 by CodyMKW' !important;
 }
 }
