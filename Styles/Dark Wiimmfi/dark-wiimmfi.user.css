@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Wiimmfi
 @namespace      github.com/CodyMKW/My-Userstyles
-@version        1.0.5
+@version        1.0.6
 @description    A dark userstyle for the WiimmFi website
 @author         CodyMKW
 ==/UserStyle== */
@@ -52,11 +52,14 @@ h1, h2, h3, h4, h5, h6, a, dt.changelog, .opt-checked {
 td:focus, span:focus, a:focus {
     background-color: #161616;
 }
-td {
+td, small, div.subhead, label, b, table.ask caption, p, h1.narrow {
     color: #000000;
 }
+div.text-help, div.text-success, div.text-warn, div.text-error, div.text-help-100, div.text-success-100, div.text-warn-100, div.text-error-100, div.text.orange, div.text-wide.orange, div.text-100.orange {
+    box-shadow: 5px 5px 10px #0c0b0b;
+}
 span.nb-frame.nb-classic:after {
-    content: ' | Dark Wiimmfi v1.0.5 by CodyMKW' !important;
+    content: ' | Dark Wiimmfi v1.0.6 by CodyMKW' !important;
     color: cyan;
 }
 }
