@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark My Nintendo
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.2.5
+@version 1.2.6
 @description A dark theme for the My Nintendo website!
 @homepageURL https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -13,6 +13,8 @@
   "Kanna": "https://i.imgur.com/1QpHTqY.png",
   "Uraraka":"https://i.imgur.com/s8YvSL2.png",
   "Akko":"https://i.imgur.com/Ko8466B.png",
+  "Naruto":"https://i.imgur.com/DAvtDec.png",
+  "Baruto":"https://i.imgur.com/EZ2F6Fq.png",
 }
 ==/UserStyle== */
 
@@ -86,6 +88,6 @@ body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMe
     background-image: url(/*[[character]]*/) !important;
 }
 small.copyright:after {
-    content: ' - Dark My Nintendo v1.2.5 by CodyMKW' !important;
+    content: ' - Dark My Nintendo v1.2.6 by CodyMKW' !important;
 }
 }
