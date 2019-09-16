@@ -4,7 +4,7 @@ about: Give feedback or report anything that's broken with any of my styles!
 
 ---
 
-* **Browser**:
-* **Operating System**:
-* **Details**:
-* **Screenshot**:
+* **Browser**: 
+* **Operating System**: 
+* **Details**: 
+* **Screenshot**: 
