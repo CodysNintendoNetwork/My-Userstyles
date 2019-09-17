@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name           Dark Nintendo [All in One version]
+@name           Dark Nintendo [All in One]
 @namespace      github.com/CodyMKW/My-Userstyles
 @version        1.0.9
 @description    An All in One dark theme for every Nintendo website!
@@ -74,7 +74,7 @@ section.new-releases>ul li:nth-child(2), section.new-releases>ul li:nth-child(4)
     border-left: 1px solid #000  !important;
 }
     ul.footer-copyright:after, footer#nintendo-footer .social-and-copyrights p.footer-copyright:after {
-    content: ' - Dark Nintendo [AIO version] v1.0.9 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO] v1.0.9 by CodyMKW' !important;
 }
 }
 
@@ -168,7 +168,7 @@ body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMe
   }
 }
 small.copyright:after {
-    content: ' - Dark Nintendo [AIO version] v1.0.9 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO] v1.0.9 by CodyMKW' !important;
 }
 }
 
@@ -254,7 +254,7 @@ a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingT
     color: #cccccc !important;
 }
 .SiteFooter_copyright:after {
-    content: ' - Dark Nintendo [AIO version] v1.0.9 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO] v1.0.9 by CodyMKW' !important;
 }
 }
 
@@ -420,7 +420,7 @@ body.playlist {
     background-color: rgb(76,76,76);
 }
     div#copyright:after {
-    content: ' - Dark Nintendo [AIO version] v1.0.9 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO] v1.0.9 by CodyMKW' !important;
 }
 }
 
