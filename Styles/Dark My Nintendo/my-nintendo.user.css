@@ -1,21 +1,22 @@
 /* ==UserStyle==
 @name Dark My Nintendo
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.2.6
+@version 1.2.7
 @description A dark theme for the My Nintendo website!
 @homepageURL https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
 @author CodyMKW (https://codymkw.github.io)
 @license CC-BY-SA-4.0
-@preprocessor uso
-@var select   character   'Choose a character'    {
-  "Mario": "https://cdn.my.nintendo.com/static/dist/images/pc/common/sprite/parts.8313da4e3b9a1725.png",
-  "Kanna": "https://i.imgur.com/1QpHTqY.png",
-  "Uraraka":"https://i.imgur.com/s8YvSL2.png",
-  "Akko":"https://i.imgur.com/Ko8466B.png",
-  "Naruto":"https://i.imgur.com/DAvtDec.png",
-  "Baruto":"https://i.imgur.com/EZ2F6Fq.png",
-}
+@preprocessor stylus
+@var select   character   'Choose a character'    [
+  "Mario",
+  "Kanna",
+  "Uraraka",
+  "Akko",
+  "Naruto",
+  "Baruto"
+]
+@var checkbox dropshadow    "Add Drop Shadow to character"  0
 ==/UserStyle== */
 
 @-moz-document domain("my.nintendo.com") {
@@ -85,9 +86,29 @@ body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMe
     background-color: #3e3e3e !important;
 }
 .MFooter_character .mario {
-    background-image: url(/*[[character]]*/) !important;
+  if character == "Mario" {
+    background-image: url(https://cdn.my.nintendo.com/static/dist/images/pc/common/sprite/parts.8313da4e3b9a1725.png) !important;
+  }
+  else if character == "Kanna" {
+    background-image: url(https://i.imgur.com/1QpHTqY.png) !important;
+  }
+  else if character == "Uraraka" {
+    background-image: url(https://i.imgur.com/s8YvSL2.png) !important;
+  }
+  else if character == "Akko" {
+    background-image: url(https://i.imgur.com/Ko8466B.png) !important;
+  }
+  else if character == "Naruto" {
+    background-image: url(https://i.imgur.com/DAvtDec.png) !important;
+  }
+  else if character == "Baruto" {
+    background-image: url(https://i.imgur.com/EZ2F6Fq.png) !important;
+  }
+  if dropshadow {
+   filter: drop-shadow(2px 4px 6px black);
+  }
 }
 small.copyright:after {
-    content: ' - Dark My Nintendo v1.2.6 by CodyMKW' !important;
+    content: ' - Dark My Nintendo v1.2.7 by CodyMKW' !important;
 }
 }
