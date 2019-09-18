@@ -17,6 +17,7 @@
   "Baruto",
   "CodyMKW"
 ]
+@var checkbox dropshadow    "Character Drop Shadow"  0
 @var select   backtotop   'Back to Top Image'    [
   "Block",
   "Kanna Head",
@@ -26,7 +27,6 @@
   "Rinnegan",
   "CodyMKW Mii"
 ]
-@var checkbox dropshadow    "Character Drop Shadow"  0
 ==/UserStyle== */
 
 @-moz-document domain("my.nintendo.com") {
