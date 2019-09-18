@@ -20,7 +20,7 @@
 @var select   backtotop   'Back to Top Image'    [
   "Block",
   "Kanna Head",
-  "U.A. Academy logo",
+  "UA Academy logo",
   "Luna Nova emblem",
   "Sharingan",
   "Rinnegan",
@@ -128,7 +128,7 @@ body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMe
   else if backtotop == "Kanna Head" {
     background-image: url(https://i.imgur.com/ykdCRXz.png) !important;
   }
-  else if backtotop == "U.A. Academy logo" {
+  else if backtotop == "UA Academy logo" {
     background-image: url(https://i.imgur.com/ucNf5HT.png) !important;
   }
   else if backtotop == "Luna Nova emblem" {
