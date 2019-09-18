@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Nintendo [All in One]
 @namespace      github.com/CodyMKW/My-Userstyles
-@version        1.0.9
+@version        1.1.0
 @description    An All in One dark theme for every Nintendo website!
 @homepageURL https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -17,6 +17,15 @@
   "Baruto"
 ]
 @var checkbox dropshadow    "Character Drop Shadow (For my.nintendo.com)"  0
+@var select   backtotop   'Back to Top Image (For my.nintendo.com)'    [
+  "Block",
+  "Kanna-Head",
+  "UA-Academy-logo",
+  "Luna-Nova-emblem",
+  "Sharingan",
+  "Rinnegan",
+  "CodyMKW-Mii"
+]
 @var color text-color "Text (For supermariomakerbookmark.nintendo.net)" #BBBBBB
 @var color easy-color "Easy (For supermariomakerbookmark.nintendo.net)" #1A801A
 @var color normal-color "Normal (For supermariomakerbookmark.nintendo.net)" #1A4C80
@@ -74,7 +83,7 @@ section.new-releases>ul li:nth-child(2), section.new-releases>ul li:nth-child(4)
     border-left: 1px solid #000  !important;
 }
     ul.footer-copyright:after, footer#nintendo-footer .social-and-copyrights p.footer-copyright:after {
-    content: ' - Dark Nintendo [AIO] v1.0.9 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO] v1.1.0 by CodyMKW' !important;
 }
 }
 
@@ -149,26 +158,52 @@ body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMe
     background-image: url(https://cdn.my.nintendo.com/static/dist/images/pc/common/sprite/parts.8313da4e3b9a1725.png) !important;
   }
   else if character == "Kanna" {
-    background-image: url(https://i.imgur.com/1QpHTqY.png) !important;
+    background-image: url(https://i.imgur.com/ykdCRXz.png) !important;
   }
   else if character == "Uraraka" {
-    background-image: url(https://i.imgur.com/s8YvSL2.png) !important;
+    background-image: url(https://i.imgur.com/ucNf5HT.png) !important;
   }
   else if character == "Akko" {
-    background-image: url(https://i.imgur.com/Ko8466B.png) !important;
+    background-image: url(https://i.imgur.com/RJca0Ug.png) !important;
   }
   else if character == "Naruto" {
-    background-image: url(https://i.imgur.com/DAvtDec.png) !important;
+    background-image: url(https://i.imgur.com/sFjHBX1.png) !important;
   }
   else if character == "Baruto" {
-    background-image: url(https://i.imgur.com/EZ2F6Fq.png) !important;
+    background-image: url(https://i.imgur.com/A32YtWt.png) !important;
+  }
+  else if character == "CodyMKW" {
+    background-image: url(https://i.imgur.com/bnQEgoo.png) !important;
   }
   if dropshadow {
    filter: drop-shadow(2px 4px 6px black);
   }
 }
+.NFooter .officialSite, .Pagetop {
+  if backtotop == "Block" {
+    background-image: url(https://cdn.my.nintendo.com/static/dist/images/pc/common/sprite/parts.8313da4e3b9a1725.png) !important;
+  }
+  else if backtotop == "Kanna-Head" {
+    background-image: url(https://i.imgur.com/ykdCRXz.png) !important;
+  }
+  else if backtotop == "UA-Academy-logo" {
+    background-image: url(https://i.imgur.com/ucNf5HT.png) !important;
+  }
+  else if backtotop == "Luna-Nova-emblem" {
+    background-image: url(https://i.imgur.com/RJca0Ug.png) !important;
+  }
+  else if backtotop == "Sharingan" {
+    background-image: url(https://i.imgur.com/sFjHBX1.png) !important;
+  }
+  else if backtotop == "Rinnegan" {
+    background-image: url(https://i.imgur.com/A32YtWt.png) !important;
+  }
+  else if backtotop == "CodyMKW-Mii" {
+    background-image: url(https://i.imgur.com/bnQEgoo.png) !important;
+  }
+}
 small.copyright:after {
-    content: ' - Dark Nintendo [AIO] v1.0.9 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO] v1.1.0 by CodyMKW' !important;
 }
 }
 
@@ -254,7 +289,7 @@ a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingT
     color: #cccccc !important;
 }
 .SiteFooter_copyright:after {
-    content: ' - Dark Nintendo [AIO] v1.0.9 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO] v1.1.0 by CodyMKW' !important;
 }
 }
 
@@ -420,7 +455,7 @@ body.playlist {
     background-color: rgb(76,76,76);
 }
     div#copyright:after {
-    content: ' - Dark Nintendo [AIO] v1.0.9 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO] v1.1.0 by CodyMKW' !important;
 }
 }
 
