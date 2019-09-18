@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Nintendo [All in One]
 @namespace      github.com/CodyMKW/My-Userstyles
-@version        1.1.0
+@version        1.1.1
 @description    An All in One dark theme for every Nintendo website!
 @homepageURL https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -81,9 +81,6 @@ body.pin-nav header#section-header div.pin {
 }
 section.new-releases>ul li:nth-child(2), section.new-releases>ul li:nth-child(4) {
     border-left: 1px solid #000  !important;
-}
-    ul.footer-copyright:after, footer#nintendo-footer .social-and-copyrights p.footer-copyright:after {
-    content: ' - Dark Nintendo [AIO] v1.1.0 by CodyMKW' !important;
 }
 }
 
@@ -202,9 +199,6 @@ body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMe
     background-image: url(https://i.imgur.com/bnQEgoo.png) !important;
   }
 }
-small.copyright:after {
-    content: ' - Dark Nintendo [AIO] v1.1.0 by CodyMKW' !important;
-}
 }
 
 @-moz-document domain("accounts.nintendo.com") {
@@ -287,9 +281,6 @@ a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingT
 }
 .Account_userId, .AccordionList_item, .FamilyBtnAdd_text, .User_nickname, .AccordionList_subInfo, .c-footer_links_item>a, .c-header_accountMenu_logout a,.c-settingTitle_action, .c-globalNav_listItem a, .c-secondaryAction_btn, .c-accordionList_subInfo, .c-accordionList_item, .c-formSelectLanguage select, .c-btn-medium {
     color: #cccccc !important;
-}
-.SiteFooter_copyright:after {
-    content: ' - Dark Nintendo [AIO] v1.1.0 by CodyMKW' !important;
 }
 }
 
@@ -454,8 +445,8 @@ body.playlist {
 #wrapper.search .button-wrapper .button.playlist.on {
     background-color: rgb(76,76,76);
 }
-    div#copyright:after {
-    content: ' - Dark Nintendo [AIO] v1.1.0 by CodyMKW' !important;
+    div#copyright:after, ul.footer-copyright:after, footer#nintendo-footer .social-and-copyrights p.footer-copyright:after, small.copyright:after, .SiteFooter_copyright:after {
+    content: ' - Dark Nintendo [AIO] v1.1.1 by CodyMKW' !important;
 }
 }
 
