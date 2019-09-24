@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Better Neatclip Dark Mode
 @namespace      github.com/CodyMKW/My-Userstyles
-@version        1.0.2
+@version        1.0.3
 @description    A better dark mode for Neatclip.com
 @homepageURL https://github.com/CodyMKW/My-Userstyles#install-my-styles-right-from-github
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -10,7 +10,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("neatclip.com") {
-body, html, .bg-white, .clip-card .input-title {
+body, html, .bg-white, .clip-card .input-title, .container-fluid, .input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control {
     background-color:#202020 !important;
     
 }
@@ -18,20 +18,20 @@ body, html, .bg-white, .clip-card .input-title {
     background-color:#161616 !important;
     border-bottom-color:black !important;
 }
-.navbar-light .navbar-nav .nav-link, .clip-card .input-title, td, .clip-info-title {
+.navbar-light .navbar-nav .nav-link, .clip-card .input-title, td, .clip-info-title, .input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control {
     color: #ffffff !important;
 }
-span.h4.float-left.mr-2, h3, h4 {
+span.h4.float-left.mr-2, h3, h4, h1, h2, .h2, b, span {
     color: #1c76ad !important;
 }
 label, .text-muted, p {
     color: #959595 !important;
 }
-.border {
+.border, .container-fluid {
     border: 1px solid #000000 !important;
 }
 .second-footer:after {
-    content: ' Better Neatclip Dark Mode version 1.0.2 by CodyMKW' !important;
+    content: ' Better Neatclip Dark Mode version 1.0.3 by CodyMKW' !important;
     font-size: 12px !important;
     padding: 20px 105px !important;
 }
