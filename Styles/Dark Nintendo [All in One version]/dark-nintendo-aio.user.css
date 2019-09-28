@@ -469,7 +469,7 @@ body {
 }
 
 @-moz-document url-prefix("https://supermariomakerbookmark.nintendo.net/"), url-prefix("https://id.nintendo.net/oauth/"), domain("nintendo.com"), domain("my.nintendo.com"), domain("accounts.nintendo.com") {
-body.en-US.pc {
+body, body.en-US.pc, body.pickup {
   if sitefilters == "None" {
     filter: none !important;
   }
