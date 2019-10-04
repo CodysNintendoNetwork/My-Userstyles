@@ -1,12 +1,14 @@
 /* ==UserStyle==
 @name Dark Nintendo Account
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.7.4
+@version 1.7.5
 @description A dark theme for the Nintendo Account website!
 @homepageURL https://sites.google.com/view/codys-nintendo-room/userstyles
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
 @author CodyMKW (https://codymkw.github.io)
 @license CC-BY-SA-4.0
+@preprocessor stylus
+@var text fontname    "Font Name"  Avenir
 ==/UserStyle== */
 
 @-moz-document domain("accounts.nintendo.com") {
@@ -93,7 +95,10 @@ a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingT
 .Account_userId, .AccordionList_item, .FamilyBtnAdd_text, .User_nickname, .AccordionList_subInfo, .c-footer_links_item>a, .c-header_accountMenu_logout a,.c-settingTitle_action, .c-globalNav_listItem a, .c-secondaryAction_btn, .c-accordionList_subInfo, .c-accordionList_item, .c-formSelectLanguage select, .c-btn-medium, .c-settingNavList_item>a, .c-settingNavList_item dt, .c-user_nickname, .c-loginHistoryList_title {
     color: #cccccc !important;
 }
+body, h1, h2, p, li {
+    font-family: fontname;
+}
 .c-footer_copyright:after {
-    content: ' | Dark Nintendo Account v1.7.4 by CodyMKW' !important;
+    content: ' | Dark Nintendo Account v1.7.5 by CodyMKW' !important;
 }
 }
