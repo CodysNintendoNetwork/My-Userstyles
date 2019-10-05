@@ -1,13 +1,14 @@
 /* ==UserStyle==
 @name           Dark Super Mario Maker Bookmark
 @namespace      github.com/CodyMKW/My-Userstyles
-@version        1.0.1
+@version        1.0.2
 @description    Dark theme for Super Mario Maker Bookmark website!
 @homepageURL https://sites.google.com/view/codys-nintendo-room/userstyles
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
 @author CodyMKW (https://codymkw.github.io)
 @license CC-BY-SA-4.0
 @preprocessor stylus
+@var text fontname    "Font Name"  Avenir
 @var color text-color "Text" #BBBBBB
 @var color easy-color "Easy" #1A801A
 @var color normal-color "Normal" #1A4C80
@@ -197,7 +198,11 @@ body {
 }
 
 @-moz-document url-prefix("https://supermariomakerbookmark.nintendo.net/"), url-prefix("https://id.nintendo.net/oauth/") {
+/* Custom Font */
+input, button, select, p, div {
+    font-family: fontname;
+}
 div#copyright:after, p.hb-footer-copyright:after {
-    content: ' - Dark Super Mario Maker Bookmark v1.0.1 by CodyMKW' !important;
+    content: ' - Dark Super Mario Maker Bookmark v1.0.2 by CodyMKW' !important;
 }
 }
