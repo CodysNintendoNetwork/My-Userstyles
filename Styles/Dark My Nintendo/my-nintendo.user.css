@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark My Nintendo
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.3.4
+@version 1.3.5
 @description A dark theme for the My Nintendo website!
 @homepageURL https://sites.google.com/view/codys-nintendo-room/userstyles
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -18,6 +18,7 @@
   "CodyMKW"
 ]
 @var checkbox dropshadow    "Character Drop Shadow"  0
+@var text fontname    "Font Name"  Avenir
 @var select   backtotop   'Back to Top Image'    [
   "Block",
   "Kanna-Head",
@@ -172,7 +173,10 @@ body.en-US.pc {
     filter: hue-rotate(90deg) !important;
   }
 }
+body, h1, h2, p, li {
+    font-family: fontname;
+}
 small.copyright:after {
-    content: ' - Dark My Nintendo v1.3.4 by CodyMKW' !important;
+    content: ' - Dark My Nintendo v1.3.5 by CodyMKW' !important;
 }
 }
