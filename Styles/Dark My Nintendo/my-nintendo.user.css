@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark My Nintendo
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.3.8
+@version 1.3.9
 @description A dark theme for the My Nintendo website!
 @homepageURL https://sites.google.com/view/codys-nintendo-room/userstyles
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -13,6 +13,7 @@
   "Kanna",
   "Uraraka",
   "Akko",
+  "Maki",
   "Naruto",
   "Baruto",
   "CodyMKW"
@@ -25,6 +26,7 @@
   "Kanna-Head",
   "UA-Academy-logo",
   "Luna-Nova-emblem",
+  "Fire-Force",
   "Sharingan",
   "Rinnegan",
   "CodyMKW-Mii"
@@ -118,6 +120,9 @@ body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMe
   else if character == "Akko" {
     background-image: url(https://i.imgur.com/RJca0Ug.png) !important;
   }
+  else if character == "Maki" {
+    background-image: url(https://i.imgur.com/OTF5QAq.png) !important;
+  }
   else if character == "Naruto" {
     background-image: url(https://i.imgur.com/sFjHBX1.png) !important;
   }
@@ -143,6 +148,9 @@ body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMe
   }
   else if backtotop == "Luna-Nova-emblem" {
     background-image: url(https://i.imgur.com/RJca0Ug.png) !important;
+  }
+  else if backtotop == "Fire-Force" {
+    background-image: url(https://i.imgur.com/OTF5QAq.png) !important;
   }
   else if backtotop == "Sharingan" {
     background-image: url(https://i.imgur.com/sFjHBX1.png) !important;
@@ -181,6 +189,6 @@ body, h1, h2, p, li, .NotificationItem * {
     font-family: pointvaluefontname;
 }
 small.copyright:after {
-    content: ' - Dark My Nintendo v1.3.8 by CodyMKW' !important;
+    content: ' - Dark My Nintendo v1.3.9 by CodyMKW' !important;
 }
 }
