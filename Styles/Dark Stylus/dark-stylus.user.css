@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark Stylus
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.0.1
+@version 1.0.2
 @description Dark version of manage pages in the Stylus!
 @homepageURL https://sites.google.com/view/codys-nintendo-room/userstyles
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -10,7 +10,7 @@
 ==/UserStyle== */
 
 @-moz-document regexp("chrome-extension://.*"), regexp("moz-extension://.*") {
-#header, #backup-buttons .dropdown-content a:hover {
+#header, #options, #backup-buttons .dropdown-content a:hover {
     color: #e1e1e1 !important;
     background: #262626 !important;
     border-style: none !important;
@@ -102,5 +102,8 @@ content:'?' !important;
 #confirm>div, .menu-items-wrapper {
     background-color: #202020;
     border: solid 2px rgba(0, 0, 0, 0.52);
+}
+#options-title {
+    color: #262626 !important;
 }
 }
