@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark My Nintendo
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.4.0
+@version 1.4.1
 @description A dark theme for the My Nintendo website!
 @homepageURL https://sites.google.com/view/codys-nintendo-room/userstyles
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -130,7 +130,7 @@ body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMe
     background-image: url(https://i.imgur.com/A32YtWt.png) !important;
   }
   else if character == "CodyMKW" {
-    background-image: url(https://i.imgur.com/bnQEgoo.png) !important;
+    background-image: url(https://i.imgur.com/yUKJi8z.png) !important;
   }
   if dropshadow {
    filter: drop-shadow(2px 4px 6px black);
@@ -159,7 +159,7 @@ body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMe
     background-image: url(https://i.imgur.com/A32YtWt.png) !important;
   }
   else if backtotop == "CodyMKW-Mii" {
-    background-image: url(https://i.imgur.com/bnQEgoo.png) !important;
+    background-image: url(https://i.imgur.com/yUKJi8z.png) !important;
   }
 }
 body.en-US.pc {
@@ -189,6 +189,6 @@ body, h1, h2, p, li, .NotificationItem * {
     font-family: pointvaluefontname;
 }
 small.copyright:after {
-    content: ' - Dark My Nintendo v1.4.0 by CodyMKW' !important;
+    content: ' - Dark My Nintendo v1.4.1 by CodyMKW' !important;
 }
 }
