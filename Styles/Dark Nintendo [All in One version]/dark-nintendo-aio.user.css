@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name           Dark Nintendo [All in One]
 @namespace      github.com/CodyMKW/My-Userstyles
-@version        1.1.3
+@version        1.1.4
 @description    An All in One dark theme for every Nintendo website!
-@homepageURL https://sites.google.com/view/codys-nintendo-room/userstyles
+@homepageURL https://sites.google.com/view/codymkw/userstyles
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
 @author CodyMKW (https://codymkw.github.io)
 @license CC-BY-SA-4.0
@@ -490,6 +490,6 @@ body, body.en-US.pc, body.pickup {
   }
 }
 ul.footer-copyright:after, small.copyright:after, .c-footer_copyright:after, div#copyright:after, ul.footer-copyright:after, p.hb-footer-copyright:after {
-    content: ' - Dark Nintendo [AIO] v1.1.3 by CodyMKW' !important;
+    content: ' - Dark Nintendo [AIO] v1.1.4 by CodyMKW' !important;
 }
 }
