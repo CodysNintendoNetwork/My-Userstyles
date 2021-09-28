@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark Nintendo Account
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.8.2
+@version 1.8.3
 @description A dark theme for the Nintendo Account website!
 @homepageURL https://userstyles.world/style/1221/dark-nintendo-account
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -99,6 +99,6 @@ body, h1, h2, p, li {
     font-family: fontname;
 }
 .c-footer_copyright:after {
-    content: ' | Dark Nintendo Account v1.8.2 by CodyMKW' !important;
+    content: ' | Dark Nintendo Account v1.8.3 by CodyMKW' !important;
 }
 }
