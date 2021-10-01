@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark My Nintendo
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.4.5
+@version 1.4.6
 @description A dark theme for the My Nintendo website!
 @homepageURL https://sites.google.com/view/codymkw/userstyles
 @supportURL https://github.com/CodyMKW/My-Userstyles/issues
@@ -16,8 +16,7 @@
   "Maki",
   "Naruto",
   "Baruto",
-  "CodyMKW",
-  "Random Character"
+  "CodyMKW"
 ]
 @var checkbox dropshadow    "Character Drop Shadow"  0
 @var text fontname    "Font Name"  Avenir
@@ -30,8 +29,7 @@
   "Fire-Force",
   "Sharingan",
   "Rinnegan",
-  "CodyMKW-Mii",
-  "Random Image"
+  "CodyMKW-Mii"
 ]
 @var select   sitefilters   'Website Filters (For fun :P)'    [
   "None",
@@ -134,9 +132,6 @@ body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMe
   else if character == "CodyMKW" {
     background-image: url(https://i.imgur.com/yUKJi8z.png) !important;
   }
-  else if character == "Random Character" {
-    background-image: url(https://sig.grumpybumpers.com/host/MyNintendoCharacter.gif) !important;
-  }
   if dropshadow {
    filter: drop-shadow(2px 4px 6px black);
   }
@@ -166,9 +161,6 @@ body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMe
   else if backtotop == "CodyMKW-Mii" {
     background-image: url(https://i.imgur.com/yUKJi8z.png) !important;
   }
-  else if backtotop == "Random Image" {
-    background-image: url(https://sig.grumpybumpers.com/host/MyNintendoCharacter.gif) !important;
-  }
 }
 body.en-US.pc {
   if sitefilters == "None" {
@@ -197,6 +189,6 @@ body, h1, h2, p, li, .NotificationItem * {
     font-family: pointvaluefontname;
 }
 small.copyright:after {
-    content: ' - Dark My Nintendo v1.4.5 by CodyMKW' !important;
+    content: ' - Dark My Nintendo v1.4.6 by CodyMKW' !important;
 }
 }
