@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           Youtube Featured banner hider
+@namespace      https://github.com/CodysNintendoRoom/My-Userstyles
+@version        1.0.0
+@description    Hide the featured banner that shows on new design's homepage
+@author         CodyMKW
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+.ytd-statement-banner-renderer {
+    display: none !important;
+}
+}
