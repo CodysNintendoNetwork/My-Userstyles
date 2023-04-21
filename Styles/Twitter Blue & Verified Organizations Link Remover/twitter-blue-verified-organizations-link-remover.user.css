@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name          Twitter Blue & Verified Organizations Link Remover
+@namespace      github.com/CodyMKW/My-Userstyles
+@version        1.0.0
+@description    Removes the useless Twitter Blue & Verified Organizations link
+==/UserStyle== */
+
+@-moz-document domain("twitter.com") {
+[aria-label="Twitter Blue"], [aria-label="Verified Organizations"] {
+  display: none;
+}
+}
