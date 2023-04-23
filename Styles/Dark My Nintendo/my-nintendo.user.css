@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark My Nintendo
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.4.7
+@version 1.4.8
 @description A dark theme for the My Nintendo website!
 @homepageURL https://sites.google.com/view/codymkw/userstyles
 @supportURL https://github.com/CodysNintendoRoom/My-Userstyles/issues
@@ -17,7 +17,7 @@
   "Naruto",
   "Baruto",
   "CodyMKW",
-  "Master Chief",
+  "Master-Chief",
   "Kratos"
 ]
 @var checkbox dropshadow    "Character Drop Shadow"  0
@@ -32,8 +32,8 @@
   "Sharingan",
   "Rinnegan",
   "CodyMKW-Mii",
-  "Master Chief helmet",
-  "God of War logo"
+  "Master-Chief-helmet",
+  "GoW-logo"
 ]
 @var select   sitefilters   'Website Filters (For fun :P)'    [
   "None",
@@ -136,7 +136,7 @@ body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMe
   else if character == "CodyMKW" {
     background-image: url(https://i.imgur.com/yUKJi8z.png) !important;
   }
-  else if character == "Master Chief" {
+  else if character == "Master-Chief" {
     background-image: url(https://i.imgur.com/mVpHlep.png) !important;
   }
   else if character == "Kratos" {
@@ -171,10 +171,10 @@ body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMe
   else if backtotop == "CodyMKW-Mii" {
     background-image: url(https://i.imgur.com/yUKJi8z.png) !important;
   }
-  else if backtotop == "Master Chief helmet" {
+  else if backtotop == "Master-Chief-helmet" {
     background-image: url(https://i.imgur.com/mVpHlep.png) !important;
   }
-  else if backtotop == "God of War logo" {
+  else if backtotop == "GoW-logo" {
     background-image: url(https://i.imgur.com/wsN0to8.png) !important;
   }
 }
@@ -205,6 +205,6 @@ body, h1, h2, p, li, .NotificationItem * {
     font-family: pointvaluefontname;
 }
 small.copyright:after {
-    content: ' - Dark My Nintendo v1.4.7 by CodyMKW' !important;
+    content: ' - Dark My Nintendo v1.4.8 by CodyMKW' !important;
 }
 }
