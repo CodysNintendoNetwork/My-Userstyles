@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark Nintendo Account
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.8.4
+@version 1.8.5
 @description A dark theme for the Nintendo Account website!
 @homepageURL https://sites.google.com/view/codymkw/userstyles
 @supportURL https://github.com/CodysNintendoNetwork/My-Userstyles/issues
@@ -35,7 +35,7 @@ a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingT
 .SettingDetails_item, .HeaderAccountMenu_item, .AccordionList_item+.AccordionList_item, .c-header_accountMenu_logout, .c-settingDetails_item, .c-accordionList_item+.c-accordionList_item, .c-navList_item {
     border-top: 1px solid #000000 !important;
 }
-.HeaderAccountMenu_item a:hover, .formSelectLanguage select, .SettingTitle_action:hover, .SecondaryAction_btn:hover, .CheckBlockList_checkbox, .SnsLogin, .Expand_title, .c-checkBlockList .c-checkBlockList_checkbox, .AuthorizeConsent_userBoxTitle {
+.HeaderAccountMenu_item a:hover, .formSelectLanguage select, .SettingTitle_action:hover, .SecondaryAction_btn:hover, .CheckBlockList_checkbox, .SnsLogin, .Expand_title, .c-checkBlockList .c-checkBlockList_checkbox, .AuthorizeConsent_userBoxTitle, .SecondaryAction_btn, .c-globalNav-v2_listItem a:hover {
     background-color: #161616 !important;
 }
 [type="text"], [type="password"], [type="date"], [type="datetime"], [type="datetime-local"], [type="month"], [type="week"], [type="email"], [type="number"], [type="search"], [type="tel"], [type="time"], [type="url"], [type="color"], select, textarea, .AllCheckList_checkbox, .LoginForm_body {
@@ -59,7 +59,7 @@ a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingT
 .CheckBlockList_checkbox, .c-checkBlockList_itemInner, .c-checkBlockList_checkbox, .AuthorizeConsent_userBoxTitleBtn {
     border: 2px solid #000000 !important;
 }
-.SecondaryAction_btn {
+.SecondaryAction_btn, .c-globalNav-v2_listItem a {
     border: 1px solid #000000 !important;
     background-color: #202020 !important;
     color: #7d7c7c !important;
@@ -99,6 +99,6 @@ body, h1, h2, p, li {
     font-family: fontname;
 }
 .c-footer_copyright:after {
-    content: ' | Dark Nintendo Account v1.8.4 by CodyMKW' !important;
+    content: ' | Dark Nintendo Account v1.8.5 by CodyMKW' !important;
 }
 }
