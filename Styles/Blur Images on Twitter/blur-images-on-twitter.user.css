@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name           Blur Images on Twitter
 @namespace      github.com/CodysNintendoNetwork/My-Userstyles
-@version        1.0.2
+@version        1.0.3
 @description    Blur all images on tweets while on Twitter useful if you don't wanna see spoilers for something (You can reveal the images by hovering over them)
 @author         CodyMKW
 ==/UserStyle== */
 
-@-moz-document domain("twitter.com") {
+@-moz-document domain("x.com") {
 [aria-label="Image"] {
   filter: blur(15px);
 }
