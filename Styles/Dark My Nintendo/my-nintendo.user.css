@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark My Nintendo
 @namespace github.com/CodysNintendoNetwork/My-Userstyles
-@version 1.5.0
+@version 1.5.1
 @description A dark theme for the My Nintendo website!
 @homepageURL https://github.com/CodysNintendoNetwork/My-Userstyles
 @supportURL https://github.com/CodysNintendoNetwork/My-Userstyles/issues
@@ -52,7 +52,7 @@
 .AccountPanel_close, .AccountPanel_content, .AccountPanelUser_menu-target-logout {
     background: #202020;
 }
-.AccountPanel_user {
+.AccountPanel_user, .AccountPanel_pointList {
     background: #161616;
 }
   .AccountPanelUser_menu-target-logout:hover {
@@ -217,6 +217,6 @@ body, h1, h2, p, li, .NotificationItem * {
     font-family: pointvaluefontname;
 }
 small.copyright:after {
-    content: ' - Dark My Nintendo v1.4.9 by CodyMKW' !important;
+    content: ' - Dark My Nintendo v1.5.1 by CodyMKW' !important;
 }
 }
