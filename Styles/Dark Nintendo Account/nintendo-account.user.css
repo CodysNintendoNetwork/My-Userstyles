@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name Dark Nintendo Account
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.8.5
+@version 1.8.6
 @description A dark theme for the Nintendo Account website!
-@homepageURL https://sites.google.com/view/codymkw/userstyles
+@homepageURL https://github.com/CodysNintendoNetwork/My-Userstyles
 @supportURL https://github.com/CodysNintendoNetwork/My-Userstyles/issues
-@author CodyMKW (https://sites.google.com/view/codymkw/home)
+@author CodyMKW (https://codymkw.nekoweb.org)
 @license CC-BY-SA-4.0
 @preprocessor stylus
 @var text fontname    "Font Name"  Avenir
@@ -38,7 +38,7 @@ a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingT
 .HeaderAccountMenu_item a:hover, .formSelectLanguage select, .SettingTitle_action:hover, .SecondaryAction_btn:hover, .CheckBlockList_checkbox, .SnsLogin, .Expand_title, .c-checkBlockList .c-checkBlockList_checkbox, .AuthorizeConsent_userBoxTitle, .SecondaryAction_btn, .c-globalNav-v2_listItem a:hover {
     background-color: #161616 !important;
 }
-[type="text"], [type="password"], [type="date"], [type="datetime"], [type="datetime-local"], [type="month"], [type="week"], [type="email"], [type="number"], [type="search"], [type="tel"], [type="time"], [type="url"], [type="color"], select, textarea, .AllCheckList_checkbox, .LoginForm_body {
+[type="text"], [type="password"], [type="date"], [type="datetime"], [type="datetime-local"], [type="month"], [type="week"], [type="email"], [type="number"], [type="search"], [type="tel"], [type="time"], [type="url"], [type="color"], select, textarea, .AllCheckList_checkbox, .LoginForm_body, .c-btn-navigation {
     background-color: #161616 !important;
     border: 1px solid #000000 !important;
 }
@@ -92,13 +92,13 @@ a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingT
 .icon-complete svg {
     fill: #202020 !important;
 }
-.Account_userId, .AccordionList_item, .FamilyBtnAdd_text, .User_nickname, .AccordionList_subInfo, .c-footer_links_item>a, .c-header_accountMenu_logout a,.c-settingTitle_action, .c-globalNav_listItem a, .c-secondaryAction_btn, .c-accordionList_subInfo, .c-accordionList_item, .c-formSelectLanguage select, .c-btn-medium, .c-settingNavList_item>a, .c-settingNavList_item dt, .c-user_nickname, .c-loginHistoryList_title, .c-header_accountButton_nickname, .EmailOptInEditForm_notes, .c-allCheckList_title, .LoginHistory_notes, .LogoutConfirm_lead-notice, .ClientFriendsOptin_note {
+.Account_userId, .AccordionList_item, .FamilyBtnAdd_text, .User_nickname, .AccordionList_subInfo, .c-footer_links_item>a, .c-header_accountMenu_logout a,.c-settingTitle_action, .c-globalNav_listItem a, .c-secondaryAction_btn, .c-accordionList_subInfo, .c-accordionList_item, .c-formSelectLanguage select, .c-btn-medium, .c-settingNavList_item>a, .c-settingNavList_item dt, .c-user_nickname, .c-loginHistoryList_title, .c-header_accountButton_nickname, .EmailOptInEditForm_notes, .c-allCheckList_title, .LoginHistory_notes, .LogoutConfirm_lead-notice, .ClientFriendsOptin_note, .c-header_accountInfo_nickname, .c-btn-navigation {
     color: #cccccc !important;
 }
 body, h1, h2, p, li {
     font-family: fontname;
 }
 .c-footer_copyright:after {
-    content: ' | Dark Nintendo Account v1.8.5 by CodyMKW' !important;
+    content: ' | Dark Nintendo Account v1.8.6 by CodyMKW' !important;
 }
 }
