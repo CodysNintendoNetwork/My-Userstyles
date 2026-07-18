@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name          Twitter Verified Checkmark Remover
 @namespace      github.com/CodysNintendoNetwork/My-Userstyles
-@version        1.0.2
+@version        1.0.3
 @description    Removes the useless verified checkmark
 ==/UserStyle== */
 
-@-moz-document domain("twitter.com") {
+@-moz-document domain("x.com") {
 [aria-label="Verified account"] {
   display: none;
 }
