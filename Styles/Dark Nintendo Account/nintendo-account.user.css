@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark Nintendo Account
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.8.7
+@version 1.8.8
 @description A dark theme for the Nintendo Account website!
 @homepageURL https://github.com/CodysNintendoNetwork/My-Userstyles
 @supportURL https://github.com/CodysNintendoNetwork/My-Userstyles/issues
@@ -89,7 +89,7 @@ body {
     border: 1px solid #000000 !important;
     background-color: #202020 !important;
 }
-.SettingTitle, .SiteHeader, .SiteFooter, .HeaderAccountMenu_item a, .Term, .Modal, .Mii_item_inner, .Reauth_block, .PasswordEdit_block, .RegisterArea_lead span, .Account_userId, .NavList_item a, .ClientsSetting_title, .SignupForm, .SignupForm_inner, .AccordionList_item, .AuthorizeRedirect_pincode, .BoxBlock_head, .FamilyBtnAdd_icon, .c-blockBase_inner-bgGray, .c-userList_item::after, .c-header, .c-footer, .c-header_accountMenu, .c-header_accountMenu_logout a, .c-settingTitle, .c-setting, .c-secondaryAction_btn, .c-accordionList_item, .LoginForm_sns, .LoginForm input, .AuthorizeAgeGateUsForm_inner, .AuthorizeGuide_box, .c-settingNavList-accordion .c-settingNavList_item dt, .AccountConfiguration_row_label .icon-twitter-circle, .icon-google, .c-loginHistoryList_item {
+.SettingTitle, .SiteHeader, .SiteFooter, .HeaderAccountMenu_item a, .Term, .Modal, .Mii_item_inner, .Reauth_block, .PasswordEdit_block, .RegisterArea_lead span, .Account_userId, .NavList_item a, .ClientsSetting_title, .SignupForm, .SignupForm_inner, .AccordionList_item, .AuthorizeRedirect_pincode, .BoxBlock_head, .FamilyBtnAdd_icon, .c-blockBase_inner-bgGray, .c-userList_item::after, .c-header, .c-footer, .c-header_accountMenu, .c-header_accountMenu_logout a, .c-settingTitle, .c-setting, .c-secondaryAction_btn, .c-accordionList_item, .LoginForm_sns, .LoginForm input, .AuthorizeAgeGateUsForm_inner, .AuthorizeGuide_box, .c-settingNavList-accordion .c-settingNavList_item dt, .AccountConfiguration_row_label .icon-twitter-circle, .icon-google, .c-loginHistoryList_item, .qrcode_body {
     background-color: #202020 !important;
 }
 a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingTitle_action:hover, .c-modal_content, .c-secondaryAction_btn:hover, .c-expand_title, .c-btn-secondary:hover {
@@ -140,7 +140,7 @@ footer {
     color: #7d7c7c !important;
     border: 1px solid #000000 !important;
 }
-.ProfileEdit_item.nickname, .c-profileEdit_column, header .floatMenu .info {
+.ProfileEdit_item.nickname, .c-profileEdit_column, header .floatMenu .info, .qrcode_userInfo {
     border-bottom: 1px solid #000000 !important;
 }
 .NavList_item a {
@@ -165,6 +165,6 @@ body, h1, h2, p, li {
     font-family: fontname;
 }
 .c-footer_copyright:after, footer small:after {
-    content: ' | Dark Nintendo Account v1.8.7 by CodyMKW' !important;
+    content: ' | Dark Nintendo Account v1.8.8 by CodyMKW' !important;
 }
 }
