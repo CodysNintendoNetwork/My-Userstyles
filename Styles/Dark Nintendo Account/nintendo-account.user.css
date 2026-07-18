@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark Nintendo Account
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.8.6
+@version 1.8.7
 @description A dark theme for the Nintendo Account website!
 @homepageURL https://github.com/CodysNintendoNetwork/My-Userstyles
 @supportURL https://github.com/CodysNintendoNetwork/My-Userstyles/issues
@@ -12,6 +12,69 @@
 ==/UserStyle== */
 
 @-moz-document domain("accounts.nintendo.com") {
+:root {
+    --color-nintendo-red: #e60012;
+    --color-blue: #06f;
+    --color-black-25: rgb(0 0 0 / 0.25);
+    --color-black-15: rgb(0 0 0 / 0.15);
+    --color-black-10: rgb(0 0 0 / 0.1);
+    --color-black-5: #202020;
+    --color-black-2: #161616;
+    --color-gray94: #CCCCCC;
+    --color-gray57: #cccccc;
+    --color-gray25: #c0c0c0;
+    --color-gray5: #161616;
+    --color-white: #202020;
+    --color-surface-primary: var(--color-gray5);
+    --color-surface-secondary: var(--color-white);
+    --color-surface-disabled: var(--color-black-5);
+    --color-surface-accent: var(--color-nintendo-red);
+    --color-surface-btn-secondary: var(--color-black-5);
+    --color-surface-overlay: var(--color-black-25);
+    --color-surface-active: var(--color-blue);
+    --color-text-primary: var(--color-gray94);
+    --color-text-secondary: var(--color-gray57);
+    --color-text-tertiary: var(--color-gray25);
+    --color-text-disabled: var(--color-gray25);
+    --color-text-vgc-blue: var(--color-blue);
+    --color-text-alert: var(--color-nintendo-red);
+    --color-text-notice: var(--color-blue);
+    --color-text-white: var(--color-white);
+    --color-border-primary: var(--color-black-5);
+    --color-effect-shadow: var(--color-black-15);
+    --color-illust-display-on: var(--color-white);
+    --color-illust-display-off: #404040;
+    --color-state-hover: var(--color-black-2);
+    --color-state-vgc-hover: var(--color-black-10);
+    --color-state-vgc-selected: var(--color-black-15);
+    --radius-xlarge: 16px;
+    --radius-large: 12px;
+    --radius-medium: 8px;
+    --radius-small: 4px;
+    --radius-full: 999px;
+    --font-family-default: fontname, "Avenir Next", "Helvetica Neue", helvetica, arial, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", meiryo, sans-serif;
+    --font-family-device-type-sp: fontname, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", yugothic, "メイリオ", meiryo, "ＭＳ Ｐゴシック", verdana, sans-serif;
+    --font-size-xxlarge: 20px;
+    --font-size-xlarge: 18px;
+    --font-size-large: 16px;
+    --font-size-medium: 14px;
+    --font-size-small: 12px;
+    --font-weight-bold: bold;
+    --font-weight-normal: normal;
+    --spacing-container-side: 16px;
+    --spacing-section-gap: 32px;
+    --spacing-item-gap: 8px;
+    --spacing-button-gap: 12px;
+    --spacing-button-container-side: 0;
+    --spacing-cell-side: 16px;
+    --spacing-cell-top-bottom: 16px;
+    --spacing-dialog-side: 16px;
+    --spacing-dialog-top-bottom: 20px;
+    --spacing-dialog-item-gap: 24px;
+    --spacing-overlay-side: 20px;
+    --size-container-max-width: 680px;
+    --size-dialog-max-width: 400px
+}
 body {
     color: #CCCCCC !important;
     background-color: #161616 !important;
@@ -31,6 +94,9 @@ body {
 }
 a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingTitle_action:hover, .c-modal_content, .c-secondaryAction_btn:hover, .c-expand_title, .c-btn-secondary:hover {
     background: #161616 !important;
+}
+footer {
+    background: #202020 !important;
 }
 .SettingDetails_item, .HeaderAccountMenu_item, .AccordionList_item+.AccordionList_item, .c-header_accountMenu_logout, .c-settingDetails_item, .c-accordionList_item+.c-accordionList_item, .c-navList_item {
     border-top: 1px solid #000000 !important;
@@ -53,7 +119,7 @@ a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingT
     color: #fff  !important;
     background-color: #ff8267 !important;
 }
-.SignupForm, .AccordionList, .c-header_accountMenu, .c-setting,.c-settingTitle_action, .c-loginHistoryListSummary_item+.c-loginHistoryListSummary_item .c-loginHistoryListSummary_itemInner, .c-secondaryAction_btn, .c-accordionList, .c-btn-secondary, .c-loginHistoryList_item {
+.SignupForm, .AccordionList, .c-header_accountMenu, .c-setting,.c-settingTitle_action, .c-loginHistoryListSummary_item+.c-loginHistoryListSummary_item .c-loginHistoryListSummary_itemInner, .c-secondaryAction_btn, .c-accordionList, .c-btn-secondary, .c-loginHistoryList_item, header .floatMenu {
     border: 1px solid #000 !important;
 }
 .CheckBlockList_checkbox, .c-checkBlockList_itemInner, .c-checkBlockList_checkbox, .AuthorizeConsent_userBoxTitleBtn {
@@ -74,7 +140,7 @@ a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingT
     color: #7d7c7c !important;
     border: 1px solid #000000 !important;
 }
-.ProfileEdit_item.nickname, .c-profileEdit_column {
+.ProfileEdit_item.nickname, .c-profileEdit_column, header .floatMenu .info {
     border-bottom: 1px solid #000000 !important;
 }
 .NavList_item a {
@@ -92,13 +158,13 @@ a.c-userList_item_inner:hover, .c-header_accountMenu_logout a:hover, .c-settingT
 .icon-complete svg {
     fill: #202020 !important;
 }
-.Account_userId, .AccordionList_item, .FamilyBtnAdd_text, .User_nickname, .AccordionList_subInfo, .c-footer_links_item>a, .c-header_accountMenu_logout a,.c-settingTitle_action, .c-globalNav_listItem a, .c-secondaryAction_btn, .c-accordionList_subInfo, .c-accordionList_item, .c-formSelectLanguage select, .c-btn-medium, .c-settingNavList_item>a, .c-settingNavList_item dt, .c-user_nickname, .c-loginHistoryList_title, .c-header_accountButton_nickname, .EmailOptInEditForm_notes, .c-allCheckList_title, .LoginHistory_notes, .LogoutConfirm_lead-notice, .ClientFriendsOptin_note, .c-header_accountInfo_nickname, .c-btn-navigation {
+.Account_userId, .AccordionList_item, .FamilyBtnAdd_text, .User_nickname, .AccordionList_subInfo, .c-footer_links_item>a, .c-header_accountMenu_logout a,.c-settingTitle_action, .c-globalNav_listItem a, .c-secondaryAction_btn, .c-accordionList_subInfo, .c-accordionList_item, .c-formSelectLanguage select, .c-btn-medium, .c-settingNavList_item>a, .c-settingNavList_item dt, .c-user_nickname, .c-loginHistoryList_title, .c-header_accountButton_nickname, .EmailOptInEditForm_notes, .c-allCheckList_title, .LoginHistory_notes, .LogoutConfirm_lead-notice, .ClientFriendsOptin_note, .c-header_accountInfo_nickname, .c-btn-navigation, footer .footerLinks li a, footer small {
     color: #cccccc !important;
 }
 body, h1, h2, p, li {
     font-family: fontname;
 }
-.c-footer_copyright:after {
-    content: ' | Dark Nintendo Account v1.8.6 by CodyMKW' !important;
+.c-footer_copyright:after, footer small:after {
+    content: ' | Dark Nintendo Account v1.8.7 by CodyMKW' !important;
 }
 }
