@@ -1,0 +1,89 @@
+/* ==UserStyle==
+@name           Dark NintendoLife
+@namespace      CodysStyle
+@version        1.0.0
+@description    A dark theme for the NintendoLife website!
+@author         CodyMKW
+==/UserStyle== */
+
+@-moz-document domain("nintendolife.com") {
+    
+    /* 1. Force Native Dark Mode Variables Globally */
+    :root, html, body {
+        --background: #111111 !important;
+        --background-rgba: 17, 17, 17 !important;
+        --line: #333333 !important;
+        --line-hard: #444444 !important;
+        --text-color-normal: #FFFFFF !important;
+        --text-color-quote: #CCCCCC !important;
+        --text-color-soft: #AAAAAA !important;
+        --text-color-softer: #999999 !important;
+        --soft-bg: #444444 !important;
+        --bg-offset: #222222 !important;
+        --bg-highlight: #333333 !important;
+        --border-input: #333333 !important;
+        --border-focus: #666666 !important;
+        --bg-avatar: #999999 !important;
+    }
+
+    /* Base Body Override */
+    body {
+        background-color: var(--background) !important;
+    }
+
+    /* 2. Nuke Hardcoded White/Light Backgrounds */
+    #footer .trending-articles .item,
+    #quick-search-results,
+    #quick-search .controls,
+    iframe.embedly-card,
+    .container .item-product .image,
+    .container .ui-listing-toggle:not(.enabled):hover,
+    .container .ui-listing-toggle.enabled ul,
+    .container .more a {
+        background: var(--bg-offset) !important;
+        color: var(--text-color-normal) !important;
+        border-color: var(--line) !important;
+    }
+
+    /* Fix Quick Search Text & Hubs */
+    #quick-search-results .search-item-hubs .item-heading {
+        background-color: var(--bg-highlight) !important;
+    }
+    #quick-search .textbox {
+        color: var(--text-color-normal) !important;
+    }
+
+    /* Fix Status & Game Option Highlights */
+    .container .status-options a.current, 
+    .container .score-options a.current {
+        background: var(--bg-highlight) !important;
+        color: var(--accent) !important;
+    }
+
+    /* 3. Cody's Signature Review Formatting */
+    .positive-negative.is-switch .positives:before {
+        content: "The Good Shit:" !important;
+        color: #78BE39 !important; /* Pulling their native --info green */
+    }
+    .positive-negative .negatives:before {
+        content: "The Bad Shit:" !important;
+        color: #E20D1B !important; /* Pulling their native --error red */
+    }
+
+    /* 4. Structural Border Adjustments */
+    .forums h1.title, .body-text h2, .body-text h3 {
+        border-bottom: 2px solid var(--line) !important;
+    }
+    .forum-post, .forum-post .message .signature, .forums .category-forum, .forums-list-topics .item, .container .style-list .item-medium, .container .style-list .item-low, .container .style-reviews .item-content, article.article aside.see-also, .related-articles .item, .body-text .disclaimer {
+        border-top: 1px solid var(--line) !important;
+    }
+    .container .style-list .item-high.item-1 .item-wrap, .positive-negative .positives {
+        border-right: 1px solid var(--line) !important;
+    }
+    .block.posts .item, article.article section.title, article.article div.body-text, .comments .comment, .body-text .disclaimer, .ui-listing-filters h2.heading, .ui-listing-filter h3.heading, .container nav.ui-views {
+        border-bottom: 1px solid var(--line) !important;
+    }
+    #footer .copyright:after {
+        content: ' | Dark NintendoLife v1.0.0 by CodyMKW' !important;
+    }
+}
