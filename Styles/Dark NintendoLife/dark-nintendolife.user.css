@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark NintendoLife
 @namespace      CodysStyle
-@version        1.0.0
+@version        1.0.1
 @description    A dark theme for the NintendoLife website!
 @author         CodyMKW
 ==/UserStyle== */
@@ -41,6 +41,18 @@
     .container .ui-listing-toggle.enabled ul,
     .container .more a {
         background: var(--bg-offset) !important;
+        color: var(--text-color-normal) !important;
+        border-color: var(--line) !important;
+    }
+    
+    .block {
+        background: var(--bg-offset) !important;
+        color: var(--text-color-normal) !important;
+        border-color: var(--line) !important;
+    }
+    
+    .block footer {
+        background: var(--bg-highlight) !important;
         color: var(--text-color-normal) !important;
         border-color: var(--line) !important;
     }
@@ -84,6 +96,6 @@
         border-bottom: 1px solid var(--line) !important;
     }
     #footer .copyright:after {
-        content: ' | Dark NintendoLife v1.0.0 by CodyMKW' !important;
+        content: ' | Dark NintendoLife v1.0.1 by CodyMKW' !important;
     }
 }
