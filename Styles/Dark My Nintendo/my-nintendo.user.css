@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark My Nintendo
 @namespace github.com/CodysNintendoNetwork/My-Userstyles
-@version 1.5.1
+@version 1.6.0
 @description A dark theme for the My Nintendo website!
 @homepageURL https://github.com/CodysNintendoNetwork/My-Userstyles
 @supportURL https://github.com/CodysNintendoNetwork/My-Userstyles/issues
@@ -46,177 +46,243 @@
 ==/UserStyle== */
 
 @-moz-document domain("my.nintendo.com") {
-.NHeader, .NFooter, .NewsItem_content, .MainNav_button, .NotificationItem-readed, .SiteNavPanelMenu-main .SiteNavPanelMenu_item, .SiteNavPanelMenu-sub, .SiteNavPanel_contentScroller, .AboutPoint_expiration .callout, .Pager_item-first:after, .Pager_item-next:after, .Pager_item-previous:after, .Pager_item>a:hover, .SecondaryNav_item.current, .PointCategory_label .valueCell:before, .PointCategory_child, .PointExpiration_expirePoints:before, .PointHistoryGroup_points:before, .form-select .select:hover, .PointDetailChild, .RewardSwipe_info, .MissionItem_points, .btn-inverse:hover, .MissionItem_progressBar, .RewardPoint_wallet, .RewardItem_info, .MoreRewards_end .target:hover, .RewardCategoryList_heading, .RewardDetail_officialButton:hover, .AnonymousIndex_header .signInButton:hover, .AnonymousIndex_header .signUpButton:hover, .GiftItem_points, .OthersItem .OthersItem_visual-step .step, .GettingStartedPoint_use, .GettingStartedPoint_reward, .SignUpMethod_item, .SignUpMethod_nnid, .SignUpMethod_body, .NotificationItem-special .NotificationItem_content, .NotificationItem_date, .GoldpointNotification {
-    background-color: #202020 !important;
-}
-.AccountPanel_close, .AccountPanel_content, .AccountPanelUser_menu-target-logout {
-    background: #202020;
-}
-.AccountPanel_user, .AccountPanel_pointList {
-    background: #161616;
-}
+  /* Secondary Backgrounds & Floating Elements */
+  .NHeader, .NFooter, .NewsItem_content, .MainNav_button, .NotificationItem-readed, 
+  .SiteNavPanelMenu-main .SiteNavPanelMenu_item, .SiteNavPanelMenu-sub, .SiteNavPanel_contentScroller, 
+  .AboutPoint_expiration .callout, .Pager_item-first:after, .Pager_item-next:after, 
+  .Pager_item-previous:after, .Pager_item>a:hover, .SecondaryNav_item.current, 
+  .PointCategory_label .valueCell:before, .PointCategory_child, .PointExpiration_expirePoints:before, 
+  .PointHistoryGroup_points:before, .form-select .select:hover, .PointDetailChild, 
+  .RewardSwipe_info, .MissionItem_points, .btn-inverse:hover, .MissionItem_progressBar, 
+  .RewardPoint_wallet, .RewardItem_info, .MoreRewards_end .target:hover, .RewardCategoryList_heading, 
+  .RewardDetail_officialButton:hover, .AnonymousIndex_header .signInButton:hover, 
+  .AnonymousIndex_header .signUpButton:hover, .GiftItem_points, .OthersItem .OthersItem_visual-step .step, 
+  .GettingStartedPoint_use, .GettingStartedPoint_reward, .SignUpMethod_item, .SignUpMethod_nnid, 
+  .SignUpMethod_body, .NotificationItem-special .NotificationItem_content, .NotificationItem_date, 
+  .GoldpointNotification, .btn-secondary, .select, .Notification_list, .BannerSwipe_buttonFace,
+  .TutorialToast_content, .TutorialOpeningModal_content, .PointDetail_body, .SiteNavPanel_content,
+  .AccountPanel_close, .AccountPanel_content, .AccountPanelUser_menu-target-logout {
+      background-color: #202020 !important;
+  }
+
+  /* Deep Backgrounds */
+  .AccountPanel_user, .AccountPanel_pointList {
+      background-color: #161616 !important;
+  }
   .AccountPanelUser_menu-target-logout:hover {
-    background: #363636;
-}
-.Layout-main, .MiiStage, .PrimaryContent, .SecondaryContent, .MiiStage_bg, .MFooter, .Apps_inner, .AboutPoint_section, .AboutPoint_caution, .Layout-app, .GettingStartedPoint_reward, .SerialNumber_footer, .SerialNumber_enclose, .SerialNumber_actionInput, .SerialNumber_preview span.disabled, .Pager, .SecondaryNav, .PointCategory, .PointExpiration_item, .PointHistoryGroup_summary, .form-select, .PointHistoryGroup_footer, .PointHistoryGroup_border-expand, .PointDetail_body, .RewardSwipe, .RewardSwipe_title .text:before, .RewardFilter, .SiteNavPanelMenu-main .SiteNavPanelMenu_item:hover, .DirectNav a, .MissionItem_container, .btn-inverse, .Modal_contentInner, .RewardDetail_container, .RewardPoint, .MoreRewards, .RewardItem_title:before, .AvailablePoint_container, .RewardList_inner, .NewsDetail_body, .NewsDetail_footer, .AnonymousIndex_header, .AnonymousIndex_header .signInButton, .AnonymousIndex_header .signUpButton, .GiftList, .RewardResult, .GPRate, .GPGetType_body, .GPCaution, .GPFooter, .RewardGold, .SignUpMethod_nnid .lostPass:hover, .NotificationItem-special .NotificationItem_content:hover, .NotificationItem_date:hover {
-    background-color: #161616 !important;
-}
-.Layout-app, .Modal_contentInner, .AnonymousIndex_header .signUpButton {
-    background-image: none  !important;
-}
-.Apps_inner, .AboutPoint_section, .AboutPoint_caution, .GettingStartedPoint_reward, .SerialNumber_enclose, .SerialNumber_actionInput, .Pager, .SecondaryNav, .PointCategory, .PointExpiration_item, .PointHistoryGroup_summary:only-child, .form-select, .form-select:before, .RewardFilter, .DirectNav a, .MissionItem_container, .RewardDetail_enclose, .AvailablePoint_container, .AnonymousIndex_header .signInButton, .AnonymousIndex_header .signUpButton, .GPCaution {
-    border: 4px solid #202020 !important;
-}
-.RewardPoint, .RewardPoint_wallet, .GiftList, .RewardResult, .GPRate, .RewardGold {
-    border: 8px solid #202020 !important;
-}
-.NotificationItem:last-child {
-    border-bottom: 1px solid #202020 !important;
-}
-.SiteNavPanelMenu-main .SiteNavPanelMenu_item+.SiteNavPanelMenu_item, .SiteNavPanelMenu-sub {
-    border-top: 1px solid #161616 !important;
-}
-.PointHistoryGroup_summary, .PointHistoryGroup_footer {
-    border-color: #202020 !important;
-}
-.SecondaryNav_itemSlopeLeft {
-    background-image: none !important;
-    border-right: 1px solid #202020 !important;
-}
-.PointHistoryGroup_border {
-    border-right: 8px solid #202020 !important;
-    border-left: 8px solid #202020 !important;
-}
-.SecondaryNav_itemSlopeRight {
-    background-image: none !important;
-    border-left: 1px solid #202020 !important;
-}
-.OthersItem~.OthersItem, .AnonymousIndex_pointSection {
-    border-top: 8px solid #202020 !important;
-}
-body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMenu-main .label, .AboutPoint_expiration p,.AboutPoint_expiration .callout dt, .AboutPoint_expiration .callout dd, .AboutPoint_caution .title, .AboutPoint_caution .description p:last-child, .AboutPoint_pointDescription .text, .OthersItem_content .description, .GettingStartedPoint_description, .GettingStartedPoint_header .subTitle, .SerialNumber_actionInput, .SerialNumber_message, .PointHistoryGroup_title, .RewardSwipe_title .text, .MissionItem_title, .MissionHelp_missionDescription, .MissionHelp_missionTitle, .RewardDetail_subtitle, .RewardDetail_description, .RewardLimit_title, .RewardDetail_title, .RewardPoint_main .pointName, .RewardDetail_pointHeader, .RewardItem_title, .RewardCategoryList_heading, .mynintendo-icons-reward:before, .NewsDetail_title, .NewsDetail_body p, .RewardDetail_officialButton, .AnonymousIndex_videoContent .description, table, th, td, b, .GiftItem_title, .RewardResult_header .title, .RewardResult_header .lead, .NotificationItem-special .NotificationItem_content, .NotificationItem_date, .GoldpointNotification, .AccountPanelUser_menu-target-logout-label, .AccountPanelPointList_content-title {
-   color: #828282 !important;
-}
-.MainNav_button {
-    box-shadow: 0 4px 0 0 #121212 !important;
-}
-.MainNav_line line, .PointHistoryGroup_border .dot line, .MissionHelp_line line, .RewardDetail_container .RewardDetail_line line, .AvailablePoint_divider line, .RewardResult_line line {
-    stroke: #202020 !important;
-}
-.RewardItem_line line {
-    stroke: #161616 !important;
-}
-.PointCategory_child .tongue path, .PointDetailChild .tongue path {
-    fill: #202020 !important;
-}
-.AccountPanelPointList_icon .icon .svg-icon, .svg-icon {
-    fill: #828282;
-}
-.Tag-coming-soon {
-    background-color: #e60012 !important;
-    color: #ffffff !important;
-}
-.MissionBulkReceive {
-    border-top: 4px solid #171717 !important;
-    background-color: #232323 !important;
-}
-.MissionItem_progressBar .division {
-    background-color: #3e3e3e !important;
-}
-.MFooter_character .mario {
-  if character == "Mario" {
-    background-image: url(https://cdn.my.nintendo.com/static/dist/images/pc/common/sprite/parts.8313da4e3b9a1725.png) !important;
+      background-color: #363636 !important;
   }
-  else if character == "Kanna" {
-    background-image: url(https://i.imgur.com/ykdCRXz.png) !important;
+
+  /* Primary Backgrounds & Modals */
+  .Layout-main, .MiiStage, .PrimaryContent, .SecondaryContent, .MiiStage_bg, .MFooter, 
+  .Apps_inner, .AboutPoint_section, .AboutPoint_caution, .Layout-app, .GettingStartedPoint_reward, 
+  .SerialNumber_footer, .SerialNumber_enclose, .SerialNumber_actionInput, .SerialNumber_preview span.disabled, 
+  .Pager, .SecondaryNav, .PointCategory, .PointExpiration_item, .PointHistoryGroup_summary, 
+  .form-select, .PointHistoryGroup_footer, .PointHistoryGroup_border-expand, .RewardSwipe, 
+  .RewardSwipe_title .text:before, .RewardFilter, .SiteNavPanelMenu-main .SiteNavPanelMenu_item:hover, 
+  .DirectNav a, .MissionItem_container, .btn-inverse, .Modal_contentInner, .RewardDetail_container, 
+  .RewardPoint, .MoreRewards, .RewardItem_title:before, .AvailablePoint_container, .RewardList_inner, 
+  .NewsDetail_body, .NewsDetail_footer, .AnonymousIndex_header, .AnonymousIndex_header .signInButton, 
+  .AnonymousIndex_header .signUpButton, .GiftList, .RewardResult, .GPRate, .GPGetType_body, .GPCaution, 
+  .GPFooter, .RewardGold, .SignUpMethod_nnid .lostPass:hover, .NotificationItem-special .NotificationItem_content:hover, 
+  .NotificationItem_date:hover, .TutorialModal_contentInner {
+      background-color: #161616 !important;
   }
-  else if character == "Uraraka" {
-    background-image: url(https://i.imgur.com/ucNf5HT.png) !important;
+
+  /* Removing White Background Images */
+  .Layout-app, .Modal_contentInner, .AnonymousIndex_header .signUpButton, .TutorialModal_contentInner {
+      background-image: none !important;
   }
-  else if character == "Akko" {
-    background-image: url(https://i.imgur.com/RJca0Ug.png) !important;
+
+  /* Borders */
+  .Apps_inner, .AboutPoint_section, .AboutPoint_caution, .GettingStartedPoint_reward, 
+  .SerialNumber_enclose, .SerialNumber_actionInput, .Pager, .SecondaryNav, .PointCategory, 
+  .PointExpiration_item, .PointHistoryGroup_summary:only-child, .form-select, .form-select:before, 
+  .RewardFilter, .DirectNav a, .MissionItem_container, .RewardDetail_enclose, .AvailablePoint_container, 
+  .AnonymousIndex_header .signInButton, .AnonymousIndex_header .signUpButton, .GPCaution,
+  .PointDetail_body {
+      border: 4px solid #202020 !important;
   }
-  else if character == "Maki" {
-    background-image: url(https://i.imgur.com/gjuqApK.png) !important;
+  .RewardPoint, .RewardPoint_wallet, .GiftList, .RewardResult, .GPRate, .RewardGold, .TutorialToast_content {
+      border: 8px solid #202020 !important;
   }
-  else if character == "Naruto" {
-    background-image: url(https://i.imgur.com/sFjHBX1.png) !important;
+  .NotificationItem:last-child {
+      border-bottom: 1px solid #202020 !important;
   }
-  else if character == "Baruto" {
-    background-image: url(https://i.imgur.com/A32YtWt.png) !important;
+  .SiteNavPanelMenu-main .SiteNavPanelMenu_item+.SiteNavPanelMenu_item, .SiteNavPanelMenu-sub {
+      border-top: 1px solid #161616 !important;
   }
-  else if character == "CodyMKW" {
-    background-image: url(https://i.imgur.com/yUKJi8z.png) !important;
+  .PointHistoryGroup_summary, .PointHistoryGroup_footer {
+      border-color: #202020 !important;
   }
-  else if character == "Master-Chief" {
-    background-image: url(https://i.imgur.com/mVpHlep.png) !important;
+  .SecondaryNav_itemSlopeLeft {
+      background-image: none !important;
+      border-right: 1px solid #202020 !important;
   }
-  else if character == "Kratos" {
-    background-image: url(https://i.imgur.com/wsN0to8.png) !important;
+  .PointHistoryGroup_border {
+      border-right: 8px solid #202020 !important;
+      border-left: 8px solid #202020 !important;
   }
-  if dropshadow {
-   filter: drop-shadow(2px 4px 6px black);
+  .SecondaryNav_itemSlopeRight {
+      background-image: none !important;
+      border-left: 1px solid #202020 !important;
   }
-}
-.NFooter .officialSite, .Pagetop {
-  if backtotop == "Block" {
-    background-image: url(https://cdn.my.nintendo.com/static/dist/images/pc/common/sprite/parts.8313da4e3b9a1725.png) !important;
+  .OthersItem~.OthersItem, .AnonymousIndex_pointSection {
+      border-top: 8px solid #202020 !important;
   }
-  else if backtotop == "Kanna-Head" {
-    background-image: url(https://i.imgur.com/ykdCRXz.png) !important;
+
+  /* Text Colors - Adjusted slightly brighter (#a0a0a0) for better dark mode readability */
+  body, .NewsItem_title, .SiteNavPanelMenu-main .mynintendo-icons, .SiteNavPanelMenu-main .label, 
+  .AboutPoint_expiration p, .AboutPoint_expiration .callout dt, .AboutPoint_expiration .callout dd, 
+  .AboutPoint_caution .title, .AboutPoint_caution .description p:last-child, .AboutPoint_pointDescription .text, 
+  .OthersItem_content .description, .GettingStartedPoint_description, .GettingStartedPoint_header .subTitle, 
+  .SerialNumber_actionInput, .SerialNumber_message, .PointHistoryGroup_title, .RewardSwipe_title .text, 
+  .MissionItem_title, .MissionHelp_missionDescription, .MissionHelp_missionTitle, .RewardDetail_subtitle, 
+  .RewardDetail_description, .RewardLimit_title, .RewardDetail_title, .RewardPoint_main .pointName, 
+  .RewardDetail_pointHeader, .RewardItem_title, .RewardCategoryList_heading, .mynintendo-icons-reward:before, 
+  .NewsDetail_title, .NewsDetail_body p, .RewardDetail_officialButton, .AnonymousIndex_videoContent .description, 
+  table, th, td, b, .GiftItem_title, .RewardResult_header .title, .RewardResult_header .lead, 
+  .NotificationItem-special .NotificationItem_content, .NotificationItem_date, .GoldpointNotification, 
+  .AccountPanelUser_menu-target-logout-label, .AccountPanelPointList_content-title,
+  .PageHeader_title, .PageSubHeader_title, .Modal_body .lead, .LinkModal_message, 
+  .TutorialModal_title, .PointDetailCategory_item .label, .TutorialToast_body {
+      color: #a0a0a0 !important;
   }
-  else if backtotop == "UA-Academy-logo" {
-    background-image: url(https://i.imgur.com/ucNf5HT.png) !important;
+
+  /* Specific Resets & Lines */
+  .MainNav_button {
+      box-shadow: 0 4px 0 0 #121212 !important;
   }
-  else if backtotop == "Luna-Nova-emblem" {
-    background-image: url(https://i.imgur.com/RJca0Ug.png) !important;
+  .MainNav_line line, .PointHistoryGroup_border .dot line, .MissionHelp_line line, 
+  .RewardDetail_container .RewardDetail_line line, .AvailablePoint_divider line, .RewardResult_line line {
+      stroke: #202020 !important;
   }
-  else if backtotop == "Fire-Force" {
-    background-image: url(https://i.imgur.com/gjuqApK.png) !important;
+  .RewardItem_line line {
+      stroke: #161616 !important;
   }
-  else if backtotop == "Sharingan" {
-    background-image: url(https://i.imgur.com/sFjHBX1.png) !important;
+  .PointCategory_child .tongue path, .PointDetailChild .tongue path {
+      fill: #202020 !important;
   }
-  else if backtotop == "Rinnegan" {
-    background-image: url(https://i.imgur.com/A32YtWt.png) !important;
+  .AccountPanelPointList_icon .icon .svg-icon, .svg-icon {
+      fill: #a0a0a0;
   }
-  else if backtotop == "CodyMKW-Mii" {
-    background-image: url(https://i.imgur.com/yUKJi8z.png) !important;
+  .Tag-coming-soon {
+      background-color: #e60012 !important;
+      color: #ffffff !important;
   }
-  else if backtotop == "Master-Chief-helmet" {
-    background-image: url(https://i.imgur.com/mVpHlep.png) !important;
+  .MissionBulkReceive {
+      border-top: 4px solid #171717 !important;
+      background-color: #232323 !important;
   }
-  else if backtotop == "GoW-logo" {
-    background-image: url(https://i.imgur.com/wsN0to8.png) !important;
+  .MissionItem_progressBar .division {
+      background-color: #3e3e3e !important;
   }
-}
-body.en-US.pc {
-  if sitefilters == "None" {
-    filter: none !important;
+
+  /* Stylus Logic for Custom Characters */
+  .MFooter_character .mario {
+    if character == "Mario" {
+      background-image: url(https://cdn.my.nintendo.com/static/dist/images/pc/common/sprite/parts.8313da4e3b9a1725.png) !important;
+    }
+    else if character == "Kanna" {
+      background-image: url(https://i.imgur.com/ykdCRXz.png) !important;
+    }
+    else if character == "Uraraka" {
+      background-image: url(https://i.imgur.com/ucNf5HT.png) !important;
+    }
+    else if character == "Akko" {
+      background-image: url(https://i.imgur.com/RJca0Ug.png) !important;
+    }
+    else if character == "Maki" {
+      background-image: url(https://i.imgur.com/gjuqApK.png) !important;
+    }
+    else if character == "Naruto" {
+      background-image: url(https://i.imgur.com/sFjHBX1.png) !important;
+    }
+    else if character == "Baruto" {
+      background-image: url(https://i.imgur.com/A32YtWt.png) !important;
+    }
+    else if character == "CodyMKW" {
+      background-image: url(https://i.imgur.com/yUKJi8z.png) !important;
+    }
+    else if character == "Master-Chief" {
+      background-image: url(https://i.imgur.com/mVpHlep.png) !important;
+    }
+    else if character == "Kratos" {
+      background-image: url(https://i.imgur.com/wsN0to8.png) !important;
+    }
+    if dropshadow {
+      filter: drop-shadow(2px 4px 6px black);
+    }
   }
-  else if sitefilters == "Invert" {
-    filter: invert(100%) !important;
+
+  /* Stylus Logic for Back-to-Top Button */
+  .NFooter .officialSite, .Pagetop {
+    if backtotop == "Block" {
+      background-image: url(https://cdn.my.nintendo.com/static/dist/images/pc/common/sprite/parts.8313da4e3b9a1725.png) !important;
+    }
+    else if backtotop == "Kanna-Head" {
+      background-image: url(https://i.imgur.com/ykdCRXz.png) !important;
+    }
+    else if backtotop == "UA-Academy-logo" {
+      background-image: url(https://i.imgur.com/ucNf5HT.png) !important;
+    }
+    else if backtotop == "Luna-Nova-emblem" {
+      background-image: url(https://i.imgur.com/RJca0Ug.png) !important;
+    }
+    else if backtotop == "Fire-Force" {
+      background-image: url(https://i.imgur.com/gjuqApK.png) !important;
+    }
+    else if backtotop == "Sharingan" {
+      background-image: url(https://i.imgur.com/sFjHBX1.png) !important;
+    }
+    else if backtotop == "Rinnegan" {
+      background-image: url(https://i.imgur.com/A32YtWt.png) !important;
+    }
+    else if backtotop == "CodyMKW-Mii" {
+      background-image: url(https://i.imgur.com/yUKJi8z.png) !important;
+    }
+    else if backtotop == "Master-Chief-helmet" {
+      background-image: url(https://i.imgur.com/mVpHlep.png) !important;
+    }
+    else if backtotop == "GoW-logo" {
+      background-image: url(https://i.imgur.com/wsN0to8.png) !important;
+    }
   }
-  else if sitefilters == "Saturate" {
-    filter: saturate(35%) !important;
+
+  /* Global Filters */
+  body.en-US.pc {
+    if sitefilters == "None" {
+      filter: none !important;
+    }
+    else if sitefilters == "Invert" {
+      filter: invert(100%) !important;
+    }
+    else if sitefilters == "Saturate" {
+      filter: saturate(35%) !important;
+    }
+    else if sitefilters == "Sepia" {
+      filter: sepia(70%) !important;
+    }
+    else if sitefilters == "Grayscale" {
+      filter: grayscale(100%) !important;
+    }
+    else if sitefilters == "Hue-Rotate" {
+      filter: hue-rotate(90deg) !important;
+    }
   }
-  else if sitefilters == "Sepia" {
-    filter: sepia(70%) !important;
+
+  /* Fonts */
+  body, h1, h2, p, li, .NotificationItem * {
+      font-family: fontname;
   }
-  else if sitefilters == "Grayscale" {
-    filter: grayscale(100%) !important;
+  .MissionItem_pointItem .point, .CurrentPoints_item .value, .PointCategory_label .value, 
+  .PointItem_label .value, .PointDetailCategory_item .value, .PointDetailChild_item .value, 
+  .PointHistoryGroup_pointItem .operator, .PointHistoryGroup_pointItem .value, .PointExpiration_expirePointItem .value {
+      font-family: pointvaluefontname;
   }
-  else if sitefilters == "Hue-Rotate" {
-    filter: hue-rotate(90deg) !important;
+
+  /* Footer Signature */
+  small.copyright:after {
+      content: ' - Dark My Nintendo v1.6.0 by CodyMKW' !important;
   }
-}
-body, h1, h2, p, li, .NotificationItem * {
-    font-family: fontname;
-}
-.MissionItem_pointItem .point, .CurrentPoints_item .value, .PointCategory_label .value, .PointItem_label .value, .PointDetailCategory_item .value, .PointDetailChild_item .value, .PointHistoryGroup_pointItem .operator, .PointHistoryGroup_pointItem .value, .PointExpiration_expirePointItem .value {
-    font-family: pointvaluefontname;
-}
-small.copyright:after {
-    content: ' - Dark My Nintendo v1.5.1 by CodyMKW' !important;
-}
 }
