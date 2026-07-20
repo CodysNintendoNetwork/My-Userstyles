@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Dark Nintendo Account
 @namespace github.com/CodyMKW/My-Userstyles
-@version 1.8.8
+@version 1.8.9
 @description A dark theme for the Nintendo Account website!
 @homepageURL https://github.com/CodysNintendoNetwork/My-Userstyles
 @supportURL https://github.com/CodysNintendoNetwork/My-Userstyles/issues
@@ -152,7 +152,7 @@ footer {
     fill: #12314f !important;
 }
     
-.NavList_item a .icon, .c-globalNav_listItem .icon, .c-loginHistoryListSummary_cell-left, .c-loginHistoryList_cell-left {
+.NavList_item a .icon, .c-globalNav_listItem .icon, .c-loginHistoryListSummary_cell-left, .c-loginHistoryList_cell-left, .icon.icon-key path, .icon icon-user path, .c-globalNav-v2_listItem .icon, .icon icon-hand path, .icon icon-qrcode path {
     fill: #cccccc !important;
 }
 .icon-complete svg {
@@ -165,6 +165,6 @@ body, h1, h2, p, li {
     font-family: fontname;
 }
 .c-footer_copyright:after, footer small:after {
-    content: ' | Dark Nintendo Account v1.8.8 by CodyMKW' !important;
+    content: ' | Dark Nintendo Account v1.8.9 by CodyMKW' !important;
 }
 }
