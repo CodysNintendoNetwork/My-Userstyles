@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark NintendoLife
-@namespace      CodysStyle
-@version        1.0.2
+@namespace      github.com/CodysNintendoNetwork/My-Userstyles
+@version        1.0.3
 @description    A dark theme for the NintendoLife website!
 @homepageURL https://github.com/CodysNintendoNetwork/My-Userstyles
 @supportURL https://github.com/CodysNintendoNetwork/My-Userstyles/issues
@@ -99,6 +99,6 @@
         border-bottom: 1px solid var(--line) !important;
     }
     #footer .copyright:after {
-        content: ' | Dark NintendoLife v1.0.2 by CodyMKW' !important;
+        content: ' | Dark NintendoLife v1.0.3 by CodyMKW' !important;
     }
 }
