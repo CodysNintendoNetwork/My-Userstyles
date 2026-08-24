@@ -1,36 +1,26 @@
 /* ==UserStyle==
-@name Dark Stylus (Enhanced with Options)
+@name Dark Stylus (Enhanced)
 @namespace github.com/CodysNintendoNetwork/My-Userstyles
-@version 1.2.0
-@description Dark version of manage pages in the Stylus, now with safe dynamic options!
-@homepageURL https://github.com/CodysNintendoNetwork/My-Userstyles
+@version 1.1.1
+@description Dark version of manage pages in the Stylus, now with dynamic options and glowing effects!
+@homepageURL https://sites.google.com/view/codymkw/userstyles
 @supportURL https://github.com/CodysNintendoNetwork/My-Userstyles/issues
 @author CodyMKW (https://sites.google.com/view/codymkw/home)
 @license CC-BY-SA-4.0
-
-@var color accent "Accent Color" #4ade80
-@var color bg-main "Main Background" #161616
-@var color bg-surface "Surface Background" #202020
-@var select radius "Corner Radius" {
-    "Standard (5px)*": "5px",
-    "Soft (10px)": "10px",
-    "Round (15px)": "15px",
-    "Sharp (0px)": "0px"
-}
 ==/UserStyle== */
 
 @-moz-document regexp("chrome-extension://.*"), regexp("moz-extension://.*") {
     
-    /* Map Stylus options to standard CSS variables */
+    /* Standard CSS variables - much safer for extension pages */
     :root {
-        --accent: /*[[accent]]*/;
-        --bg-main: /*[[bg-main]]*/;
-        --bg-surface: /*[[bg-surface]]*/;
+        --accent: #4ade80;
+        --bg-main: #161616;
+        --bg-surface: #202020;
         --bg-hover: #2a2a2a;
         --text-main: #e1e1e1;
         --text-muted: #cccccc;
         --border-color: #333333;
-        --radius: /*[[radius]]*/;
+        --radius: 5px;
         --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
         --glow: 0 0 8px var(--accent);
     }
@@ -177,6 +167,7 @@
         background-color: var(--bg-main);
     }
 
+    /* Firefox Scrollbar */
     * {
         scrollbar-color: var(--border-color) var(--bg-main);
         scrollbar-width: thin;
